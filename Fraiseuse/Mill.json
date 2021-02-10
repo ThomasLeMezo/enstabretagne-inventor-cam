@@ -96,7 +96,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
-            "last_modified": 1606749588713,
+            "last_modified": 1608487830391,
             "post-process": {
                 "break-control": false,
                 "comment": "FRAISE CARBURE - COURTE - 2 DENTS - QUEUE CYLINDRIQUE - OZMA",
@@ -127,7 +127,7 @@
                         "v_f_leadIn": 1000,
                         "v_f_leadOut": 1000,
                         "v_f_plunge": 300,
-                        "v_f_ramp": 333.3329999999999,
+                        "v_f_ramp": 333.33299999999986,
                         "v_f_retract": 0
                     }
                 ]
@@ -232,7 +232,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
-            "last_modified": 1606749585061,
+            "last_modified": 1608487827993,
             "post-process": {
                 "break-control": false,
                 "comment": "FRAISE CARBURE - COURTE - 2 DENTS - QUEUE CYLINDRIQUE - OZMA",
@@ -249,21 +249,21 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.026928048255062478,
-                        "f_z": 0.044880080425104135,
+                        "f_n": 0.026928048255062485,
+                        "f_z": 0.04488008042510414,
                         "guid": "37f61cef-43fc-8da3-6c5d-ba8571af066d",
-                        "n": 11140.799999999997,
+                        "n": 11140.799999999996,
                         "n_ramp": 5000.01,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 349.9985543511316,
+                        "v_c": 349.99855435113153,
                         "v_f": 1000,
                         "v_f_leadIn": 1000,
                         "v_f_leadOut": 1000,
                         "v_f_plunge": 300,
-                        "v_f_ramp": 333.3329999999999,
+                        "v_f_ramp": 333.33299999999986,
                         "v_f_retract": 0
                     }
                 ]
@@ -368,7 +368,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
-            "last_modified": 1606749565239,
+            "last_modified": 1608487822848,
             "post-process": {
                 "break-control": false,
                 "comment": "FRAISE CARBURE - COURTE - 2 DENTS - QUEUE CYLINDRIQUE - OZMA",
@@ -386,20 +386,20 @@
                     {
                         "description": "",
                         "f_n": 0.016156741939132174,
-                        "f_z": 0.026927903231886954,
+                        "f_z": 0.026927903231886957,
                         "guid": "b103d246-430c-f4f3-1d47-d5b01c849081",
-                        "n": 18568.099999999995,
+                        "n": 18568.09999999999,
                         "n_ramp": 5000.01,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 350.00043930672376,
+                        "v_c": 350.00043930672365,
                         "v_f": 1000,
                         "v_f_leadIn": 1000,
                         "v_f_leadOut": 1000,
                         "v_f_plunge": 300,
-                        "v_f_ramp": 333.3329999999999,
+                        "v_f_ramp": 333.33299999999986,
                         "v_f_retract": 0
                     }
                 ]
@@ -506,7 +506,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
-            "last_modified": 1600376647802,
+            "last_modified": 1608487819189,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -523,7 +523,7 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.01666664999999999,
+                        "f_n": 0.015,
                         "f_z": 0.016666666666666666,
                         "guid": "8f75c1c3-4dda-2904-42b7-8b969be445b1",
                         "n": 20000,
@@ -536,8 +536,8 @@
                         "v_f": 1000,
                         "v_f_leadIn": 1000,
                         "v_f_leadOut": 1000,
-                        "v_f_plunge": 333.33299999999986,
-                        "v_f_ramp": 333.33299999999986,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 333.3329999999998,
                         "v_f_retract": 0
                     }
                 ]
@@ -642,7 +642,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
-            "last_modified": 1606749581175,
+            "last_modified": 1608487825521,
             "post-process": {
                 "break-control": false,
                 "comment": "FRAISE CARBURE - COURTE - 2 DENTS - QUEUE CYLINDRIQUE - OZMA",
@@ -673,7 +673,7 @@
                         "v_f_leadIn": 1000,
                         "v_f_leadOut": 1000,
                         "v_f_plunge": 300,
-                        "v_f_ramp": 333.33299999999986,
+                        "v_f_ramp": 333.3329999999998,
                         "v_f_retract": 0
                     }
                 ]

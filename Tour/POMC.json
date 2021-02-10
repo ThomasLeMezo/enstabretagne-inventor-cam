@@ -69,13 +69,14 @@
             "geometry": {
                 "EPSR": 0,
                 "INSD": 9.84808,
-                "LH": 5.6,
-                "OAL": 28,
+                "LH": 2,
+                "OAL": 5.6,
                 "RA": 0,
                 "RE": 0.2,
                 "S": 3,
                 "SC": "groove square",
                 "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
                 "TC": "M",
                 "tool_grooveWidth": 3.1,
                 "tool_insertWidth": 3,
@@ -90,14 +91,14 @@
                 "MTP": "C",
                 "OAL": 125,
                 "THSC": "groove external",
-                "TP": 0,
                 "W": 20,
-                "tool_endCutting": false,
+                "tool_endCutting": true,
                 "tool_leadingAngle": 0,
                 "tool_roundShank": false,
-                "tool_sideCutting": false,
+                "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
+            "last_modified": 1609928546246,
             "post-process": {
                 "break-control": false,
                 "comment": "273310 3,1",
@@ -117,9 +118,9 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.2,
-                        "f_n_leadIn": 0.1,
-                        "f_n_leadOut": 0.1,
+                        "f_n": 0.1,
+                        "f_n_leadIn": 0.05,
+                        "f_n_leadOut": 0.05,
                         "guid": "a52d63c8-40f8-c8f9-f475-60bb8052de49",
                         "n": 0,
                         "name": "Default Preset",
@@ -274,6 +275,152 @@
             "description": "",
             "geometry": {
                 "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 25,
+                "LCF": 10,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 25,
+                "RE": 0,
+                "SFDM": 5,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0.8,
+                "shoulder-length": 15,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "1f24e9cb-ecea-4e13-bde8-0cb088ddfb69",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.148,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.836,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.176,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.57
+                    },
+                    {
+                        "height": 0.09,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.425,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.05,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.85
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.442,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.145,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.118,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.143,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.442
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1607030705855,
+            "post-process": {
+                "break-control": false,
+                "comment": "TARAUD M5",
+                "diameter-offset": 81,
+                "length-offset": 81,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 81,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "b94d3ca8-49fb-8108-ea51-8192113439d2",
+                        "n": 5000,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 78.53981633974482,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
                 "DC": 6.5,
                 "HAND": true,
                 "LB": 71,
@@ -363,7 +510,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1606080089724,
+            "last_modified": 1612215340521,
             "post-process": {
                 "break-control": false,
                 "comment": "260150 HU7310",
@@ -810,7 +957,7 @@
             "description": "",
             "geometry": {
                 "CSP": false,
-                "DC": 5,
+                "DC": 4,
                 "HAND": true,
                 "LB": 63,
                 "LCF": 58,
@@ -829,15 +976,15 @@
                 "tip-offset": 0
             },
             "guid": "{3b067619-d9fe-41a2-a17f-a3dd3a388332}",
-            "last_modified": 1604959335329,
+            "last_modified": 1608047430621,
             "post-process": {
                 "break-control": false,
-                "comment": "",
-                "diameter-offset": 49,
-                "length-offset": 49,
+                "comment": "DRILL 4",
+                "diameter-offset": 51,
+                "length-offset": 51,
                 "live": true,
                 "manual-tool-change": true,
-                "number": 49,
+                "number": 51,
                 "turret": 0
             },
             "product-id": "",
@@ -846,7 +993,7 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999998,
+                        "f_n": 0.09999999999999991,
                         "f_z": 0,
                         "guid": "fd9193f2-47e0-9750-47a8-7ea263f99e46",
                         "n": 2652.58,
@@ -855,11 +1002,11 @@
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 41.66662920529606,
+                        "v_c": 33.333303364236855,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 265.2579999999999,
+                        "v_f_plunge": 265.25799999999975,
                         "v_f_ramp": 0,
                         "v_f_retract": 122.42700000000002
                     }
@@ -1014,6 +1161,78 @@
         },
         {
             "BMC": "carbide",
+            "description": "Tronçonnage",
+            "geometry": {
+                "EPSR": 0,
+                "INSD": 9.84808,
+                "LH": 2,
+                "OAL": 5.6,
+                "RA": 0,
+                "RE": 0.2,
+                "S": 3,
+                "SC": "groove square",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "M",
+                "tool_grooveWidth": 3.1,
+                "tool_insertWidth": 3,
+                "tool_internalThread": false
+            },
+            "guid": "4b31000f-09c3-4c9c-a560-31da045472d9",
+            "holder": {
+                "CW": 20,
+                "H": 20,
+                "HAND": "R",
+                "LH": 75,
+                "MTP": "C",
+                "OAL": 125,
+                "THSC": "groove external",
+                "W": 20,
+                "tool_endCutting": true,
+                "tool_leadingAngle": 0,
+                "tool_roundShank": true,
+                "tool_sideCutting": true,
+                "tool_trailingAngle": 0
+            },
+            "last_modified": 1609930246485,
+            "post-process": {
+                "break-control": false,
+                "comment": "273558 3,1",
+                "compensation-offset": 6,
+                "manual-tool-change": true,
+                "number": 6,
+                "turret": 0
+            },
+            "product-id": "273558 60/3.1",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.025,
+                        "f_n_leadIn": 0.025,
+                        "f_n_leadOut": 0.025,
+                        "guid": "a52d63c8-40f8-c8f9-f475-60bb8052de49",
+                        "n": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-constant-surface-speed": true,
+                        "use-feed-per-revolution": true,
+                        "v_c": 250
+                    }
+                ]
+            },
+            "type": "turning grooving",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
             "description": "Gorge 1.65mm",
             "geometry": {
                 "EPSR": 0,
@@ -1161,6 +1380,72 @@
             "description": "",
             "geometry": {
                 "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 63,
+                "LCF": 58,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 93,
+                "RE": 0,
+                "SFDM": 5.95,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 61,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "587c6a1d-0445-4a0b-ab32-69583d6cfcba",
+            "last_modified": 1607029809263,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 49,
+                "length-offset": 49,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 49,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "{3b067619-d9fe-41a2-a17f-a3dd3a388332}",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.09999999999999998,
+                        "f_z": 0,
+                        "guid": "fd9193f2-47e0-9750-47a8-7ea263f99e46",
+                        "n": 2652.58,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 41.66662920529606,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 265.2579999999999,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 122.42700000000002
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
                 "DC": 12.5,
                 "HAND": true,
                 "LB": 116,
@@ -1243,15 +1528,15 @@
                 "tip-offset": 0
             },
             "guid": "5e649f7b-e1f6-41d6-aac9-c195e2167431",
-            "last_modified": 1606834668330,
+            "last_modified": 1607029891538,
             "post-process": {
                 "break-control": false,
                 "comment": "FRAISE 12mm",
-                "diameter-offset": 50,
-                "length-offset": 50,
+                "diameter-offset": 80,
+                "length-offset": 80,
                 "live": true,
                 "manual-tool-change": true,
-                "number": 50,
+                "number": 80,
                 "turret": 0
             },
             "product-id": "862603",
@@ -1260,21 +1545,21 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.15,
-                        "f_z": 0.15000000000000008,
+                        "f_n": 0.15000000000000002,
+                        "f_z": 0.15000000000000013,
                         "guid": "fd9193f2-47e0-9750-47a8-7ea263f99e46",
-                        "n": 1326.291192432461,
+                        "n": 1326.2911924324605,
                         "n_ramp": 1000,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 49.99999999999999,
+                        "v_c": 49.99999999999997,
                         "v_f": 397.8873577297385,
                         "v_f_leadIn": 530.5164769729846,
                         "v_f_leadOut": 530.5164769729846,
-                        "v_f_plunge": 198.94367886486916,
-                        "v_f_ramp": 265.25799999999975,
+                        "v_f_plunge": 198.9436788648691,
+                        "v_f_ramp": 265.25799999999964,
                         "v_f_retract": 0
                     }
                 ]
@@ -2617,6 +2902,72 @@
                         "v_f_plunge": 187.24099999999999,
                         "v_f_ramp": 0,
                         "v_f_retract": 122.427
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 4.2,
+                "HAND": true,
+                "LB": 63,
+                "LCF": 58,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 93,
+                "RE": 0,
+                "SFDM": 5.95,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 61,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "e6171bb4-9589-47df-bfa3-dad82efae177",
+            "last_modified": 1608047397282,
+            "post-process": {
+                "break-control": false,
+                "comment": "DRILL 4.2",
+                "diameter-offset": 50,
+                "length-offset": 50,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 50,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "{3b067619-d9fe-41a2-a17f-a3dd3a388332}",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.09999999999999995,
+                        "f_z": 0,
+                        "guid": "fd9193f2-47e0-9750-47a8-7ea263f99e46",
+                        "n": 2652.58,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 34.99996853244869,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 265.25799999999987,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 122.42700000000002
                     }
                 ]
             },
