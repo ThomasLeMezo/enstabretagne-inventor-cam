@@ -1,0 +1,1079 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 3 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 37,
+                "LCF": 8,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 57,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 13,
+                "thread-profile-angle": 0,
+                "tip-diameter": 3,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "44389a49-97f1-4c88-a219-40613e04ebe9",
+            "holder": {
+                "description": "CT40 - Blank2",
+                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "product-id": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 42.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 14.875,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Lyndex"
+            },
+            "last_modified": 1615294955836,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 3mm",
+                "diameter-offset": 3,
+                "length-offset": 3,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 3,
+                "turret": 0
+            },
+            "product-id": "202244 3",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-3",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.008888888888888889,
+                        "f_z": 0.008888888888888889,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 15000,
+                        "n_ramp": 15000,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 141.3716694115407,
+                        "v_f": 400,
+                        "v_f_leadIn": 400,
+                        "v_f_leadOut": 400,
+                        "v_f_plunge": 133.33333333333334,
+                        "v_f_ramp": 133.33333333333334,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Taraud M5",
+            "geometry": {
+                "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 15,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 30,
+                "RE": 0,
+                "SFDM": 5,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0.8,
+                "shoulder-length": 20,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "5e45dc5d-d56c-4a26-840a-e658a7bb087d",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.148,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.836,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.176,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.57
+                    },
+                    {
+                        "height": 0.09,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.425,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.05,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.85
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.442,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.145,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.118,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.143,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.442
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1613727704683,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 11,
+                "length-offset": 11,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 11,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "e2e6b21c-4329-4396-3a6e-10b04002fb56",
+                        "n": 80,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1.2566370614359172,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Forêt 19",
+            "geometry": {
+                "CSP": false,
+                "DC": 7,
+                "HAND": true,
+                "LB": 81,
+                "LCF": 50,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 150,
+                "RE": 0,
+                "SFDM": 7,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 60,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "7bbdd261-dedb-46ad-ae97-34ffb50a45cb",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.148,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.836,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.176,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.57
+                    },
+                    {
+                        "height": 0.09,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.425,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.05,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.85
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.442,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.145,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.118,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.143,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.442
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1615298174014,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 19,
+                "length-offset": 19,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 19,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.19999999999999993,
+                        "f_z": 0,
+                        "guid": "874cf4e4-404c-013e-a7dc-4993c9226b51",
+                        "n": 1675.3151904410038,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 36.8421052631579,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 335.06303808820064,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 335.06303808820064
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Foret 4.2",
+            "geometry": {
+                "CSP": false,
+                "DC": 4.2,
+                "HAND": true,
+                "LB": 54.6,
+                "LCF": 42,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 54.6,
+                "RE": 0,
+                "SFDM": 4.2,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 46.2,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "7e41c8f7-8a89-4d21-91ad-79d02dd07040",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.148,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.836,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.176,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.57
+                    },
+                    {
+                        "height": 0.09,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.425,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.05,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.85
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.442,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.145,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.118,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.143,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.442
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1613727600314,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 10,
+                "length-offset": 10,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 10,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.05,
+                        "f_z": 0,
+                        "guid": "cf0afafd-49ca-7dfe-fee6-76a63e7ccb46",
+                        "n": 8000,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 105.55751316061705,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 400,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 400
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 50,
+                "LCF": 20,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 50,
+                "RE": 0,
+                "SFDM": 10,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 30,
+                "thread-profile-angle": 0,
+                "tip-diameter": 8,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "86e39e1f-367b-43a0-8b82-2e1a81027c90",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.148,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.836,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.176,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.57
+                    },
+                    {
+                        "height": 0.09,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.425,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.05,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.85
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.442,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.145,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.118,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.143,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.442
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1613728416138,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 12,
+                "length-offset": 12,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 12,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.02792526803190927,
+                        "f_z": 0.02792526803190927,
+                        "guid": "b0d626b3-4ae0-cb9f-86d6-44b5ff75c3b9",
+                        "n": 11936.620731892152,
+                        "n_ramp": 11936.620731892152,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 300,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.3333333333333,
+                        "v_f_ramp": 333.3333333333333,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise à dresser à 90°Softcut",
+            "geometry": {
+                "CSP": false,
+                "DC": 20,
+                "HAND": true,
+                "LB": 68,
+                "LCF": 11.3,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 90,
+                "RE": 0,
+                "SFDM": 20,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 38.65,
+                "thread-profile-angle": 0,
+                "tip-diameter": 20,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "bfb882b3-6bf2-48a7-80b7-022c505866b7",
+            "holder": {
+                "description": "CT40 - Blank2",
+                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "product-id": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 42.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 14.875,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Lyndex"
+            },
+            "last_modified": 1615299347964,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 2,
+                "length-offset": 2,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 2,
+                "turret": 0
+            },
+            "product-id": "215560 20/3\n",
+            "product-link": "https://www.hoffmann-group.com/BE/fr/goeddesprl/Usinage-modulaire/Fraises-%C3%A0-plaquettes-GARANT/Fraise-%C3%A0-dresser-%C3%A0-90%C2%B0Softcut%C2%AE-MTC-Queue-Weldon/p/215560-20%402F3?tId=",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.1256637061435917,
+                        "f_z": 0.1493333333333333,
+                        "guid": "285bdfe1-433f-6b10-1672-75b8ad724d47",
+                        "n": 2387.32414637843,
+                        "n_ramp": 2387.32414637843,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 150,
+                        "v_f": 1069.5212175775364,
+                        "v_f_leadIn": 1069.5212175775364,
+                        "v_f_leadOut": 1069.5212175775364,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 300,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc HPC 6 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 37,
+                "LCF": 13,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 57,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 22.5,
+                "thread-profile-angle": 0,
+                "tip-diameter": 6,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "f460c842-9cbe-4381-b9fc-cce59ff6a9ed",
+            "holder": {
+                "description": "CT40 - Blank2",
+                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "product-id": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 42.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 14.875,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Lyndex"
+            },
+            "last_modified": 1615295322670,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 6mm",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 4,
+                "turret": 0
+            },
+            "product-id": "203014 6",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-HPC-TiSi/p/203014-6?tId=340",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.02617993877991494,
+                        "f_z": 0.02617993877991494,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 12732.395447351628,
+                        "n_ramp": 12732.395447351628,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 240,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.3333333333333,
+                        "v_f_ramp": 333.3333333333333,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Holex"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise à dresser",
+            "geometry": {
+                "CSP": false,
+                "DC": 50,
+                "HAND": true,
+                "LB": 40,
+                "LCF": 5,
+                "NOF": 5,
+                "NT": 0,
+                "OAL": 50,
+                "RE": 0,
+                "SFDM": 45,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 20,
+                "thread-profile-angle": 0,
+                "tip-diameter": 50,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "f5300499-ab89-4e71-8f5e-e8d4b7f968ec",
+            "holder": {
+                "description": "BT30 - Blank1",
+                "guid": "{1ebecb55-11cc-4ae1-9c80-5f1568716cc8}",
+                "product-id": "",
+                "segments": [
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 1.75102,
+                        "upper-diameter": 1.81102
+                    },
+                    {
+                        "height": 0.1432283,
+                        "lower-diameter": 1.81102,
+                        "upper-diameter": 1.81102
+                    },
+                    {
+                        "height": 0.0909213,
+                        "lower-diameter": 1.81102,
+                        "upper-diameter": 1.49606
+                    },
+                    {
+                        "height": 0.1331181,
+                        "lower-diameter": 1.49606,
+                        "upper-diameter": 1.49606
+                    },
+                    {
+                        "height": 0.0909213,
+                        "lower-diameter": 1.49606,
+                        "upper-diameter": 1.81102
+                    },
+                    {
+                        "height": 0.2692126,
+                        "lower-diameter": 1.81102,
+                        "upper-diameter": 1.81102
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 1.81102,
+                        "upper-diameter": 1.75102
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 1.25,
+                        "upper-diameter": 1.25
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": ""
+            },
+            "last_modified": 1615296660536,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise dressage 50",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "215102 50/5",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-modulaire/Fraises-%C3%A0-plaquettes-GARANT/Fraise-%C3%A0-dresser-%C3%A0-90%C2%B0-avec-al%C3%A9sage/p/215102-50%402F5?tId=",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.11899972172688614,
+                        "f_z": 0.07139983303613168,
+                        "guid": "5cf8311c-4bcb-8464-5a0c-eb9712502168",
+                        "n": 7002.8174960433935,
+                        "n_ramp": 7002.8174960433935,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1099.9999999999998,
+                        "v_f": 2500,
+                        "v_f_leadIn": 2500,
+                        "v_f_leadOut": 2500,
+                        "v_f_plunge": 833.3333333333334,
+                        "v_f_ramp": 833.3333333333334,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "millimeters",
+            "vendor": "HOLEX"
+        }
+    ],
+    "version": 1
+}
