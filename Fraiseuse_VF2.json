@@ -3,6 +3,131 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc HPC 6 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 37,
+                "LCF": 13,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 57,
+                "RE": 0,
+                "SFDM": 8,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 22.5,
+                "thread-profile-angle": 0,
+                "tip-diameter": 8,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "30ab21c2-fe27-4873-a727-932e997b0636",
+            "holder": {
+                "description": "CT40 - Blank2",
+                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "product-id": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 42.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 14.875,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Lyndex"
+            },
+            "last_modified": 1615813258902,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 8mm",
+                "diameter-offset": 5,
+                "length-offset": 5,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 5,
+                "turret": 0
+            },
+            "product-id": "203014 6",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-HPC-TiSi/p/203014-6?tId=340",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.027925268031909263,
+                        "f_z": 0.027925268031909263,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 11936.620731892153,
+                        "n_ramp": 11936.620731892153,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 300.00000000000006,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.3333333333333,
+                        "v_f_ramp": 333.3333333333333,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Holex"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
             "description": "Fraise carbure monobloc MTC 3 mm",
             "geometry": {
                 "CSP": false,
@@ -712,6 +837,131 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc HPC 6 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 10,
+                "HAND": true,
+                "LB": 45,
+                "LCF": 13,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 57,
+                "RE": 0,
+                "SFDM": 10,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 22.5,
+                "thread-profile-angle": 0,
+                "tip-diameter": 10,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "99e6cecb-c49a-4551-8f51-62094ada891c",
+            "holder": {
+                "description": "CT40 - Blank2",
+                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "product-id": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 42.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 14.875,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Lyndex"
+            },
+            "last_modified": 1615811810154,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 10mm",
+                "diameter-offset": 6,
+                "length-offset": 6,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 6,
+                "turret": 0
+            },
+            "product-id": "203014 6",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-HPC-TiSi/p/203014-6?tId=340",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.034906585039886584,
+                        "f_z": 0.05235987755982988,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 9549.29658551372,
+                        "n_ramp": 9549.29658551372,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 300,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.3333333333333,
+                        "v_f_ramp": 333.3333333333333,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Holex"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
             "description": "Fraise à dresser à 90°Softcut",
             "geometry": {
                 "CSP": false,
@@ -794,7 +1044,7 @@
                 "unit": "millimeters",
                 "vendor": "Lyndex"
             },
-            "last_modified": 1615299347964,
+            "last_modified": 1615380324078,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -811,19 +1061,19 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1256637061435917,
-                        "f_z": 0.1493333333333333,
+                        "f_n": 0.11780972450961724,
+                        "f_z": 0.14,
                         "guid": "285bdfe1-433f-6b10-1672-75b8ad724d47",
-                        "n": 2387.32414637843,
-                        "n_ramp": 2387.32414637843,
+                        "n": 2546.4790894703256,
+                        "n_ramp": 2546.4790894703256,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 150,
-                        "v_f": 1069.5212175775364,
-                        "v_f_leadIn": 1069.5212175775364,
-                        "v_f_leadOut": 1069.5212175775364,
+                        "v_c": 160,
+                        "v_f": 1069.5212175775368,
+                        "v_f_leadIn": 1069.5212175775368,
+                        "v_f_leadOut": 1069.5212175775368,
                         "v_f_plunge": 300,
                         "v_f_ramp": 300,
                         "v_f_retract": 0
@@ -833,6 +1083,131 @@
             "type": "flat end mill",
             "unit": "millimeters",
             "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 12 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 12,
+                "HAND": true,
+                "LB": 61,
+                "LCF": 26,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 83,
+                "RE": 0,
+                "SFDM": 12,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 36,
+                "thread-profile-angle": 0,
+                "tip-diameter": 12,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "c37eb918-6ad5-49ef-811f-eb7916fda15e",
+            "holder": {
+                "description": "CT40 - Blank2",
+                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "product-id": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 42.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 14.875,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Lyndex"
+            },
+            "last_modified": 1615813708738,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 12mm",
+                "diameter-offset": 7,
+                "length-offset": 7,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 7,
+                "turret": 0
+            },
+            "product-id": "203014 6",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-12?tId=969",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.02792526803190926,
+                        "f_z": 0.02792526803190926,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 11936.620731892155,
+                        "n_ramp": 11936.620731892155,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 450.0000000000002,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.3333333333333,
+                        "v_f_ramp": 333.3333333333333,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Holex"
         },
         {
             "BMC": "carbide",

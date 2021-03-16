@@ -815,14 +815,15 @@
                 "LB": 92.54,
                 "LCF": 90,
                 "NOF": 2,
-                "NT": 1,
+                "NT": 0,
                 "OAL": 95.08,
                 "RE": 0,
                 "SFDM": 8,
                 "SIG": 118,
+                "TA": 0,
                 "TP": 0,
                 "shoulder-length": 90,
-                "thread-profile-angle": 60,
+                "thread-profile-angle": 0,
                 "tip-diameter": 0,
                 "tip-length": 0,
                 "tip-offset": 0
@@ -899,6 +900,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
+            "last_modified": 1615380464340,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -915,20 +917,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.5,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "b7f0d52b-4d2a-0886-7a3a-5eaa9c6ecf99",
-                        "n": 600,
+                        "n": 3978.8735772973837,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 15.079644737231007,
+                        "v_c": 100,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 300,
+                        "v_f_plunge": 795.7747154594767,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -1065,6 +1067,142 @@
                         "v_f_plunge": 300,
                         "v_f_ramp": 0,
                         "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "POM-C",
+            "geometry": {
+                "CSP": false,
+                "DC": 10.5,
+                "HAND": true,
+                "LB": 92.54,
+                "LCF": 90,
+                "NOF": 2,
+                "NT": 1,
+                "OAL": 95.08,
+                "RE": 0,
+                "SFDM": 10.5,
+                "SIG": 118,
+                "TP": 0,
+                "shoulder-length": 90,
+                "thread-profile-angle": 60,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "35301196-9027-409a-a4a0-d50de6036c81",
+            "holder": {
+                "description": "SK20",
+                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 19,
+                        "lower-diameter": 34,
+                        "upper-diameter": 34
+                    },
+                    {
+                        "height": 2.33,
+                        "lower-diameter": 25,
+                        "upper-diameter": 25
+                    },
+                    {
+                        "height": 1.73,
+                        "lower-diameter": 25,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 2.97,
+                        "lower-diameter": 23,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 19.5,
+                        "lower-diameter": 27,
+                        "upper-diameter": 27
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 31,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 3,
+                        "lower-diameter": 33,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 33,
+                        "upper-diameter": 22.28
+                    },
+                    {
+                        "height": 35,
+                        "lower-diameter": 22.28,
+                        "upper-diameter": 12.59
+                    },
+                    {
+                        "height": 4,
+                        "lower-diameter": 11.51,
+                        "upper-diameter": 11.51
+                    },
+                    {
+                        "height": 13.632,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 3.63,
+                        "lower-diameter": 8.51,
+                        "upper-diameter": 8.51
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Isel"
+            },
+            "last_modified": 1615382487752,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "{b0a881a0-fbd1-4cc6-84f4-d114fdcd5e12}",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.09999999999999999,
+                        "f_z": 0,
+                        "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
+                        "n": 1515.76,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 49.99995504635528,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 151.576,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 1000
                     }
                 ]
             },
@@ -2554,19 +2692,20 @@
             "description": "POM-C",
             "geometry": {
                 "CSP": false,
-                "DC": 10.5,
+                "DC": 12,
                 "HAND": true,
                 "LB": 92.54,
                 "LCF": 90,
                 "NOF": 2,
-                "NT": 1,
+                "NT": 0,
                 "OAL": 95.08,
                 "RE": 0,
                 "SFDM": 10.5,
                 "SIG": 118,
+                "TA": 0,
                 "TP": 0,
                 "shoulder-length": 90,
-                "thread-profile-angle": 60,
+                "thread-profile-angle": 0,
                 "tip-diameter": 0,
                 "tip-length": 0,
                 "tip-offset": 0
@@ -2643,6 +2782,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
+            "last_modified": 1615382536012,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2659,20 +2799,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999999,
+                        "f_n": 0.1,
                         "f_z": 0,
                         "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
-                        "n": 1515.76,
+                        "n": 2652.5823848649225,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 49.99995504635528,
+                        "v_c": 100,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 151.576,
+                        "v_f_plunge": 265.25823848649225,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -3095,14 +3235,15 @@
                 "LB": 85,
                 "LCF": 65,
                 "NOF": 2,
-                "NT": 1,
+                "NT": 0,
                 "OAL": 106,
                 "RE": 0,
                 "SFDM": 7,
                 "SIG": 118,
+                "TA": 0,
                 "TP": 0,
                 "shoulder-length": 65,
-                "thread-profile-angle": 60,
+                "thread-profile-angle": 0,
                 "tip-diameter": 0,
                 "tip-length": 0,
                 "tip-offset": 0
@@ -3179,6 +3320,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
+            "last_modified": 1615380453422,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -3195,20 +3337,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.375,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "88948749-4deb-ed9e-6fc0-fb8d3275598d",
-                        "n": 800,
+                        "n": 4547.284088339867,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 17.59291886010284,
+                        "v_c": 99.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 300,
+                        "v_f_plunge": 909.4568176679734,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
