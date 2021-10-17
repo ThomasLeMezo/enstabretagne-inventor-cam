@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine">
+
+  <vendor>HAAS</vendor>
+
+  <model>TL1</model>
+
+  <description>Tour TL1</description>
+
+  <control></control>
+
+  <machining additive="no" inspection="no" jet="no" milling="no" turning="yes"/>
+
+  <dimensions depth="0mm" height="0mm" weight="0kg" width="0mm"/>
+
+  <capacities depth="762mm" height="0mm" weight="0kg" width="406mm"/>
+
+  <png128></png128>
+
+  <mtk></mtk>
+
+  <controllerConfigurations></controllerConfigurations>
+
+  <fusion>
+    <model></model>
+  </fusion>
+
+  <custom>
+    <data></data>
+    <name></name>
+    <softwareVersion></softwareVersion>
+    <network ip="" port="" protocol=""/>
+    <machine_connector baudRate="115200" bits="7" connectionMethod="Ethernet(TCP/IP)" dataBufferEthernet="10100" dataBufferSerial="100" flow="XON/XOFF" ident="" parity="Even" path="" port="1" stopBits="1"/>
+    <serial></serial>
+  </custom>
+
+  <coolant options="FLOOD"/>
+
+  <multiAxis adjust="yes" angle="10deg" bpwRatio="1" cone="3deg" feedrateMethod="fpm" feedrateType="combination" linearizationTolerance="0.040000000000000001mm" maximumFeedrate="9999.9899999999998" method="off" outputTolerance="0.5mm" reconfigure="no" safePlungeFeedrate="250mm/min" safeRetractDistance="25mm" safeRetractFeedrate="500mm/min" stockExpansion="2.5mm 2.5mm 2.5mm" tolerance="0.040000006224212022mm" virtualToolTip="no"/>
+
+  <tooling maximumToolDiameter="0mm" maximumToolLength="0mm" maximumToolWeight="0kg" numberOfTools="99" toolChanger="no" toolPreload="yes"/>
+
+  <machiningTime ratio="1" toolChangeTime="30s"/>
+
+  <capabilities maximumBlockProcessingSpeed="0" maximumFeedrate="11400mm/min" workOffsets="4"/>
+
+  <simulation retractOnIndexing="yes" shortestAngularRotation="yes" tableAttachPoint="0mm 0mm 0mm" toolAttachPoint="0mm 0mm 0mm" wcs="0mm 0mm 0mm">
+    <machineAssembly></machineAssembly>
+  </simulation>
+
+  <post>
+    <postProcessor>user://haas_tl1_ENSTA.cps</postProcessor>
+    <postProperties>
+      <Parameters/>
+    </postProperties>
+    <setupSheet></setupSheet>
+    <setupSheetProperties/>
+  </post>
+
+  <axis actuator="linear" coordinate="X" homePosition="0mm" id="X" link="table" maximumFeed="11400mm/min" name="" offset="0mm 0mm 0mm" range="0mm 203mm" rapidFeed="11400mm/min" resolution="0.001mm"/>
+
+  <axis actuator="linear" coordinate="Y" homePosition="0mm" id="Y" link="table" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" rapidFeed="0mm/min" resolution="0mm"/>
+
+  <axis actuator="linear" coordinate="Z" homePosition="0mm" id="Z" link="table" maximumFeed="11400mm/min" name="" offset="0mm 0mm 0mm" range="0mm 762mm" rapidFeed="11400mm/min" resolution="0.001mm"/>
+
+  <axis actuator="rotational" axis="0 0 1" control="driven" coordinate="Z" cyclic="no" homePosition="0deg" id="U" link="head" maximumFeed="0deg/min" name="" offset="0mm 0mm 0mm" preference="dont care" range="0deg 360deg" rapidFeed="0deg/min" reset="previous" resolution="0deg" tcp="yes"/>
+
+  <spindle axis="0 0 1" maximumSpeed="3000rpm" minimumSpeed="0rpm">
+    <description>Broche 3000 RPM, A2-5</description>
+  </spindle>
+
+</machine>

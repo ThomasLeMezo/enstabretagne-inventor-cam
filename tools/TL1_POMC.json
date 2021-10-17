@@ -65,7 +65,7 @@
         },
         {
             "BMC": "carbide",
-            "description": "Tronçonnage",
+            "description": "Cut",
             "geometry": {
                 "EPSR": 0,
                 "INSD": 9.84808,
@@ -98,7 +98,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1609928546246,
+            "last_modified": 1634317245586,
             "post-process": {
                 "break-control": false,
                 "comment": "273310 3,1",
@@ -126,6 +126,7 @@
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
                         "use-feed-per-revolution": true,
                         "v_c": 300
                     }
@@ -480,7 +481,7 @@
         },
         {
             "BMC": "carbide",
-            "description": "Alésage 25",
+            "description": "Profile inside 25",
             "geometry": {
                 "EPSR": 0,
                 "INSD": 9.525001610160695,
@@ -510,7 +511,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1612215340521,
+            "last_modified": 1634317265792,
             "post-process": {
                 "break-control": false,
                 "comment": "260150 HU7310",
@@ -538,6 +539,7 @@
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
                         "use-feed-per-revolution": true,
                         "v_c": 400
                     }
@@ -1090,20 +1092,18 @@
         },
         {
             "BMC": "carbide",
-            "description": "Dressage",
+            "description": "Profile outside",
             "geometry": {
                 "EPSR": 0,
-                "INSD": 12.7,
-                "LH": 0,
+                "INSD": 12.699982450725638,
                 "OAL": 30,
                 "RA": 7,
                 "RE": 0.4,
-                "S": 4.7625,
+                "S": 4.762499999999999,
                 "SC": "C",
                 "SCTY": "N",
+                "SIZE_SPECIFICATION_MODE": "CE",
                 "TC": "G",
-                "tool_grooveWidth": 0,
-                "tool_insertWidth": 0,
                 "tool_internalThread": false
             },
             "guid": "{492d6b23-08fb-440e-8d82-13a37c84e401}",
@@ -1115,7 +1115,6 @@
                 "MTP": "S",
                 "OAL": 150,
                 "THSC": "L",
-                "TP": 0,
                 "W": 25,
                 "tool_endCutting": true,
                 "tool_leadingAngle": 0,
@@ -1123,6 +1122,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
+            "last_modified": 1634317257460,
             "post-process": {
                 "break-control": false,
                 "comment": "Plaquette 260158 HU7310",
@@ -1150,6 +1150,7 @@
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
                         "use-feed-per-revolution": true,
                         "v_c": 300
                     }
@@ -1161,7 +1162,7 @@
         },
         {
             "BMC": "carbide",
-            "description": "Tronçonnage",
+            "description": "Cut",
             "geometry": {
                 "EPSR": 0,
                 "INSD": 9.84808,
@@ -1194,7 +1195,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1609930246485,
+            "last_modified": 1634317288137,
             "post-process": {
                 "break-control": false,
                 "comment": "273558 3,1",
@@ -1222,6 +1223,7 @@
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
                         "use-feed-per-revolution": true,
                         "v_c": 250
                     }
@@ -1306,7 +1308,7 @@
         },
         {
             "BMC": "carbide",
-            "description": "Alésage 16",
+            "description": "Profile inside 16",
             "geometry": {
                 "EPSR": 0,
                 "INSD": 9.525001610160695,
@@ -1336,7 +1338,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1606079277744,
+            "last_modified": 1634317281580,
             "post-process": {
                 "break-control": false,
                 "comment": "260150 HU7310",
@@ -1347,7 +1349,6 @@
             },
             "product-id": "260038-16",
             "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-modulaire/Tournage-plaquettes-GARANT/CC-T-09T304/p/260150-HU7310?tId=300",
-            "reference_guid": "{264a30d4-4d9f-4d04-ab7f-aa3affbe06fb}",
             "setup": {
                 "HAND": true,
                 "angle": 90,
@@ -1365,6 +1366,7 @@
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
                         "use-feed-per-revolution": true,
                         "v_c": 400
                     }
@@ -2384,7 +2386,7 @@
         },
         {
             "BMC": "carbide",
-            "description": "Alésage 6",
+            "description": "Profile inside 6",
             "geometry": {
                 "EPSR": 0,
                 "INSD": 3.34835,
@@ -2414,7 +2416,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1604959713834,
+            "last_modified": 1634317273290,
             "post-process": {
                 "break-control": false,
                 "comment": "Prof coupe 0.05 to 0.2mm",
@@ -2442,6 +2444,7 @@
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
                         "use-feed-per-revolution": true,
                         "v_c": 250
                     }
@@ -3173,6 +3176,5 @@
             "unit": "millimeters",
             "vendor": ""
         }
-    ],
-    "version": 1
+    ]
 }

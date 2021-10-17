@@ -1,0 +1,725 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "GRADE": "generic",
+            "description": "Taraud M5",
+            "geometry": {
+                "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 55,
+                "LCF": 10,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 70,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0.8,
+                "shoulder-length": 46.1,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "0fce7857-0a93-4c5a-b599-8aad4913bbac",
+            "last_modified": 1634427438176,
+            "post-process": {
+                "break-control": false,
+                "comment": "M5",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "134250 M5\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-HSS-E-vaporis%C3%A9/p/134250-M5?wayIntoCart=PDP&tId=478",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "93cf33a6-4d0d-22fe-0f9f-94b461eb71df",
+                        "n": 828,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 13.006193585861743,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "generic",
+            "description": "Taraud M3",
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 45,
+                "LCF": 9,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 56,
+                "RE": 0,
+                "SFDM": 3.5,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0.5,
+                "shoulder-length": 37.3,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "17c36074-c68c-4d89-9006-095d1aa500be",
+            "last_modified": 1634427492157,
+            "post-process": {
+                "break-control": false,
+                "comment": "POMC",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "134250 M3",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-HSS-E-vaporis%C3%A9/p/134250-M3?wayIntoCart=PDP&tId=478",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
+                        "n": 1380,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 13.006193585861743,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "generic",
+            "description": "Taraud M6",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 65,
+                "LCF": 13,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 80,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 1,
+                "shoulder-length": 53.3,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "30cf620e-c0d6-4661-b189-dcae970e682c",
+            "last_modified": 1634427443906,
+            "post-process": {
+                "break-control": false,
+                "comment": "M6",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "134250 M6\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-HSS-E-vaporis%C3%A9/p/134250-M6?wayIntoCart=PDP&tId=478",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "be759da2-4997-db43-5769-c2a18dd62241",
+                        "n": 690,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 13.006193585861743,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M6 POMC",
+            "geometry": {
+                "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 47.54,
+                "LCF": 45,
+                "NOF": 1,
+                "NT": 1,
+                "OAL": 50.08,
+                "RE": 0,
+                "SFDM": 5,
+                "SIG": 118,
+                "TP": 0,
+                "shoulder-length": 45,
+                "thread-profile-angle": 60,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "5ad5ed15-e807-49a9-a8b7-d1816bdf5c26",
+            "holder": {
+                "description": "SK20",
+                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 19,
+                        "lower-diameter": 34,
+                        "upper-diameter": 34
+                    },
+                    {
+                        "height": 2.33,
+                        "lower-diameter": 25,
+                        "upper-diameter": 25
+                    },
+                    {
+                        "height": 1.73,
+                        "lower-diameter": 25,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 2.97,
+                        "lower-diameter": 23,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 19.5,
+                        "lower-diameter": 27,
+                        "upper-diameter": 27
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 31,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 3,
+                        "lower-diameter": 33,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 33,
+                        "upper-diameter": 22.28
+                    },
+                    {
+                        "height": 35,
+                        "lower-diameter": 22.28,
+                        "upper-diameter": 12.59
+                    },
+                    {
+                        "height": 4,
+                        "lower-diameter": 11.51,
+                        "upper-diameter": 11.51
+                    },
+                    {
+                        "height": 13.632,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 3.63,
+                        "lower-diameter": 8.51,
+                        "upper-diameter": 8.51
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Isel"
+            },
+            "last_modified": 1634425543996,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "30cf620e-c0d6-4661-b189-dcae970e682c",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.1,
+                        "f_z": 0,
+                        "guid": "be759da2-4997-db43-5769-c2a18dd62241",
+                        "n": 6366.2,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.000035756417,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 636.62,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M3 POMC",
+            "geometry": {
+                "CSP": false,
+                "DC": 2.5,
+                "HAND": true,
+                "LB": 47.54,
+                "LCF": 45,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 50.08,
+                "RE": 0,
+                "SFDM": 2.5,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 45,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "5d4c9e0c-f62d-4d57-8f0a-e9ee408bd1b3",
+            "last_modified": 1634427402060,
+            "post-process": {
+                "break-control": false,
+                "comment": "POMC",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.10000000000000009,
+                        "f_z": 0,
+                        "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
+                        "n": 12732.399999999989,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.00003575641662,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 1273.24,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M8 POMC",
+            "geometry": {
+                "CSP": false,
+                "DC": 6.8,
+                "HAND": true,
+                "LB": 47.54,
+                "LCF": 45,
+                "NOF": 1,
+                "NT": 0,
+                "OAL": 50.08,
+                "RE": 0,
+                "SFDM": 6.8,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 45,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "659834b7-cbcf-4ed6-80ee-a733593c39b4",
+            "last_modified": 1634427423882,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.09999999999999999,
+                        "f_z": 0,
+                        "guid": "688d5405-4ec7-6913-3657-8082a0150c5e",
+                        "n": 4681.030000000001,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.00004832278734,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 468.103,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M5 POMC",
+            "geometry": {
+                "CSP": false,
+                "DC": 4.2,
+                "HAND": true,
+                "LB": 47.54,
+                "LCF": 45,
+                "NOF": 1,
+                "NT": 0,
+                "OAL": 50.08,
+                "RE": 0,
+                "SFDM": 4.2,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 45,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "83e7a028-3103-4048-9594-d8f3a2882f87",
+            "last_modified": 1634427415158,
+            "post-process": {
+                "break-control": false,
+                "comment": "M5",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.09999999999999999,
+                        "f_z": 0,
+                        "guid": "93cf33a6-4d0d-22fe-0f9f-94b461eb71df",
+                        "n": 7578.81,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.00004203960202,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 757.881,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M4 POMC",
+            "geometry": {
+                "CSP": false,
+                "DC": 3.3,
+                "HAND": true,
+                "LB": 47.54,
+                "LCF": 45,
+                "NOF": 1,
+                "NT": 0,
+                "OAL": 50.08,
+                "RE": 0,
+                "SFDM": 3.3,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 45,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "d04f0a4a-6c67-4701-af32-41b13b93df0e",
+            "last_modified": 1634427411199,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.1,
+                        "f_z": 0,
+                        "guid": "45e7f269-45de-23af-d9d8-2ba92ef169fe",
+                        "n": 9645.75,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 99.99995721660036,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 964.575,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "generic",
+            "description": "Taraud M4",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 50,
+                "LCF": 8,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 63,
+                "RE": 0,
+                "SFDM": 4.5,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0.7,
+                "shoulder-length": 42,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "e0c2c45a-6981-4cad-bc50-5dbb9bdffab9",
+            "last_modified": 1634427433735,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "134250 M4\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-HSS-E-vaporis%C3%A9/p/134250-M4?wayIntoCart=PDP&tId=478",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "45e7f269-45de-23af-d9d8-2ba92ef169fe",
+                        "n": 1030,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 12.943361732789949,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": "Garan"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "generic",
+            "description": "Taraud M8",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 75,
+                "LCF": 14,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 90,
+                "RE": 0,
+                "SFDM": 8,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 1.25,
+                "shoulder-length": 60,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "fed13d3c-5c16-4043-8fe5-5e0fd00f8035",
+            "last_modified": 1634427448052,
+            "post-process": {
+                "break-control": false,
+                "comment": "M8",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "134250 M8\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-HSS-E-vaporis%C3%A9/p/134250-M8?wayIntoCart=PDP&tId=478",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "688d5405-4ec7-6913-3657-8082a0150c5e",
+                        "n": 517,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 12.993627215247384,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        }
+    ]
+}

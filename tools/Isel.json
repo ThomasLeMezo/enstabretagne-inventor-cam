@@ -1,0 +1,494 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise Woodruff",
+            "geometry": {
+                "CSP": false,
+                "DC": 10.5,
+                "HAND": true,
+                "LB": 43,
+                "LCF": 2,
+                "NOF": 10,
+                "NT": 0,
+                "OAL": 50.3,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 12,
+                "thread-profile-angle": 0,
+                "tip-diameter": 10.5,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "246acb2e-487d-4c89-aea5-90619c78900e",
+            "holder": {
+                "description": "SK20",
+                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "last_modified": 1600376437446,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "044d8c21-bbc6-4618-86b4-7fb38f9cc62f",
+                "segments": [
+                    {
+                        "height": 19,
+                        "lower-diameter": 34,
+                        "upper-diameter": 34
+                    },
+                    {
+                        "height": 2.33,
+                        "lower-diameter": 25,
+                        "upper-diameter": 25
+                    },
+                    {
+                        "height": 1.73,
+                        "lower-diameter": 25,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 2.97,
+                        "lower-diameter": 23,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 19.5,
+                        "lower-diameter": 27,
+                        "upper-diameter": 27
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 31,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 3,
+                        "lower-diameter": 33,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 33,
+                        "upper-diameter": 22.28
+                    },
+                    {
+                        "height": 35,
+                        "lower-diameter": 22.28,
+                        "upper-diameter": 12.59
+                    },
+                    {
+                        "height": 4,
+                        "lower-diameter": 11.51,
+                        "upper-diameter": 11.51
+                    },
+                    {
+                        "height": 13.632,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 3.63,
+                        "lower-diameter": 8.51,
+                        "upper-diameter": 8.51
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Isel"
+            },
+            "last_modified": 1606492138747,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "194010 19,5X3\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-en-HSS/Fraise-Woodruff-non-rev%C3%AAtu/p/194010-19%2C5X3?tId=",
+            "reference_guid": "0ca28e83-1291-4609-be04-a698bd31bc41",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0816814089933346,
+                        "f_z": 0.0245044226980004,
+                        "guid": "31b85bb6-40df-1ea6-db00-cca03d9b4cb1",
+                        "n": 4080.89597671527,
+                        "n_ramp": 4080.89597671527,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 134.615384615385,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.333333333333,
+                        "v_f_ramp": 333.333333333333,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "slot mill",
+            "unit": "millimeters",
+            "vendor": "GARANT"
+        },
+        {
+            "description": "SK20",
+            "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+            "last_modified": 1600376437446,
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "044d8c21-bbc6-4618-86b4-7fb38f9cc62f",
+            "segments": [
+                {
+                    "height": 19,
+                    "lower-diameter": 34,
+                    "upper-diameter": 34
+                },
+                {
+                    "height": 2.33,
+                    "lower-diameter": 25,
+                    "upper-diameter": 25
+                },
+                {
+                    "height": 1.73,
+                    "lower-diameter": 25,
+                    "upper-diameter": 23
+                },
+                {
+                    "height": 2.97,
+                    "lower-diameter": 23,
+                    "upper-diameter": 23
+                },
+                {
+                    "height": 19.5,
+                    "lower-diameter": 27,
+                    "upper-diameter": 27
+                },
+                {
+                    "height": 1,
+                    "lower-diameter": 31,
+                    "upper-diameter": 33
+                },
+                {
+                    "height": 3,
+                    "lower-diameter": 33,
+                    "upper-diameter": 33
+                },
+                {
+                    "height": 1,
+                    "lower-diameter": 33,
+                    "upper-diameter": 22.28
+                },
+                {
+                    "height": 35,
+                    "lower-diameter": 22.28,
+                    "upper-diameter": 12.59
+                },
+                {
+                    "height": 4,
+                    "lower-diameter": 11.51,
+                    "upper-diameter": 11.51
+                },
+                {
+                    "height": 13.632,
+                    "lower-diameter": 6,
+                    "upper-diameter": 6
+                },
+                {
+                    "height": 3.63,
+                    "lower-diameter": 8.51,
+                    "upper-diameter": 8.51
+                }
+            ],
+            "type": "holder",
+            "unit": "millimeters",
+            "vendor": "Isel"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise Woodruff",
+            "geometry": {
+                "CSP": false,
+                "DC": 19.5,
+                "HAND": true,
+                "LB": 43,
+                "LCF": 3,
+                "NOF": 10,
+                "NT": 0,
+                "OAL": 56,
+                "RE": 0,
+                "SFDM": 10,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 12,
+                "thread-profile-angle": 0,
+                "tip-diameter": 19.5,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "90f04af3-db6c-48fe-8833-5a15a41745a2",
+            "holder": {
+                "description": "SK20",
+                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "last_modified": 1600376437446,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "044d8c21-bbc6-4618-86b4-7fb38f9cc62f",
+                "segments": [
+                    {
+                        "height": 19,
+                        "lower-diameter": 34,
+                        "upper-diameter": 34
+                    },
+                    {
+                        "height": 2.33,
+                        "lower-diameter": 25,
+                        "upper-diameter": 25
+                    },
+                    {
+                        "height": 1.73,
+                        "lower-diameter": 25,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 2.97,
+                        "lower-diameter": 23,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 19.5,
+                        "lower-diameter": 27,
+                        "upper-diameter": 27
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 31,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 3,
+                        "lower-diameter": 33,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 33,
+                        "upper-diameter": 22.28
+                    },
+                    {
+                        "height": 35,
+                        "lower-diameter": 22.28,
+                        "upper-diameter": 12.59
+                    },
+                    {
+                        "height": 4,
+                        "lower-diameter": 11.51,
+                        "upper-diameter": 11.51
+                    },
+                    {
+                        "height": 13.632,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 3.63,
+                        "lower-diameter": 8.51,
+                        "upper-diameter": 8.51
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Isel"
+            },
+            "last_modified": 1606320863835,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "194010 19,5X3\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-en-HSS/Fraise-Woodruff-non-rev%C3%AAtu/p/194010-19%2C5X3?tId=",
+            "reference_guid": "b8e58ed2-d184-49b1-b013-cd76205e6f41",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0816814089933346,
+                        "f_z": 0.0245044226980004,
+                        "guid": "31b85bb6-40df-1ea6-db00-cca03d9b4cb1",
+                        "n": 4080.89597671527,
+                        "n_ramp": 4080.89597671527,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 250,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.333333333333,
+                        "v_f_ramp": 333.333333333333,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "slot mill",
+            "unit": "millimeters",
+            "vendor": "GARANT"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise Woodruff",
+            "geometry": {
+                "CSP": false,
+                "DC": 13.5,
+                "HAND": true,
+                "LB": 43,
+                "LCF": 2,
+                "NOF": 10,
+                "NT": 0,
+                "OAL": 50.3,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 12,
+                "thread-profile-angle": 0,
+                "tip-diameter": 13.5,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "a57c04f4-4552-4ebe-a801-59bf5b268064",
+            "holder": {
+                "description": "SK20",
+                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "last_modified": 1600376437446,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "044d8c21-bbc6-4618-86b4-7fb38f9cc62f",
+                "segments": [
+                    {
+                        "height": 19,
+                        "lower-diameter": 34,
+                        "upper-diameter": 34
+                    },
+                    {
+                        "height": 2.33,
+                        "lower-diameter": 25,
+                        "upper-diameter": 25
+                    },
+                    {
+                        "height": 1.73,
+                        "lower-diameter": 25,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 2.97,
+                        "lower-diameter": 23,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 19.5,
+                        "lower-diameter": 27,
+                        "upper-diameter": 27
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 31,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 3,
+                        "lower-diameter": 33,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 33,
+                        "upper-diameter": 22.28
+                    },
+                    {
+                        "height": 35,
+                        "lower-diameter": 22.28,
+                        "upper-diameter": 12.59
+                    },
+                    {
+                        "height": 4,
+                        "lower-diameter": 11.51,
+                        "upper-diameter": 11.51
+                    },
+                    {
+                        "height": 13.632,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 3.63,
+                        "lower-diameter": 8.51,
+                        "upper-diameter": 8.51
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Isel"
+            },
+            "last_modified": 1606492198331,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "194010 19,5X3\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-en-HSS/Fraise-Woodruff-non-rev%C3%AAtu/p/194010-19%2C5X3?tId=",
+            "reference_guid": "68c01ec7-f21e-4d29-a08d-147e7254c511",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0816814089933346,
+                        "f_z": 0.0245044226980004,
+                        "guid": "31b85bb6-40df-1ea6-db00-cca03d9b4cb1",
+                        "n": 4080.89597671527,
+                        "n_ramp": 4080.89597671527,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 173.076923076923,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.333333333333,
+                        "v_f_ramp": 333.333333333333,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "slot mill",
+            "unit": "millimeters",
+            "vendor": "GARANT"
+        }
+    ]
+}
