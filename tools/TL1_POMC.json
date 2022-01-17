@@ -112,7 +112,8 @@
             "setup": {
                 "HAND": true,
                 "angle": 0,
-                "compensation": "tip tangent"
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
             },
             "start-values": {
                 "presets": [
@@ -135,78 +136,6 @@
             "type": "turning grooving",
             "unit": "millimeters",
             "vendor": "Garant"
-        },
-        {
-            "BMC": "carbide",
-            "description": "Gorge 1.65",
-            "geometry": {
-                "EPSR": 0,
-                "INSD": 9.84808,
-                "LH": 1.9,
-                "OAL": 10,
-                "RA": 0,
-                "RE": 0.2,
-                "S": 4.2,
-                "SC": "groove square",
-                "SCTY": "T",
-                "SIZE_SPECIFICATION_MODE": "CE",
-                "TC": "M",
-                "tool_grooveWidth": 1.6500000000000001,
-                "tool_insertWidth": 1.5,
-                "tool_internalThread": false
-            },
-            "guid": "{138990c5-67ce-434b-86d4-516eaba4240a}",
-            "holder": {
-                "CW": 27,
-                "H": 27,
-                "HAND": "R",
-                "LH": 10,
-                "MTP": "D",
-                "OAL": 125,
-                "THSC": "groove external",
-                "W": 27,
-                "tool_endCutting": true,
-                "tool_leadingAngle": 0,
-                "tool_roundShank": false,
-                "tool_sideCutting": true,
-                "tool_trailingAngle": 0
-            },
-            "last_modified": 1604959616446,
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "compensation-offset": 4,
-                "manual-tool-change": true,
-                "number": 4,
-                "turret": 0
-            },
-            "product-id": "273665 1,65",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-modulaire/Tournage-plaquettes-GARANT/Plaquette-de-rainurage-HB7010/p/273665-1%2C65?tId=716",
-            "setup": {
-                "HAND": true,
-                "angle": 0,
-                "compensation": "tip tangent"
-            },
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.1,
-                        "f_n_leadIn": 0.1,
-                        "f_n_leadOut": 0.1,
-                        "guid": "6e9a816c-4288-3e4c-69d7-dba4e2d08d2a",
-                        "n": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "disabled",
-                        "use-constant-surface-speed": true,
-                        "use-feed-per-revolution": true,
-                        "v_c": 350
-                    }
-                ]
-            },
-            "type": "turning grooving",
-            "unit": "millimeters",
-            "vendor": "Grant"
         },
         {
             "BMC": "hss",
@@ -267,152 +196,6 @@
                 ]
             },
             "type": "probe",
-            "unit": "millimeters",
-            "vendor": ""
-        },
-        {
-            "BMC": "hss",
-            "GRADE": "generic",
-            "description": "",
-            "geometry": {
-                "CSP": false,
-                "DC": 5,
-                "HAND": true,
-                "LB": 25,
-                "LCF": 10,
-                "NOF": 3,
-                "NT": 0,
-                "OAL": 25,
-                "RE": 0,
-                "SFDM": 5,
-                "SIG": 0,
-                "TA": 0,
-                "TP": 0.8,
-                "shoulder-length": 15,
-                "thread-profile-angle": 0,
-                "tip-diameter": 0,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "1f24e9cb-ecea-4e13-bde8-0cb088ddfb69",
-            "holder": {
-                "description": "Maritool CAT40-ER32-2.35",
-                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
-                "last_modified": 1485790626152,
-                "product-id": "CAT40-ER32-2.35",
-                "segments": [
-                    {
-                        "height": 0.148,
-                        "lower-diameter": 1.5,
-                        "upper-diameter": 1.97
-                    },
-                    {
-                        "height": 0.836,
-                        "lower-diameter": 1.97,
-                        "upper-diameter": 1.97
-                    },
-                    {
-                        "height": 0.176,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.57
-                    },
-                    {
-                        "height": 0.09,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.75
-                    },
-                    {
-                        "height": 0.425,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
-                    },
-                    {
-                        "height": 0.05,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.85
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.442,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.145,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.118,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.143,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.442
-                    },
-                    {
-                        "height": 0.125,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
-                    }
-                ],
-                "type": "holder",
-                "unit": "inches",
-                "vendor": "Maritool"
-            },
-            "last_modified": 1607030705855,
-            "post-process": {
-                "break-control": false,
-                "comment": "TARAUD M5",
-                "diameter-offset": 81,
-                "length-offset": 81,
-                "live": true,
-                "manual-tool-change": true,
-                "number": 81,
-                "turret": 0
-            },
-            "product-id": "",
-            "product-link": "",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0,
-                        "f_z": 0,
-                        "guid": "b94d3ca8-49fb-8108-ea51-8192113439d2",
-                        "n": 5000,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "flood",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 78.53981633974482,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 0,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 0
-                    }
-                ]
-            },
-            "type": "tap right hand",
             "unit": "millimeters",
             "vendor": ""
         },
@@ -497,7 +280,7 @@
             },
             "guid": "{264a30d4-4d9f-4d04-ab7f-aa3affbe06fb}",
             "holder": {
-                "CW": 13,
+                "CW": 14.5,
                 "H": 20,
                 "HAND": "R",
                 "LH": 50,
@@ -511,7 +294,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1634317265792,
+            "last_modified": 1641905542350,
             "post-process": {
                 "break-control": false,
                 "comment": "260150 HU7310",
@@ -525,7 +308,8 @@
             "setup": {
                 "HAND": true,
                 "angle": 90,
-                "compensation": "tip tangent"
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
             },
             "start-values": {
                 "presets": [
@@ -954,6 +738,142 @@
             "vendor": ""
         },
         {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "POM-C",
+            "geometry": {
+                "CSP": false,
+                "DC": 20,
+                "HAND": true,
+                "LB": 110,
+                "LCF": 90,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 120,
+                "RE": 0,
+                "SFDM": 10.5,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 90,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "365a2b5e-e1c2-4a44-9912-d9dedbc41a15",
+            "holder": {
+                "description": "SK20",
+                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 19,
+                        "lower-diameter": 34,
+                        "upper-diameter": 34
+                    },
+                    {
+                        "height": 2.33,
+                        "lower-diameter": 25,
+                        "upper-diameter": 25
+                    },
+                    {
+                        "height": 1.73,
+                        "lower-diameter": 25,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 2.97,
+                        "lower-diameter": 23,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 19.5,
+                        "lower-diameter": 27,
+                        "upper-diameter": 27
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 31,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 3,
+                        "lower-diameter": 33,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 33,
+                        "upper-diameter": 22.28
+                    },
+                    {
+                        "height": 35,
+                        "lower-diameter": 22.28,
+                        "upper-diameter": 12.59
+                    },
+                    {
+                        "height": 4,
+                        "lower-diameter": 11.51,
+                        "upper-diameter": 11.51
+                    },
+                    {
+                        "height": 13.632,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 3.63,
+                        "lower-diameter": 8.51,
+                        "upper-diameter": 8.51
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Isel"
+            },
+            "last_modified": 1639753585362,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 52,
+                "length-offset": 52,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 52,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.1,
+                        "f_z": 0,
+                        "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
+                        "n": 795.7747154594767,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 50,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 79.57747154594767,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 1000
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
             "BMC": "hss",
             "GRADE": "generic",
             "description": "",
@@ -1067,7 +987,8 @@
             "setup": {
                 "HAND": true,
                 "angle": 90,
-                "compensation": "tip tangent"
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
             },
             "start-values": {
                 "presets": [
@@ -1209,7 +1130,8 @@
             "setup": {
                 "HAND": true,
                 "angle": 0,
-                "compensation": "tip tangent"
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
             },
             "start-values": {
                 "presets": [
@@ -1226,79 +1148,6 @@
                         "use-depth-of-cut": false,
                         "use-feed-per-revolution": true,
                         "v_c": 250
-                    }
-                ]
-            },
-            "type": "turning grooving",
-            "unit": "millimeters",
-            "vendor": "Garant"
-        },
-        {
-            "BMC": "carbide",
-            "description": "Gorge 1.65mm",
-            "geometry": {
-                "EPSR": 0,
-                "INSD": 9.84808,
-                "LH": 1.9,
-                "OAL": 6,
-                "RA": 0,
-                "RE": 0.2,
-                "S": 4,
-                "SC": "groove square",
-                "SCTY": "T",
-                "SIZE_SPECIFICATION_MODE": "CE",
-                "TC": "M",
-                "tool_grooveWidth": 1.6500000000000001,
-                "tool_insertWidth": 1.6500000000000001,
-                "tool_internalThread": false
-            },
-            "guid": "4d8be8f8-1925-477e-a138-6dde285d9838",
-            "holder": {
-                "CW": 14.5,
-                "H": 20,
-                "HAND": "R",
-                "LH": 30.5,
-                "MTP": "D",
-                "OAL": 125,
-                "THSC": "groove internal",
-                "W": 20,
-                "tool_endCutting": true,
-                "tool_leadingAngle": 0,
-                "tool_roundShank": true,
-                "tool_sideCutting": true,
-                "tool_trailingAngle": 0
-            },
-            "last_modified": 1604959626976,
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "compensation-offset": 5,
-                "manual-tool-change": true,
-                "number": 5,
-                "turret": 0
-            },
-            "product-id": "273790 20/2",
-            "product-link": "",
-            "reference_guid": "bd580126-853a-40d9-9248-01b34f16f956",
-            "setup": {
-                "HAND": true,
-                "angle": 90,
-                "compensation": "tip tangent"
-            },
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.1,
-                        "f_n_leadIn": 0.1,
-                        "f_n_leadOut": 0.1,
-                        "guid": "526d9d75-4158-8614-bf1a-76900aed1ffd",
-                        "n": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "disabled",
-                        "use-constant-surface-speed": true,
-                        "use-feed-per-revolution": true,
-                        "v_c": 350
                     }
                 ]
             },
@@ -1504,71 +1353,6 @@
             "type": "drill",
             "unit": "millimeters",
             "vendor": ""
-        },
-        {
-            "BMC": "carbide",
-            "GRADE": "Mill Generic",
-            "description": "Fraise 12mm",
-            "geometry": {
-                "CSP": false,
-                "DC": 12,
-                "HAND": true,
-                "LB": 37,
-                "LCF": 22,
-                "NOF": 2,
-                "NT": 0,
-                "OAL": 70,
-                "RE": 0,
-                "SFDM": 12,
-                "SIG": 0,
-                "TA": 0,
-                "TP": 0,
-                "shoulder-length": 34,
-                "thread-profile-angle": 0,
-                "tip-diameter": 12,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "5e649f7b-e1f6-41d6-aac9-c195e2167431",
-            "last_modified": 1607029891538,
-            "post-process": {
-                "break-control": false,
-                "comment": "FRAISE 12mm",
-                "diameter-offset": 80,
-                "length-offset": 80,
-                "live": true,
-                "manual-tool-change": true,
-                "number": 80,
-                "turret": 0
-            },
-            "product-id": "862603",
-            "product-link": "https://www.orexad.com/fr/fraise-carbure/p-G1409002619",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.15000000000000002,
-                        "f_z": 0.15000000000000013,
-                        "guid": "fd9193f2-47e0-9750-47a8-7ea263f99e46",
-                        "n": 1326.2911924324605,
-                        "n_ramp": 1000,
-                        "name": "Default Preset",
-                        "tool-coolant": "disabled",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 49.99999999999997,
-                        "v_f": 397.8873577297385,
-                        "v_f_leadIn": 530.5164769729846,
-                        "v_f_leadOut": 530.5164769729846,
-                        "v_f_plunge": 198.9436788648691,
-                        "v_f_ramp": 265.25799999999964,
-                        "v_f_retract": 0
-                    }
-                ]
-            },
-            "type": "flat end mill",
-            "unit": "millimeters",
-            "vendor": "Cutline"
         },
         {
             "BMC": "hss",
@@ -2187,78 +1971,6 @@
             "vendor": "Garant 271991"
         },
         {
-            "BMC": "carbide",
-            "description": "Gorge 1.35",
-            "geometry": {
-                "EPSR": 0,
-                "INSD": 9.84808,
-                "LH": 1.6,
-                "OAL": 10,
-                "RA": 0,
-                "RE": 0.2,
-                "S": 4.2,
-                "SC": "groove square",
-                "SCTY": "T",
-                "SIZE_SPECIFICATION_MODE": "CE",
-                "TC": "M",
-                "tool_grooveWidth": 1.35,
-                "tool_insertWidth": 1.35,
-                "tool_internalThread": false
-            },
-            "guid": "9a57d50f-421d-4819-beac-b806874c88ba",
-            "holder": {
-                "CW": 27,
-                "H": 27,
-                "HAND": "R",
-                "LH": 10,
-                "MTP": "D",
-                "OAL": 125,
-                "THSC": "groove external",
-                "W": 27,
-                "tool_endCutting": true,
-                "tool_leadingAngle": 0,
-                "tool_roundShank": false,
-                "tool_sideCutting": true,
-                "tool_trailingAngle": 0
-            },
-            "last_modified": 1604256470341,
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "compensation-offset": 4,
-                "manual-tool-change": true,
-                "number": 4,
-                "turret": 0
-            },
-            "product-id": "273665 1,35\n",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-modulaire/Tournage-plaquettes-GARANT/Plaquette-de-rainurage-HB7010/p/273665-1%2C35?tId=430",
-            "setup": {
-                "HAND": true,
-                "angle": 0,
-                "compensation": "tip tangent"
-            },
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.1,
-                        "f_n_leadIn": 0.1,
-                        "f_n_leadOut": 0.1,
-                        "guid": "6e9a816c-4288-3e4c-69d7-dba4e2d08d2a",
-                        "n": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "disabled",
-                        "use-constant-surface-speed": true,
-                        "use-feed-per-revolution": true,
-                        "v_c": 350
-                    }
-                ]
-            },
-            "type": "turning grooving",
-            "unit": "millimeters",
-            "vendor": "Grant"
-        },
-        {
             "BMC": "hss",
             "GRADE": "generic",
             "description": "",
@@ -2526,78 +2238,6 @@
             "vendor": "Garant 271991"
         },
         {
-            "BMC": "carbide",
-            "description": "Gorge 1.35mm",
-            "geometry": {
-                "EPSR": 0,
-                "INSD": 9.84808,
-                "LH": 1.6,
-                "OAL": 6,
-                "RA": 0,
-                "RE": 0.2,
-                "S": 4,
-                "SC": "groove square",
-                "SCTY": "T",
-                "SIZE_SPECIFICATION_MODE": "CE",
-                "TC": "M",
-                "tool_grooveWidth": 1.35,
-                "tool_insertWidth": 1.35,
-                "tool_internalThread": false
-            },
-            "guid": "bd580126-853a-40d9-9248-01b34f16f956",
-            "holder": {
-                "CW": 14.5,
-                "H": 20,
-                "HAND": "R",
-                "LH": 30.5,
-                "MTP": "D",
-                "OAL": 125,
-                "THSC": "groove internal",
-                "W": 20,
-                "tool_endCutting": true,
-                "tool_leadingAngle": 0,
-                "tool_roundShank": true,
-                "tool_sideCutting": true,
-                "tool_trailingAngle": 0
-            },
-            "last_modified": 1604959661199,
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "compensation-offset": 5,
-                "manual-tool-change": true,
-                "number": 5,
-                "turret": 0
-            },
-            "product-id": "273790 20/2",
-            "product-link": "",
-            "setup": {
-                "HAND": true,
-                "angle": 90,
-                "compensation": "tip tangent"
-            },
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.1,
-                        "f_n_leadIn": 0.1,
-                        "f_n_leadOut": 0.1,
-                        "guid": "526d9d75-4158-8614-bf1a-76900aed1ffd",
-                        "n": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "disabled",
-                        "use-constant-surface-speed": true,
-                        "use-feed-per-revolution": true,
-                        "v_c": 350
-                    }
-                ]
-            },
-            "type": "turning grooving",
-            "unit": "millimeters",
-            "vendor": "Garant"
-        },
-        {
             "BMC": "hss",
             "GRADE": "generic",
             "description": "",
@@ -2779,6 +2419,142 @@
                         "v_f_plunge": 122.427,
                         "v_f_ramp": 0,
                         "v_f_retract": 122.427
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "POM-C",
+            "geometry": {
+                "CSP": false,
+                "DC": 16,
+                "HAND": true,
+                "LB": 110,
+                "LCF": 90,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 120,
+                "RE": 0,
+                "SFDM": 10.5,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 90,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "ca93a8c2-51b0-43a5-9516-63d9149fe9b1",
+            "holder": {
+                "description": "SK20",
+                "guid": "",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 19,
+                        "lower-diameter": 34,
+                        "upper-diameter": 34
+                    },
+                    {
+                        "height": 2.33,
+                        "lower-diameter": 25,
+                        "upper-diameter": 25
+                    },
+                    {
+                        "height": 1.73,
+                        "lower-diameter": 25,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 2.97,
+                        "lower-diameter": 23,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 19.5,
+                        "lower-diameter": 27,
+                        "upper-diameter": 27
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 31,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 3,
+                        "lower-diameter": 33,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 33,
+                        "upper-diameter": 22.28
+                    },
+                    {
+                        "height": 35,
+                        "lower-diameter": 22.28,
+                        "upper-diameter": 12.59
+                    },
+                    {
+                        "height": 4,
+                        "lower-diameter": 11.51,
+                        "upper-diameter": 11.51
+                    },
+                    {
+                        "height": 13.632,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 3.63,
+                        "lower-diameter": 8.51,
+                        "upper-diameter": 8.51
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Isel"
+            },
+            "last_modified": 1639749205726,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 53,
+                "length-offset": 53,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 53,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.1,
+                        "f_z": 0,
+                        "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
+                        "n": 994.7183943243459,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 50,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 99.47183943243459,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 1000
                     }
                 ]
             },
@@ -3090,7 +2866,8 @@
             "setup": {
                 "HAND": true,
                 "angle": 0,
-                "compensation": "tip tangent"
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
             },
             "start-values": {
                 "presets": [

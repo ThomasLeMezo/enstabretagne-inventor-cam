@@ -1486,6 +1486,143 @@
             "description": "POM-C",
             "geometry": {
                 "CSP": false,
+                "DC": 12,
+                "HAND": true,
+                "LB": 92.54,
+                "LCF": 90,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 95.08,
+                "RE": 0,
+                "SFDM": 10.5,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 90,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "4b87e6b5-a27f-43d6-adb5-62a16e12ce32",
+            "holder": {
+                "description": "SK20",
+                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 19,
+                        "lower-diameter": 34,
+                        "upper-diameter": 34
+                    },
+                    {
+                        "height": 2.33,
+                        "lower-diameter": 25,
+                        "upper-diameter": 25
+                    },
+                    {
+                        "height": 1.73,
+                        "lower-diameter": 25,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 2.97,
+                        "lower-diameter": 23,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 19.5,
+                        "lower-diameter": 27,
+                        "upper-diameter": 27
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 31,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 3,
+                        "lower-diameter": 33,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 33,
+                        "upper-diameter": 22.28
+                    },
+                    {
+                        "height": 35,
+                        "lower-diameter": 22.28,
+                        "upper-diameter": 12.59
+                    },
+                    {
+                        "height": 4,
+                        "lower-diameter": 11.51,
+                        "upper-diameter": 11.51
+                    },
+                    {
+                        "height": 13.632,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 3.63,
+                        "lower-diameter": 8.51,
+                        "upper-diameter": 8.51
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Isel"
+            },
+            "last_modified": 1634495800206,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "{b0a881a0-fbd1-4cc6-84f4-d114fdcd5e12}",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.1,
+                        "f_z": 0,
+                        "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
+                        "n": 2652.5823848649225,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 265.25823848649225,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 1000
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "POM-C",
+            "geometry": {
+                "CSP": false,
                 "DC": 4,
                 "HAND": true,
                 "LB": 47.54,
@@ -1759,14 +1896,15 @@
                 "LB": 47.54,
                 "LCF": 45,
                 "NOF": 1,
-                "NT": 1,
+                "NT": 0,
                 "OAL": 50.08,
                 "RE": 0,
                 "SFDM": 2,
                 "SIG": 118,
+                "TA": 0,
                 "TP": 0,
                 "shoulder-length": 45,
-                "thread-profile-angle": 60,
+                "thread-profile-angle": 0,
                 "tip-diameter": 0,
                 "tip-length": 0,
                 "tip-offset": 0
@@ -1843,6 +1981,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
+            "last_modified": 1641938168046,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1865,7 +2004,7 @@
                         "n": 2500.01,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 15.708026099802039,
@@ -2158,13 +2297,13 @@
             "description": "POM-C",
             "geometry": {
                 "CSP": false,
-                "DC": 12,
+                "DC": 20,
                 "HAND": true,
-                "LB": 92.54,
+                "LB": 110,
                 "LCF": 90,
                 "NOF": 2,
                 "NT": 0,
-                "OAL": 95.08,
+                "OAL": 120,
                 "RE": 0,
                 "SFDM": 10.5,
                 "SIG": 118,
@@ -2248,7 +2387,7 @@
                 "unit": "millimeters",
                 "vendor": "Isel"
             },
-            "last_modified": 1615382536012,
+            "last_modified": 1634496016432,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2265,20 +2404,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.05235987755982988,
                         "f_z": 0,
                         "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
-                        "n": 2652.5823848649225,
+                        "n": 1909.8593171027442,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 120,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 265.25823848649225,
+                        "v_f_plunge": 100,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -2683,6 +2822,143 @@
                         "v_f_plunge": 300,
                         "v_f_ramp": 0,
                         "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "POM-C",
+            "geometry": {
+                "CSP": false,
+                "DC": 12,
+                "HAND": true,
+                "LB": 92.54,
+                "LCF": 90,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 95.08,
+                "RE": 0,
+                "SFDM": 10.5,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 90,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "e02ff7e2-0827-450f-a4ca-dc7e975d384a",
+            "holder": {
+                "description": "SK20",
+                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 19,
+                        "lower-diameter": 34,
+                        "upper-diameter": 34
+                    },
+                    {
+                        "height": 2.33,
+                        "lower-diameter": 25,
+                        "upper-diameter": 25
+                    },
+                    {
+                        "height": 1.73,
+                        "lower-diameter": 25,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 2.97,
+                        "lower-diameter": 23,
+                        "upper-diameter": 23
+                    },
+                    {
+                        "height": 19.5,
+                        "lower-diameter": 27,
+                        "upper-diameter": 27
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 31,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 3,
+                        "lower-diameter": 33,
+                        "upper-diameter": 33
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 33,
+                        "upper-diameter": 22.28
+                    },
+                    {
+                        "height": 35,
+                        "lower-diameter": 22.28,
+                        "upper-diameter": 12.59
+                    },
+                    {
+                        "height": 4,
+                        "lower-diameter": 11.51,
+                        "upper-diameter": 11.51
+                    },
+                    {
+                        "height": 13.632,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 3.63,
+                        "lower-diameter": 8.51,
+                        "upper-diameter": 8.51
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Isel"
+            },
+            "last_modified": 1634495979437,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "4b87e6b5-a27f-43d6-adb5-62a16e12ce32",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.1,
+                        "f_z": 0,
+                        "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
+                        "n": 2652.5823848649225,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 265.25823848649225,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 1000
                     }
                 ]
             },
