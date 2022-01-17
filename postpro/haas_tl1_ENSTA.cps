@@ -1,23 +1,23 @@
 /**
-  Copyright (C) 2012-2018 by Autodesk, Inc.
+  Copyright (C) 2012-2022 by Autodesk, Inc.
   All rights reserved.
 
   HAAS Lathe post processor configuration.
 
-  $Revision: 41772 b47be1ff9a80e5677c458e8fccfa1fe0798261a9 $
-  $Date: 2018-01-10 13:16:49 $
+  $Revision: 43587 1c012b5d30347827214a6d65fa3028e7be395cf8 $
+  $Date: 2022-01-12 15:22:06 $
 
   FORKID {22A4780E-F937-4B1E-8446-D53DB2F57573}
 */
 
-description = "HAAS Turning ENSTA";
+description = "HAAS Turning";
 vendor = "Haas Automation";
 vendorUrl = "https://www.haascnc.com";
-legal = "Copyright (C) 2012-2018 by Autodesk, Inc.";
+legal = "Copyright (C) 2012-2022 by Autodesk, Inc.";
 certificationLevel = 2;
 minimumRevision = 45702;
 
-longDescription = "Generic HAAS turning post. Turn on the property 'manualToolChange' if your CNC does not have an automatic tool changer.";
+longDescription = "Generic HAAS turning post. Turn on the property 'manualToolChange' if your CNC does not have an automatic tool changer. Use Turret 0 for Positional Turret, Turret 101 for QCTP on X- Post, Turret 102 for QCTP on X+ Post, Turret 103 for Gang Tooling on X- Post, Turret 104 for Gang Tooling on X+ Tool Post.";
 
 extension = "nc";
 programNameIsInteger = true;
@@ -32,7 +32,7 @@ maximumCircularRadius = spatial(1000, MM);
 minimumCircularSweep = toRad(0.01);
 maximumCircularSweep = toRad(355);
 allowHelicalMoves = false;
-allowedCircularPlanes =  1 << PLANE_ZX; // allow ZX plane only
+allowedCircularPlanes = 1 << PLANE_ZX; // allow ZX plane only
 allowSpiralMoves = true;
 highFeedrate = (unit == IN) ? 100 : 5000;
 
@@ -78,7 +78,7 @@ properties = {
       {title:"Both Z then X", id:"ZX"},
       {title:"Both same line", id:"singleLineXZ"}
     ],
-    value: "X",
+    value: "XZ",
     scope: "post"
   },
   showSequenceNumbers: {
@@ -206,6 +206,13 @@ var singleLineCoolant = false; // specifies to output multiple coolant codes in 
 // {id: COOLANT_THROUGH_TOOL, on: "M88 P3 (myComment)", off: "M89"}
 var coolants = [
   {id:COOLANT_FLOOD, on:8},
+  {id:COOLANT_MIST},
+  {id:COOLANT_THROUGH_TOOL, on:88, off:89},
+  {id:COOLANT_AIR, on:83, off:84},
+  {id:COOLANT_AIR_THROUGH_TOOL},
+  {id:COOLANT_SUCTION},
+  {id:COOLANT_FLOOD_MIST},
+  {id:COOLANT_FLOOD_THROUGH_TOOL},
   {id:COOLANT_OFF, off:9}
 ];
 
@@ -860,8 +867,6 @@ function onSection() {
   var forceToolAndRetract = optionalSection && !currentSection.isOptional();
   optionalSection = currentSection.isOptional();
 
-  var turning = (currentSection.getType() == TYPE_TURNING);
-
   var insertToolCall = forceToolAndRetract || isFirstSection() ||
     currentSection.getForceToolChange && currentSection.getForceToolChange() ||
     (tool.number != getPreviousSection().getTool().number) ||
@@ -976,21 +981,10 @@ function onSection() {
     writeBlock(getCode("FEED_MODE_UNIT_MIN"));
   }
 
-  if (insertToolCall ||
-      newSpindle ||
-      isFirstSection() ||
-      (isSpindleSpeedDifferent())) {
-
-    if (!turning) {
-      if (spindleSpeed < 1) {
-        error(localize("Spindle speed out of range."));
-        return;
-      }
-      if (spindleSpeed > 3000) {
-        warning(localize("Spindle speed exceeds maximum value."));
-      }
-    }
-
+  var initialPosition = getFramePosition(currentSection.getInitialPosition());
+  var spindleChanged = forceSpindleSpeed || newSpindle || isSpindleSpeedDifferent();
+  if (insertToolCall || spindleChanged) {
+    forceSpindleSpeed = false;
     switch (currentSection.spindle) {
     case SPINDLE_PRIMARY: // main spindle
       if (getProperty("useTailStock")) {
@@ -1018,7 +1012,7 @@ function onSection() {
       }
       break;
     }
-    startSpindle(false, true, getFramePosition(currentSection.getInitialPosition()));
+    startSpindle(false, true, initialPosition);
   }
 
   // wcs
@@ -1684,6 +1678,7 @@ function onCycleEnd() {
 
 var currentCoolantMode = COOLANT_OFF;
 var coolantOff = undefined;
+var forceCoolant = false;
 
 function setCoolant(coolant) {
   var coolantCodes = getCoolantCodes(coolant);
@@ -1708,10 +1703,10 @@ function getCoolantCodes(coolant) {
   if (tool.type == TOOL_PROBE) { // avoid coolant output for probing
     coolant = COOLANT_OFF;
   }
-  if (coolant == currentCoolantMode) {
+  if (coolant == currentCoolantMode && !forceCoolant) {
     return undefined; // coolant is already active
   }
-  if ((coolant != COOLANT_OFF) && (currentCoolantMode != COOLANT_OFF) && (coolantOff != undefined)) {
+  if ((coolant != COOLANT_OFF) && (currentCoolantMode != COOLANT_OFF) && (coolantOff != undefined) && !forceCoolant) {
     if (Array.isArray(coolantOff)) {
       for (var i in coolantOff) {
         multipleCoolantBlocks.push(coolantOff[i]);
@@ -1720,6 +1715,8 @@ function getCoolantCodes(coolant) {
       multipleCoolantBlocks.push(coolantOff);
     }
   }
+
+  forceCoolant = false;
 
   var m;
   var coolantCodes = {};
@@ -1909,9 +1906,12 @@ function onCommand(command) {
   case COMMAND_STOP:
     writeBlock(mFormat.format(0));
     forceSpindleSpeed = true;
+    forceCoolant = true;
     break;
   case COMMAND_OPTIONAL_STOP:
     writeBlock(mFormat.format(1));
+    forceSpindleSpeed = true;
+    forceCoolant = true;
     break;
   case COMMAND_END:
     writeBlock(mFormat.format(2));
@@ -2116,4 +2116,3 @@ function onClose() {
 function setProperty(property, value) {
   properties[property].current = value;
 }
-
