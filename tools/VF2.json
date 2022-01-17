@@ -3,7 +3,7 @@
         {
             "BMC": "hss",
             "GRADE": "generic",
-            "description": "M4 POMC",
+            "description": "M4 Drill",
             "geometry": {
                 "CSP": false,
                 "DC": 3.3,
@@ -25,7 +25,7 @@
                 "tip-offset": 0
             },
             "guid": "0361114e-96fb-4cd0-a4fd-25543376d36b",
-            "last_modified": 1642431293267,
+            "last_modified": 1642454559011,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -68,7 +68,7 @@
         {
             "BMC": "hss",
             "GRADE": "generic",
-            "description": "M3 POMC",
+            "description": "M3 Drill",
             "geometry": {
                 "CSP": false,
                 "DC": 2.5,
@@ -90,7 +90,7 @@
                 "tip-offset": 0
             },
             "guid": "07ab1af6-3632-40ab-ad94-35d7ef671e0e",
-            "last_modified": 1642431283500,
+            "last_modified": 1642454553938,
             "post-process": {
                 "break-control": false,
                 "comment": "POMC",
@@ -107,16 +107,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.10000000000000003,
+                        "f_n": 0.10000000000000006,
                         "f_z": 0,
                         "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
-                        "n": 12732.399999999996,
+                        "n": 12732.399999999992,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00003575641668,
+                        "v_c": 100.00003575641665,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -133,7 +133,7 @@
         {
             "BMC": "hss",
             "GRADE": "generic",
-            "description": "M5 POMC",
+            "description": "M5 Drill",
             "geometry": {
                 "CSP": false,
                 "DC": 4.2,
@@ -155,7 +155,7 @@
                 "tip-offset": 0
             },
             "guid": "1c4cb0de-3282-4162-8635-9eee88a42429",
-            "last_modified": 1642432323647,
+            "last_modified": 1642454564292,
             "post-process": {
                 "break-control": false,
                 "comment": "M5",
@@ -844,7 +844,7 @@
         {
             "BMC": "carbide",
             "GRADE": "generic",
-            "description": "Taraud M3",
+            "description": "M3 Taraud",
             "geometry": {
                 "CSP": false,
                 "DC": 3,
@@ -866,7 +866,7 @@
                 "tip-offset": 0
             },
             "guid": "77e425b0-6188-4fe1-9394-cf083e5d1768",
-            "last_modified": 1642431452540,
+            "last_modified": 1642454569399,
             "post-process": {
                 "break-control": false,
                 "comment": "POMC",
@@ -909,7 +909,7 @@
         {
             "BMC": "carbide",
             "GRADE": "generic",
-            "description": "Taraud M5",
+            "description": "M5 Taraud",
             "geometry": {
                 "CSP": false,
                 "DC": 5,
@@ -931,7 +931,7 @@
                 "tip-offset": 0
             },
             "guid": "91f0df18-5c0c-45a7-bf82-2b704507c1be",
-            "last_modified": 1642432284928,
+            "last_modified": 1642454583787,
             "post-process": {
                 "break-control": false,
                 "comment": "M5",
@@ -1349,7 +1349,7 @@
         {
             "BMC": "carbide",
             "GRADE": "generic",
-            "description": "Taraud M4",
+            "description": "M4 Taraud",
             "geometry": {
                 "CSP": false,
                 "DC": 4,
@@ -1371,7 +1371,7 @@
                 "tip-offset": 0
             },
             "guid": "de66643d-56d0-4524-a425-b97faccad6b0",
-            "last_modified": 1642432552404,
+            "last_modified": 1642454577826,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1756,7 +1756,7 @@
                 "unit": "inches",
                 "vendor": "Maritool"
             },
-            "last_modified": 1642435457262,
+            "last_modified": 1642447357922,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1784,7 +1784,7 @@
                         "use-stepover": false,
                         "v_c": 0,
                         "v_f": 0,
-                        "v_f_leadIn": 1000,
+                        "v_f_leadIn": 5000,
                         "v_f_leadOut": 0,
                         "v_f_plunge": 0,
                         "v_f_ramp": 0,
