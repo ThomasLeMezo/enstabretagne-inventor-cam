@@ -78,7 +78,7 @@ properties = {
       {title:"Both Z then X", id:"ZX"},
       {title:"Both same line", id:"singleLineXZ"}
     ],
-    value: "XZ",
+    value: "X",
     scope: "post"
   },
   showSequenceNumbers: {
