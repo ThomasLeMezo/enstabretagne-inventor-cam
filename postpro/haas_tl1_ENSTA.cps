@@ -4,8 +4,8 @@
 
   HAAS Lathe post processor configuration.
 
-  $Revision: 43587 1c012b5d30347827214a6d65fa3028e7be395cf8 $
-  $Date: 2022-01-12 15:22:06 $
+  $Revision: 43602 83ef305dbd685ac5903538365ed7de9a08636e84 $
+  $Date: 2022-01-21 00:04:52 $
 
   FORKID {22A4780E-F937-4B1E-8446-D53DB2F57573}
 */
@@ -197,6 +197,15 @@ properties = {
     value      : true,
     scope      : "post"
   }
+};
+
+// wcs definiton
+wcsDefinitions = {
+  useZeroOffset: false,
+  wcs          : [
+    {name:"Standard", format:"G", range:[54, 59]},
+    {name:"Extended", format:"G154 P", range:[1, 99]}
+  ]
 };
 
 var singleLineCoolant = false; // specifies to output multiple coolant codes in one line rather than in separate lines
@@ -1019,28 +1028,9 @@ function onSection() {
   if (insertToolCall) { // force work offset when changing tool
     currentWorkOffset = undefined;
   }
-  var workOffset = currentSection.workOffset;
-  if (workOffset == 0) {
-    warningOnce(localize("Work offset has not been specified. Using G54 as WCS."), WARNING_WORK_OFFSET);
-    workOffset = 1;
-  }
-  if (workOffset > 0) {
-    if (workOffset > 6) {
-      var code = workOffset - 6;
-      if (code > 99) {
-        error(localize("Work offset out of range."));
-        return;
-      }
-      if (workOffset != currentWorkOffset) {
-        writeBlock(gFormat.format(154), "P" + code);
-        currentWorkOffset = workOffset;
-      }
-    } else {
-      if (workOffset != currentWorkOffset) {
-        writeBlock(gFormat.format(53 + workOffset)); // G54->G59
-        currentWorkOffset = workOffset;
-      }
-    }
+  if (currentSection.workOffset != currentWorkOffset) {
+    writeBlock(currentSection.wcs);
+    currentWorkOffset = currentSection.workOffset;
   }
 
   // set coolant after we have positioned at Z

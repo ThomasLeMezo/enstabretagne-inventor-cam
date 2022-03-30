@@ -805,6 +805,77 @@
             "vendor": "Garant"
         },
         {
+            "BMC": "carbide",
+            "description": "Profile inside [diam 25]",
+            "geometry": {
+                "EPSR": 0,
+                "INSD": 9.525001610160695,
+                "OAL": 30,
+                "RA": 7,
+                "RE": 0.4,
+                "S": 3.96875,
+                "SC": "C",
+                "SCTY": "N",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "G",
+                "tool_internalThread": false
+            },
+            "guid": "36b832c8-f426-4f82-8ede-01985a49e06d",
+            "holder": {
+                "CW": 10.5,
+                "H": 20,
+                "HAND": "R",
+                "LH": 50,
+                "MTP": "D",
+                "OAL": 116,
+                "THSC": "boring bar l",
+                "W": 20,
+                "tool_endCutting": true,
+                "tool_leadingAngle": 0,
+                "tool_roundShank": true,
+                "tool_sideCutting": true,
+                "tool_trailingAngle": 0
+            },
+            "last_modified": 1644254656883,
+            "post-process": {
+                "break-control": false,
+                "comment": "260150 HU7310",
+                "compensation-offset": 9,
+                "manual-tool-change": false,
+                "number": 9,
+                "turret": 0
+            },
+            "product-id": "260038 SET09 / 260032 20/09",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-modulaire/Tournage-plaquettes-GARANT/Barre-d%E2%80%99al%C3%A9sage%2C-acier-%C3%A0-droite/p/260032-20%402F09?comingFromCategory=26&tId=",
+            "setup": {
+                "HAND": true,
+                "angle": 90,
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.2,
+                        "f_n_leadIn": 0.1,
+                        "f_n_leadOut": 0.1,
+                        "guid": "7ef66c3b-4d71-c36a-54a0-64a3ab07e285",
+                        "n": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 500
+                    }
+                ]
+            },
+            "type": "turning boring",
+            "unit": "millimeters",
+            "vendor": "Grant"
+        },
+        {
             "BMC": "hss",
             "GRADE": "generic",
             "description": "",
@@ -871,10 +942,10 @@
         },
         {
             "BMC": "carbide",
-            "description": "Gorge 2mm",
+            "description": "Gorge 2mm [6mm depth]",
             "geometry": {
                 "EPSR": 0,
-                "INSD": 9.84808,
+                "INSD": 9.635134079841821,
                 "LH": 2.3,
                 "OAL": 6,
                 "RA": 0,
@@ -893,8 +964,8 @@
                 "CW": 14.5,
                 "H": 20,
                 "HAND": "R",
-                "LH": 30.5,
-                "MTP": "D",
+                "LH": 30,
+                "MTP": "S",
                 "OAL": 125,
                 "THSC": "groove internal",
                 "W": 20,
@@ -904,7 +975,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1642973728694,
+            "last_modified": 1647114413160,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1090,7 +1161,7 @@
         },
         {
             "BMC": "carbide",
-            "description": "Profile inside 16",
+            "description": "Profile inside [diam 20]",
             "geometry": {
                 "EPSR": 0,
                 "INSD": 9.525001610160695,
@@ -1120,7 +1191,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1642972336782,
+            "last_modified": 1648380979495,
             "post-process": {
                 "break-control": false,
                 "comment": "260150 HU7310",
@@ -1289,6 +1360,132 @@
             "type": "drill",
             "unit": "millimeters",
             "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 12 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 12,
+                "HAND": true,
+                "LB": 61,
+                "LCF": 26,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 83,
+                "RE": 0,
+                "SFDM": 12,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 36,
+                "thread-profile-angle": 0,
+                "tip-diameter": 12,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "80c3f769-2c43-4205-b981-337fe7218d37",
+            "holder": {
+                "description": "CT40 - Blank2",
+                "guid": "",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 42.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 14.875,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Lyndex"
+            },
+            "last_modified": 1648640931377,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 12mm",
+                "diameter-offset": 15,
+                "length-offset": 15,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 15,
+                "turret": 0
+            },
+            "product-id": "203014 12",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-12?tId=969",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.09424777960769379,
+                        "f_z": 0,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 2652.5823848649225,
+                        "n_ramp": 2652.5823848649225,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 250,
+                        "v_f_ramp": 250,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
         },
         {
             "BMC": "hss",
@@ -1697,6 +1894,152 @@
             "vendor": "Garant 271991"
         },
         {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M5 Drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 4.2,
+                "HAND": true,
+                "LB": 53.4,
+                "LCF": 45,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 75,
+                "RE": 0,
+                "SFDM": 4.2,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 45,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "96982f12-b759-41bf-8b36-5bd27afd9847",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.148,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.836,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.176,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.57
+                    },
+                    {
+                        "height": 0.09,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.425,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.05,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.85
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.442,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.145,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.118,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.143,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.442
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1644338531726,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 80,
+                "length-offset": 80,
+                "live": false,
+                "manual-tool-change": false,
+                "number": 80,
+                "turret": 0
+            },
+            "product-id": "114400 4,2\n/ 14 6650_M3-12",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Forets-HSS/Foret-h%C3%A9lico%C3%AFdal-HSS-E-non-rev%C3%AAtu/p/114400-4%2C2?wayIntoCart=SRP_SPAREPARTS&referenceFor=146650-M3-12",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.03,
+                        "f_z": 0,
+                        "guid": "c037e79e-4e78-81fd-33bf-52a6525eb4a1",
+                        "n": 1136.8210220849667,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 15,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 34.104630662549,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 34.104630662549
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": "GARANT"
+        },
+        {
             "BMC": "carbide",
             "description": "0.5-1.5mm EXT PARTIAL",
             "geometry": {
@@ -1975,6 +2318,152 @@
         {
             "BMC": "hss",
             "GRADE": "generic",
+            "description": "M5 Taraud",
+            "geometry": {
+                "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 25,
+                "LCF": 10,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 70,
+                "RE": 0,
+                "SFDM": 5,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0.8,
+                "shoulder-length": 15,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "a0a6ad9e-85c7-43ec-a5f4-e5968566b2dc",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.148,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.836,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.176,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.57
+                    },
+                    {
+                        "height": 0.09,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.425,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.05,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.85
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.442,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.145,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.118,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.143,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.442
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1644338683174,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 81,
+                "length-offset": 81,
+                "live": false,
+                "manual-tool-change": false,
+                "number": 81,
+                "turret": 0
+            },
+            "product-id": "132150 M5",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-Forme-B-vaporis%C3%A9/p/132150-M5?tId=25&wayIntoCart=PDP_SPAREPARTS&referenceFor=146650-M3-12",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "d90e72df-4e09-29eb-3a39-4c8740742833",
+                        "n": 382,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 6.000441968356505,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
             "description": "Foret hélicoïdal long HSS",
             "geometry": {
                 "CSP": false,
@@ -2133,7 +2622,7 @@
                 "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
-            "last_modified": 1642972708613,
+            "last_modified": 1648380811401,
             "post-process": {
                 "break-control": false,
                 "comment": "Prof coupe 0.05 to 0.2mm",
@@ -2164,7 +2653,7 @@
                         "use-constant-surface-speed": true,
                         "use-depth-of-cut": false,
                         "use-feed-per-revolution": true,
-                        "v_c": 250
+                        "v_c": 230
                     }
                 ]
             },

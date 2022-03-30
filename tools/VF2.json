@@ -131,6 +131,132 @@
             "vendor": ""
         },
         {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 6 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 37,
+                "LCF": 13,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 57,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 22.5,
+                "thread-profile-angle": 0,
+                "tip-diameter": 6,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "0c21323e-f6db-4eb8-babf-77d2aaad7211",
+            "holder": {
+                "description": "CT40 - Blank2",
+                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "product-id": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 42.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 14.875,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Lyndex"
+            },
+            "last_modified": 1647009675929,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 6mm",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 4,
+                "turret": 0
+            },
+            "product-id": "203014 6",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-6?tId=969",
+            "reference_guid": "f460c842-9cbe-4381-b9fc-cce59ff6a9ed",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.029762456718219095,
+                        "f_z": 0.03306939635357677,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 10079.813062486704,
+                        "n_ramp": 10079.813062486704,
+                        "name": "Default Preset",
+                        "tool-coolant": "air",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 190,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 300,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
             "BMC": "hss",
             "GRADE": "generic",
             "description": "M5 Drill",
@@ -1414,22 +1540,22 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "Fraise carbure monobloc MTC 6 mm",
+            "description": "\nFraise carbure monobloc MTC 6 mm (longue)",
             "geometry": {
                 "CSP": false,
                 "DC": 6,
                 "HAND": true,
-                "LB": 37,
-                "LCF": 13,
+                "LB": 69,
+                "LCF": 10,
                 "NOF": 3,
                 "NT": 0,
-                "OAL": 57,
+                "OAL": 80,
                 "RE": 0,
                 "SFDM": 6,
                 "SIG": 0,
                 "TA": 0,
                 "TP": 0,
-                "shoulder-length": 22.5,
+                "shoulder-length": 42,
                 "thread-profile-angle": 0,
                 "tip-diameter": 6,
                 "tip-length": 0,
@@ -1496,19 +1622,19 @@
                 "unit": "millimeters",
                 "vendor": "Lyndex"
             },
-            "last_modified": 1642430105351,
+            "last_modified": 1647012163993,
             "post-process": {
                 "break-control": false,
-                "comment": "Fraise 6mm",
-                "diameter-offset": 4,
-                "length-offset": 4,
+                "comment": "Fraise 6mm longue",
+                "diameter-offset": 0,
+                "length-offset": 0,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 4,
+                "number": 0,
                 "turret": 0
             },
-            "product-id": "203014 6",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-6?tId=969",
+            "product-id": "202247 6",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202247-6?tId=954",
             "start-values": {
                 "presets": [
                     {
@@ -1611,7 +1737,7 @@
                 "unit": "inches",
                 "vendor": ""
             },
-            "last_modified": 1642446947091,
+            "last_modified": 1648584684853,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise dressage 50",
@@ -1622,7 +1748,7 @@
                 "number": 1,
                 "turret": 0
             },
-            "product-id": "215102 50/5",
+            "product-id": "215102 50/5 (215104 ALU)",
             "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-modulaire/Fraises-%C3%A0-plaquettes-GARANT/Fraise-%C3%A0-dresser-%C3%A0-90%C2%B0-avec-al%C3%A9sage/p/215102-50%402F5?tId=",
             "start-values": {
                 "presets": [
