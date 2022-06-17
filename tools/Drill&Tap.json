@@ -25,6 +25,59 @@
                 "tip-offset": 0
             },
             "guid": "22ecba46-4351-4872-9c30-b4235acdc651",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "last_modified": 1647209602367,
             "post-process": {
                 "break-control": false,
@@ -91,6 +144,59 @@
                 "tip-offset": 0
             },
             "guid": "30cf620e-c0d6-4661-b189-dcae970e682c",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "last_modified": 1647209689893,
             "post-process": {
                 "break-control": false,
@@ -157,77 +263,59 @@
             },
             "guid": "5ad5ed15-e807-49a9-a8b7-d1816bdf5c26",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1647209720056,
+            "last_modified": 1649279965307,
             "post-process": {
                 "break-control": false,
                 "comment": "M2.5",
@@ -293,77 +381,59 @@
             },
             "guid": "5cf8af0b-4cbe-4bd8-ac38-7aef66bf6ca9",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1647209445934,
+            "last_modified": 1649279950858,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -376,7 +446,6 @@
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "5ad5ed15-e807-49a9-a8b7-d1816bdf5c26",
             "start-values": {
                 "presets": [
                     {
@@ -429,6 +498,59 @@
                 "tip-offset": 0
             },
             "guid": "659834b7-cbcf-4ed6-80ee-a733593c39b4",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "last_modified": 1644241862178,
             "post-process": {
                 "break-control": false,
@@ -495,87 +617,59 @@
             },
             "guid": "7d320dc9-096f-452c-8e1e-50231c6ad736",
             "holder": {
-                "description": "Maritool CAT40-ER32-2.35",
-                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
-                "last_modified": 1485790626152,
-                "product-id": "CAT40-ER32-2.35",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 0.148,
-                        "lower-diameter": 1.5,
-                        "upper-diameter": 1.97
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.836,
-                        "lower-diameter": 1.97,
-                        "upper-diameter": 1.97
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.176,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.57
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 0.09,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.75
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 0.425,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.05,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.85
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.03,
-                        "lower-diameter": 2.442,
-                        "upper-diameter": 2.502
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 0.145,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.118,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.143,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.442
-                    },
-                    {
-                        "height": 0.125,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
-                "unit": "inches",
-                "vendor": "Maritool"
+                "unit": "millimeters",
+                "vendor": ""
             },
-            "last_modified": 1644242274444,
+            "last_modified": 1649280157890,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -595,13 +689,13 @@
                         "f_n": 0.13823007675795088,
                         "f_z": 0,
                         "guid": "1c8db020-4adf-fe7a-8a18-f4921b041f7d",
-                        "n": 3617.1577975430764,
+                        "n": 3617.157797543077,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00000000000003,
+                        "v_c": 100.00000000000004,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -614,6 +708,124 @@
             "type": "drill",
             "unit": "millimeters",
             "vendor": "Holex"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "generic",
+            "description": "M3 Taraud (long)",
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 70,
+                "LCF": 9,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 100,
+                "RE": 0,
+                "SFDM": 3.5,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0.5,
+                "shoulder-length": 70,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "dbdbf759-20e6-4082-afc3-b4c295d689d5",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1648830405992,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "131770 M3",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-GARANT-Master-Tap-HSS-E-PM-extra-long-Type-B-6HX-AlTiX/p/131770-M3",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
+                        "n": 1380,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "air",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 13.006193585861743,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": "Garant"
         },
         {
             "BMC": "hss",
@@ -641,87 +853,59 @@
             },
             "guid": "dc3f3aff-ab8e-4e16-924a-166bf27d0024",
             "holder": {
-                "description": "Maritool CAT40-ER32-2.35",
-                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
-                "last_modified": 1485790626152,
-                "product-id": "CAT40-ER32-2.35",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 0.148,
-                        "lower-diameter": 1.5,
-                        "upper-diameter": 1.97
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.836,
-                        "lower-diameter": 1.97,
-                        "upper-diameter": 1.97
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.176,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.57
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 0.09,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.75
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 0.425,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.05,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.85
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.03,
-                        "lower-diameter": 2.442,
-                        "upper-diameter": 2.502
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 0.145,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.118,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.143,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.442
-                    },
-                    {
-                        "height": 0.125,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
-                "unit": "inches",
-                "vendor": "Maritool"
+                "unit": "millimeters",
+                "vendor": ""
             },
-            "last_modified": 1644241814761,
+            "last_modified": 1649280164011,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -762,6 +946,124 @@
             "vendor": "Garant"
         },
         {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M3 Drill (long)",
+            "geometry": {
+                "CSP": false,
+                "DC": 2.5,
+                "HAND": true,
+                "LB": 75,
+                "LCF": 58.3,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 95,
+                "RE": 0,
+                "SFDM": 2.5,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 62,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "f60057cb-00cc-42fe-8ddf-8ae5fc4a854f",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1648830233602,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "116040 2,5",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Forets-HSS/Foret-h%C3%A9lico%C3%AFdal-long-HSS-W-non-rev%C3%AAtu/p/116040-2%2C5\t\t\t\t\t",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.015707957651346176,
+                        "f_z": 0,
+                        "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
+                        "n": 12732.399999999996,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "air",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.00003575641668,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 200,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": "GARANT"
+        },
+        {
             "BMC": "carbide",
             "GRADE": "generic",
             "description": "M8 Taraud",
@@ -786,6 +1088,59 @@
                 "tip-offset": 0
             },
             "guid": "fed13d3c-5c16-4043-8fe5-5e0fd00f8035",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "last_modified": 1644241867504,
             "post-process": {
                 "break-control": false,

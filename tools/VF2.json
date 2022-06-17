@@ -25,7 +25,60 @@
                 "tip-offset": 0
             },
             "guid": "0361114e-96fb-4cd0-a4fd-25543376d36b",
-            "last_modified": 1642454559011,
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1649280970401,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -90,86 +143,14 @@
                 "tip-offset": 0
             },
             "guid": "07ab1af6-3632-40ab-ad94-35d7ef671e0e",
-            "last_modified": 1642454553938,
-            "post-process": {
-                "break-control": false,
-                "comment": "POMC",
-                "diameter-offset": 10,
-                "length-offset": 10,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 10,
-                "turret": 0
-            },
-            "product-id": "",
-            "product-link": "",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.10000000000000006,
-                        "f_z": 0,
-                        "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
-                        "n": 12732.399999999992,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "air",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 100.00003575641665,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 1273.24,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 300
-                    }
-                ]
-            },
-            "type": "drill",
-            "unit": "millimeters",
-            "vendor": ""
-        },
-        {
-            "BMC": "carbide",
-            "GRADE": "Mill Generic",
-            "description": "Fraise carbure monobloc MTC 6 mm",
-            "geometry": {
-                "CSP": false,
-                "DC": 6,
-                "HAND": true,
-                "LB": 37,
-                "LCF": 13,
-                "NOF": 3,
-                "NT": 0,
-                "OAL": 57,
-                "RE": 0,
-                "SFDM": 6,
-                "SIG": 0,
-                "TA": 0,
-                "TP": 0,
-                "shoulder-length": 22.5,
-                "thread-profile-angle": 0,
-                "tip-diameter": 6,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "0c21323e-f6db-4eb8-babf-77d2aaad7211",
             "holder": {
-                "description": "CT40 - Blank2",
-                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 42.45,
-                        "upper-diameter": 44.45
-                    },
-                    {
-                        "height": 14.875,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    },
                     {
                         "height": 1,
                         "lower-diameter": 61.55,
@@ -213,9 +194,127 @@
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Lyndex"
+                "vendor": ""
             },
-            "last_modified": 1647009675929,
+            "last_modified": 1649280960440,
+            "post-process": {
+                "break-control": false,
+                "comment": "POMC",
+                "diameter-offset": 10,
+                "length-offset": 10,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 10,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.10000000000000009,
+                        "f_z": 0,
+                        "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
+                        "n": 12732.399999999989,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "air",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.00003575641662,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 1273.24,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 6 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 37,
+                "LCF": 13,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 57,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 22.5,
+                "thread-profile-angle": 0,
+                "tip-diameter": 6,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "0c21323e-f6db-4eb8-babf-77d2aaad7211",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1649280940226,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise 6mm",
@@ -228,7 +327,6 @@
             },
             "product-id": "203014 6",
             "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-6?tId=969",
-            "reference_guid": "f460c842-9cbe-4381-b9fc-cce59ff6a9ed",
             "start-values": {
                 "presets": [
                     {
@@ -281,7 +379,60 @@
                 "tip-offset": 0
             },
             "guid": "1c4cb0de-3282-4162-8635-9eee88a42429",
-            "last_modified": 1642454564292,
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1649280978042,
             "post-process": {
                 "break-control": false,
                 "comment": "M5",
@@ -347,20 +498,13 @@
             },
             "guid": "30ab21c2-fe27-4873-a727-932e997b0636",
             "holder": {
-                "description": "CT40 - Blank2",
-                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 42.45,
-                        "upper-diameter": 44.45
-                    },
-                    {
-                        "height": 14.875,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    },
                     {
                         "height": 1,
                         "lower-diameter": 61.55,
@@ -404,9 +548,9 @@
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Lyndex"
+                "vendor": ""
             },
-            "last_modified": 1642428105445,
+            "last_modified": 1649280917632,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise 8mm",
@@ -447,45 +591,38 @@
             "vendor": "Holex"
         },
         {
-            "BMC": "carbide",
-            "GRADE": "Mill Generic",
-            "description": "Fraise carbure monobloc MTC 3 mm",
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Fraise à chanfreiner",
             "geometry": {
                 "CSP": false,
-                "DC": 3,
+                "DC": 12.4,
                 "HAND": true,
-                "LB": 37,
-                "LCF": 8,
+                "LB": 30,
+                "LCF": 4.8,
                 "NOF": 3,
                 "NT": 0,
-                "OAL": 57,
+                "OAL": 30,
                 "RE": 0,
-                "SFDM": 6,
-                "SIG": 0,
+                "SFDM": 8,
+                "SIG": 90,
                 "TA": 0,
                 "TP": 0,
-                "shoulder-length": 13,
+                "shoulder-length": 6.5,
                 "thread-profile-angle": 0,
-                "tip-diameter": 3,
+                "tip-diameter": 2.8,
                 "tip-length": 0,
                 "tip-offset": 0
             },
-            "guid": "44389a49-97f1-4c88-a219-40613e04ebe9",
+            "guid": "355b9ff6-d683-496d-ae9f-36176dda9f85",
             "holder": {
-                "description": "CT40 - Blank2",
-                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 42.45,
-                        "upper-diameter": 44.45
-                    },
-                    {
-                        "height": 14.875,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    },
                     {
                         "height": 1,
                         "lower-diameter": 61.55,
@@ -529,9 +666,128 @@
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Lyndex"
+                "vendor": ""
             },
-            "last_modified": 1642430102968,
+            "last_modified": 1651695234910,
+            "post-process": {
+                "break-control": false,
+                "comment": "Chanfrin 90",
+                "diameter-offset": 9,
+                "length-offset": 9,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 9,
+                "turret": 0
+            },
+            "product-id": "150130 12,4\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises/Fraise-%C3%A0-chanfreiner-de-pr%C3%A9cision-avec-pas-diff%C3%A9rentiel-90%C2%B0-TiAlN/p/150130-12%2C4?tId=514&wayIntoCart=PDP_SPAREPARTS&referenceFor=150301-5",
+            "reference_guid": "56a86c1b-3ffa-478d-a8ea-a79b446eb8b8",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.04328416544945937,
+                        "f_z": 0.04905538750938729,
+                        "guid": "6e948a27-4a1d-3259-8719-a5899cb57c4b",
+                        "n": 2310.313690043642,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "air",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 90,
+                        "v_f": 340,
+                        "v_f_leadIn": 340,
+                        "v_f_leadOut": 340,
+                        "v_f_plunge": 100,
+                        "v_f_ramp": 100,
+                        "v_f_retract": 100
+                    }
+                ]
+            },
+            "type": "counter sink",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 3 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 37,
+                "LCF": 8,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 57,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 13,
+                "thread-profile-angle": 0,
+                "tip-diameter": 3,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "44389a49-97f1-4c88-a219-40613e04ebe9",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1649280935880,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise 3mm",
@@ -577,186 +833,33 @@
             "description": "Fraise à chanfreiner",
             "geometry": {
                 "CSP": false,
-                "DC": 12.4,
+                "DC": 6.3,
                 "HAND": true,
-                "LB": 30,
-                "LCF": 4.8,
+                "LB": 20,
+                "LCF": 2.4,
                 "NOF": 3,
                 "NT": 0,
-                "OAL": 30,
+                "OAL": 45,
                 "RE": 0,
-                "SFDM": 8,
+                "SFDM": 5,
                 "SIG": 90,
                 "TA": 0,
                 "TP": 0,
-                "shoulder-length": 6.5,
+                "shoulder-length": 3.6,
                 "thread-profile-angle": 0,
-                "tip-diameter": 2.8,
+                "tip-diameter": 1.5,
                 "tip-length": 0,
                 "tip-offset": 0
             },
             "guid": "56a86c1b-3ffa-478d-a8ea-a79b446eb8b8",
             "holder": {
-                "description": "Maritool CAT40-ER32-2.35",
-                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
-                "last_modified": 1485790626152,
-                "product-id": "CAT40-ER32-2.35",
-                "segments": [
-                    {
-                        "height": 0.148,
-                        "lower-diameter": 1.5,
-                        "upper-diameter": 1.97
-                    },
-                    {
-                        "height": 0.836,
-                        "lower-diameter": 1.97,
-                        "upper-diameter": 1.97
-                    },
-                    {
-                        "height": 0.176,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.57
-                    },
-                    {
-                        "height": 0.09,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.75
-                    },
-                    {
-                        "height": 0.425,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
-                    },
-                    {
-                        "height": 0.05,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.85
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.442,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.145,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.118,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.143,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.442
-                    },
-                    {
-                        "height": 0.125,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
-                    }
-                ],
-                "type": "holder",
-                "unit": "inches",
-                "vendor": "Maritool"
-            },
-            "last_modified": 1642804118939,
-            "post-process": {
-                "break-control": false,
-                "comment": "Chanfrin 90",
-                "diameter-offset": 9,
-                "length-offset": 9,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 9,
-                "turret": 0
-            },
-            "product-id": "150130 12,4\n",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises/Fraise-%C3%A0-chanfreiner-de-pr%C3%A9cision-avec-pas-diff%C3%A9rentiel-90%C2%B0-TiAlN/p/150130-12%2C4?tId=514&wayIntoCart=PDP_SPAREPARTS&referenceFor=150301-5",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.04328416544945937,
-                        "f_z": 0.04905538750938729,
-                        "guid": "6e948a27-4a1d-3259-8719-a5899cb57c4b",
-                        "n": 2310.313690043642,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "air",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 90,
-                        "v_f": 340,
-                        "v_f_leadIn": 340,
-                        "v_f_leadOut": 340,
-                        "v_f_plunge": 100,
-                        "v_f_ramp": 100,
-                        "v_f_retract": 100
-                    }
-                ]
-            },
-            "type": "counter sink",
-            "unit": "millimeters",
-            "vendor": "Garant"
-        },
-        {
-            "BMC": "carbide",
-            "GRADE": "Mill Generic",
-            "description": "Fraise carbure monobloc MTC 12 mm",
-            "geometry": {
-                "CSP": false,
-                "DC": 12,
-                "HAND": true,
-                "LB": 61,
-                "LCF": 26,
-                "NOF": 3,
-                "NT": 0,
-                "OAL": 83,
-                "RE": 0,
-                "SFDM": 12,
-                "SIG": 0,
-                "TA": 0,
-                "TP": 0,
-                "shoulder-length": 36,
-                "thread-profile-angle": 0,
-                "tip-diameter": 12,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "58fd1dd4-9111-436d-9f41-a892df2410f7",
-            "holder": {
-                "description": "CT40 - Blank2",
-                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 42.45,
-                        "upper-diameter": 44.45
-                    },
-                    {
-                        "height": 14.875,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    },
                     {
                         "height": 1,
                         "lower-diameter": 61.55,
@@ -800,9 +903,127 @@
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Lyndex"
+                "vendor": ""
             },
-            "last_modified": 1642429935090,
+            "last_modified": 1651695626913,
+            "post-process": {
+                "break-control": false,
+                "comment": "Chanfrin 90",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "150130 6.3",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises/Fraise-%C3%A0-chanfreiner-de-pr%C3%A9cision-avec-pas-diff%C3%A9rentiel-90%C2%B0-TiAlN/p/150130-6%2C3?wayIntoCart=PDP_SPAREPARTS&tId=514",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.04328416544945937,
+                        "f_z": 0.04905538750938729,
+                        "guid": "6e948a27-4a1d-3259-8719-a5899cb57c4b",
+                        "n": 2310.313690043642,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "air",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 45.725806451612904,
+                        "v_f": 340,
+                        "v_f_leadIn": 340,
+                        "v_f_leadOut": 340,
+                        "v_f_plunge": 100,
+                        "v_f_ramp": 100,
+                        "v_f_retract": 100
+                    }
+                ]
+            },
+            "type": "counter sink",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 12 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 12,
+                "HAND": true,
+                "LB": 61,
+                "LCF": 26,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 83,
+                "RE": 0,
+                "SFDM": 12,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 36,
+                "thread-profile-angle": 0,
+                "tip-diameter": 12,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "58fd1dd4-9111-436d-9f41-a892df2410f7",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1649280922697,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise 12mm",
@@ -868,20 +1089,13 @@
             },
             "guid": "5940aa7f-5b26-4a2a-bc70-f4d4da8b5c54",
             "holder": {
-                "description": "CT40 - Blank2",
-                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 42.45,
-                        "upper-diameter": 44.45
-                    },
-                    {
-                        "height": 14.875,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    },
                     {
                         "height": 1,
                         "lower-diameter": 61.55,
@@ -925,9 +1139,9 @@
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Lyndex"
+                "vendor": ""
             },
-            "last_modified": 1642430114997,
+            "last_modified": 1649280952397,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise 12Lmm",
@@ -944,16 +1158,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.08699795040710194,
-                        "f_z": 0.048332194670612186,
+                        "f_n": 0.08699795040710193,
+                        "f_z": 0.04833219467061218,
                         "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
-                        "n": 3448.3571003244,
-                        "n_ramp": 3448.3571003244,
+                        "n": 3448.3571003244006,
+                        "n_ramp": 3448.3571003244006,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 130.00000000000006,
+                        "v_c": 130.00000000000009,
                         "v_f": 500,
                         "v_f_leadIn": 500,
                         "v_f_leadOut": 500,
@@ -966,6 +1180,59 @@
             "type": "flat end mill",
             "unit": "millimeters",
             "vendor": "Garant"
+        },
+        {
+            "description": "CT40 - Blank1",
+            "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+            "last_modified": 1649280318909,
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+            "segments": [
+                {
+                    "height": 1,
+                    "lower-diameter": 61.55,
+                    "upper-diameter": 63.55
+                },
+                {
+                    "height": 3.43,
+                    "lower-diameter": 63.55,
+                    "upper-diameter": 63.55
+                },
+                {
+                    "height": 2.107,
+                    "lower-diameter": 63.55,
+                    "upper-diameter": 56.25
+                },
+                {
+                    "height": 2.825,
+                    "lower-diameter": 56.25,
+                    "upper-diameter": 56.25
+                },
+                {
+                    "height": 2.107,
+                    "lower-diameter": 56.25,
+                    "upper-diameter": 63.55
+                },
+                {
+                    "height": 3.4,
+                    "lower-diameter": 63.55,
+                    "upper-diameter": 63.55
+                },
+                {
+                    "height": 1,
+                    "lower-diameter": 63.55,
+                    "upper-diameter": 61.55
+                },
+                {
+                    "height": 3.18,
+                    "lower-diameter": 44.45,
+                    "upper-diameter": 44.45
+                }
+            ],
+            "type": "holder",
+            "unit": "millimeters",
+            "vendor": ""
         },
         {
             "BMC": "carbide",
@@ -992,7 +1259,60 @@
                 "tip-offset": 0
             },
             "guid": "77e425b0-6188-4fe1-9394-cf083e5d1768",
-            "last_modified": 1642454569399,
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1649280964228,
             "post-process": {
                 "break-control": false,
                 "comment": "POMC",
@@ -1057,7 +1377,60 @@
                 "tip-offset": 0
             },
             "guid": "91f0df18-5c0c-45a7-bf82-2b704507c1be",
-            "last_modified": 1642454583787,
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1649280981560,
             "post-process": {
                 "break-control": false,
                 "comment": "M5",
@@ -1123,20 +1496,13 @@
             },
             "guid": "99e6cecb-c49a-4551-8f51-62094ada891c",
             "holder": {
-                "description": "CT40 - Blank2",
-                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 42.45,
-                        "upper-diameter": 44.45
-                    },
-                    {
-                        "height": 14.875,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    },
                     {
                         "height": 1,
                         "lower-diameter": 61.55,
@@ -1180,9 +1546,9 @@
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Lyndex"
+                "vendor": ""
             },
-            "last_modified": 1642430107791,
+            "last_modified": 1649280944619,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise 10mm",
@@ -1248,20 +1614,13 @@
             },
             "guid": "bfb882b3-6bf2-48a7-80b7-022c505866b7",
             "holder": {
-                "description": "CT40 - Blank2",
-                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 42.45,
-                        "upper-diameter": 44.45
-                    },
-                    {
-                        "height": 14.875,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    },
                     {
                         "height": 1,
                         "lower-diameter": 61.55,
@@ -1305,9 +1664,9 @@
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Lyndex"
+                "vendor": ""
             },
-            "last_modified": 1641937877184,
+            "last_modified": 1649280930242,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1325,7 +1684,7 @@
                     {
                         "description": "",
                         "f_n": 0.11780972450961724,
-                        "f_z": 0.13999999999999996,
+                        "f_z": 0.1399999999999999,
                         "guid": "285bdfe1-433f-6b10-1672-75b8ad724d47",
                         "n": 2546.4790894703256,
                         "n_ramp": 2546.4790894703256,
@@ -1334,9 +1693,9 @@
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 160,
-                        "v_f": 1069.5212175775364,
-                        "v_f_leadIn": 1069.5212175775364,
-                        "v_f_leadOut": 1069.5212175775364,
+                        "v_f": 1069.521217577536,
+                        "v_f_leadIn": 1069.521217577536,
+                        "v_f_leadOut": 1069.521217577536,
                         "v_f_plunge": 300,
                         "v_f_ramp": 300,
                         "v_f_retract": 0
@@ -1373,20 +1732,13 @@
             },
             "guid": "c37eb918-6ad5-49ef-811f-eb7916fda15e",
             "holder": {
-                "description": "CT40 - Blank2",
-                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 42.45,
-                        "upper-diameter": 44.45
-                    },
-                    {
-                        "height": 14.875,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    },
                     {
                         "height": 1,
                         "lower-diameter": 61.55,
@@ -1430,9 +1782,9 @@
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Lyndex"
+                "vendor": ""
             },
-            "last_modified": 1642430112552,
+            "last_modified": 1649280948860,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise 16mm",
@@ -1497,7 +1849,60 @@
                 "tip-offset": 0
             },
             "guid": "de66643d-56d0-4524-a425-b97faccad6b0",
-            "last_modified": 1642454577826,
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1649280974360,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1563,20 +1968,13 @@
             },
             "guid": "f460c842-9cbe-4381-b9fc-cce59ff6a9ed",
             "holder": {
-                "description": "CT40 - Blank2",
-                "guid": "{b2702a58-b19a-4caa-b9d6-64c110c46870}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 42.45,
-                        "upper-diameter": 44.45
-                    },
-                    {
-                        "height": 14.875,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    },
                     {
                         "height": 1,
                         "lower-diameter": 61.55,
@@ -1620,9 +2018,9 @@
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Lyndex"
+                "vendor": ""
             },
-            "last_modified": 1647012163993,
+            "last_modified": 1649280327656,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise 6mm longue",
@@ -1688,53 +2086,56 @@
             },
             "guid": "f5300499-ab89-4e71-8f5e-e8d4b7f968ec",
             "holder": {
-                "description": "BT30 - Blank1",
-                "guid": "{1ebecb55-11cc-4ae1-9c80-5f1568716cc8}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 0.03,
-                        "lower-diameter": 1.75102,
-                        "upper-diameter": 1.81102
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.1432283,
-                        "lower-diameter": 1.81102,
-                        "upper-diameter": 1.81102
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.0909213,
-                        "lower-diameter": 1.81102,
-                        "upper-diameter": 1.49606
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 0.1331181,
-                        "lower-diameter": 1.49606,
-                        "upper-diameter": 1.49606
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 0.0909213,
-                        "lower-diameter": 1.49606,
-                        "upper-diameter": 1.81102
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.2692126,
-                        "lower-diameter": 1.81102,
-                        "upper-diameter": 1.81102
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.03,
-                        "lower-diameter": 1.81102,
-                        "upper-diameter": 1.75102
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 0.079,
-                        "lower-diameter": 1.25,
-                        "upper-diameter": 1.25
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
-                "unit": "inches",
+                "unit": "millimeters",
                 "vendor": ""
             },
             "last_modified": 1648584684853,
@@ -1778,6 +2179,124 @@
             "vendor": "HOLEX"
         },
         {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise Woodruff",
+            "geometry": {
+                "CSP": false,
+                "DC": 19.442999999999998,
+                "HAND": true,
+                "LB": 43,
+                "LCF": 3,
+                "NOF": 10,
+                "NT": 0,
+                "OAL": 56,
+                "RE": 0,
+                "SFDM": 10,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 12,
+                "thread-profile-angle": 0,
+                "tip-diameter": 19.442999999999998,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "f8ad61ac-492a-4504-a494-c8332848b16e",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1649280899353,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "194010 19,5X3",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-en-HSS/Fraise-Woodruff-non-rev%C3%AAtu/p/194010-19%2C5X3?tId=",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.29086630896076454,
+                        "f_z": 0.05235598796892557,
+                        "guid": "31b85bb6-40df-1ea6-db00-cca03d9b4cb1",
+                        "n": 1146.0007217438301,
+                        "n_ramp": 1146.0007217438301,
+                        "name": "Default Preset",
+                        "tool-coolant": "air",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 69.9999999999998,
+                        "v_f": 600,
+                        "v_f_leadIn": 600,
+                        "v_f_leadOut": 600,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 100,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "slot mill",
+            "unit": "millimeters",
+            "vendor": "GARANT"
+        },
+        {
             "BMC": "unspecified",
             "description": "Palpeur",
             "geometry": {
@@ -1802,87 +2321,59 @@
             },
             "guid": "fdb0e9c9-b1d2-4854-9901-1bb703777a56",
             "holder": {
-                "description": "Maritool CAT40-ER32-2.35",
-                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
-                "last_modified": 1485790626152,
-                "product-id": "CAT40-ER32-2.35",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 0.148,
-                        "lower-diameter": 1.5,
-                        "upper-diameter": 1.97
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.836,
-                        "lower-diameter": 1.97,
-                        "upper-diameter": 1.97
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.176,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.57
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 0.09,
-                        "lower-diameter": 1.57,
-                        "upper-diameter": 1.75
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 0.425,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.05,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.85
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 0.03,
-                        "lower-diameter": 2.442,
-                        "upper-diameter": 2.502
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 0.145,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.118,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.215
-                    },
-                    {
-                        "height": 0.079,
-                        "lower-diameter": 2.215,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.143,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.502
-                    },
-                    {
-                        "height": 0.03,
-                        "lower-diameter": 2.502,
-                        "upper-diameter": 2.442
-                    },
-                    {
-                        "height": 0.125,
-                        "lower-diameter": 1.75,
-                        "upper-diameter": 1.75
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
-                "unit": "inches",
-                "vendor": "Maritool"
+                "unit": "millimeters",
+                "vendor": ""
             },
-            "last_modified": 1642447357922,
+            "last_modified": 1649280994737,
             "post-process": {
                 "break-control": false,
                 "comment": "",

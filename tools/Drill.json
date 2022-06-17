@@ -26,77 +26,59 @@
             },
             "guid": "{048a8d5e-a7e7-43f8-8e07-99f610296c4c}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642804020480,
+            "last_modified": 1649279636941,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -113,20 +95,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.09999999999999998,
                         "f_z": 0,
                         "guid": "ee97a329-4fdc-b5b0-5b46-57961d8cefe9",
-                        "n": 4897.075172058318,
+                        "n": 4897.0751720583185,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 100,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 489.7075172058318,
+                        "v_f_plunge": 489.7075172058317,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -162,77 +144,59 @@
             },
             "guid": "{06980dc3-3a0f-4796-b19f-3f192c098893}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642803956292,
+            "last_modified": 1649279496325,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -249,16 +213,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.09999999999999999,
                         "f_z": 0,
                         "guid": "1a98af46-43ce-ed8d-8da7-d38b50a787d3",
-                        "n": 12732.395447351628,
+                        "n": 12732.39544735163,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 100.00000000000001,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -298,77 +262,59 @@
             },
             "guid": "{0a626245-1086-4d13-8196-f23fe6689d1f}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642803991654,
+            "last_modified": 1649279612187,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -391,7 +337,7 @@
                         "n": 7073.553026306459,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 99.99999999999999,
@@ -434,75 +380,57 @@
             },
             "guid": "218a6d40-ab53-4010-be9a-2848760ef850",
             "holder": {
-                "description": "SK20",
-                "guid": "",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
             "last_modified": 1642804107938,
             "post-process": {
@@ -527,7 +455,7 @@
                         "n": 1591.5494309189535,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 100,
@@ -570,77 +498,59 @@
             },
             "guid": "{21de6698-27c7-4582-a52d-a7c7f24e3d39}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642803974251,
+            "last_modified": 1649279554437,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -657,16 +567,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.10000000000000002,
                         "f_z": 0,
                         "guid": "5fc46f70-4051-e54c-db8d-93bb55b0d24c",
-                        "n": 9094.568176679733,
+                        "n": 9094.568176679732,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 99.99999999999997,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -706,77 +616,59 @@
             },
             "guid": "{2aec4c73-5534-403d-84c1-251c596159e6}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642804035730,
+            "last_modified": 1649279650332,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -793,20 +685,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.09999999999999999,
                         "f_z": 0,
                         "guid": "be02a2a1-4b3c-319d-f67d-ce9c112009ab",
                         "n": 4244.131815783876,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 100,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 424.4131815783876,
+                        "v_f_plunge": 424.41318157838754,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -842,77 +734,59 @@
             },
             "guid": "{2b9b9bc9-7348-4291-b07d-b90bdf49e33c}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642804040871,
+            "last_modified": 1649279654644,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -929,16 +803,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.09999999999999998,
                         "f_z": 0,
                         "guid": "b7f0d52b-4d2a-0886-7a3a-5eaa9c6ecf99",
-                        "n": 3978.8735772973837,
+                        "n": 3978.8735772973846,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 100.00000000000003,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -978,77 +852,59 @@
             },
             "guid": "{2e0f3068-3575-453f-b57d-7b9c6d188c82}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642804009572,
+            "last_modified": 1649279622473,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1068,19 +924,19 @@
                         "f_n": 0.1,
                         "f_z": 0,
                         "guid": "1d293942-46d2-5d7b-9806-e2b2ad0ba612",
-                        "n": 5787.452476068922,
+                        "n": 5787.452476068923,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 100.00000000000003,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 578.7452476068922,
+                        "v_f_plunge": 578.7452476068923,
                         "v_f_ramp": 0,
-                        "v_f_retract": 578.7452476068922
+                        "v_f_retract": 578.7452476068923
                     }
                 ]
             },
@@ -1114,75 +970,57 @@
             },
             "guid": "35301196-9027-409a-a4a0-d50de6036c81",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
             "last_modified": 1642804063784,
             "post-process": {
@@ -1207,7 +1045,7 @@
                         "n": 3031.522725559911,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 99.99999999999999,
@@ -1250,77 +1088,59 @@
             },
             "guid": "{3c4b879b-f623-46bf-bbc8-b123bc1547c3}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642803926771,
+            "last_modified": 1649281024896,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1343,7 +1163,7 @@
                         "n": 15000,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 70.68583470577035,
@@ -1386,77 +1206,59 @@
             },
             "guid": "{450e3541-99ce-411b-9cdc-f4d9ee0487cb}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642803998734,
+            "last_modified": 1649279616533,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1473,22 +1275,22 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.10000000000000003,
                         "f_z": 0,
                         "guid": "10e00fe5-4ccc-22ef-3e7b-7fbdf6e26f7c",
-                        "n": 6366.197723675814,
+                        "n": 6366.197723675815,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 100.00000000000001,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 636.6197723675814,
+                        "v_f_plunge": 636.6197723675817,
                         "v_f_ramp": 0,
-                        "v_f_retract": 636.6197723675814
+                        "v_f_retract": 636.6197723675817
                     }
                 ]
             },
@@ -1522,75 +1324,57 @@
             },
             "guid": "4b87e6b5-a27f-43d6-adb5-62a16e12ce32",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
             "last_modified": 1642804067283,
             "post-process": {
@@ -1615,7 +1399,7 @@
                         "n": 2652.582384864922,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 99.99999999999999,
@@ -1658,77 +1442,59 @@
             },
             "guid": "{4f28d516-44de-40a4-bfe9-3003136f0b52}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642803983076,
+            "last_modified": 1649279575356,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1745,22 +1511,22 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.10000000000000002,
                         "f_z": 0,
                         "guid": "37d5341e-4dd4-9bad-b6c4-08ba03805f15",
                         "n": 7957.747154594767,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 100,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 795.7747154594767,
+                        "v_f_plunge": 795.7747154594769,
                         "v_f_ramp": 0,
-                        "v_f_retract": 795.7747154594767
+                        "v_f_retract": 795.7747154594769
                     }
                 ]
             },
@@ -1794,75 +1560,57 @@
             },
             "guid": "{6a14c7b5-7f33-4dc2-b71e-a41f645d54dc}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
             "last_modified": 1642804050183,
             "post-process": {
@@ -1887,7 +1635,7 @@
                         "n": 3536.7765131532296,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 99.99999999999999,
@@ -1930,77 +1678,59 @@
             },
             "guid": "{84986a41-1378-4ac7-b71a-06394be501c8}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642803950005,
+            "last_modified": 1649279916051,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2066,75 +1796,57 @@
             },
             "guid": "8c9e14ae-5d26-41ab-802d-996729301721",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
             "last_modified": 1642804045128,
             "post-process": {
@@ -2159,7 +1871,7 @@
                         "n": 3744.8221903975373,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 99.99999999999999,
@@ -2202,75 +1914,57 @@
             },
             "guid": "{8df1f860-4a0b-4353-abc3-538af8fe6f6e}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
             "last_modified": 1642804056786,
             "post-process": {
@@ -2295,7 +1989,7 @@
                         "n": 3183.098861837907,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 100,
@@ -2338,75 +2032,57 @@
             },
             "guid": "{b0a881a0-fbd1-4cc6-84f4-d114fdcd5e12}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
             "last_modified": 1642804087165,
             "post-process": {
@@ -2431,7 +2107,7 @@
                         "n": 1591.5494309189535,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 100,
@@ -2474,77 +2150,59 @@
             },
             "guid": "{c253b37b-811b-4c16-800f-3b1823e5af3f}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642804025017,
+            "last_modified": 1649279640517,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2561,16 +2219,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.10000000000000002,
                         "f_z": 0,
                         "guid": "fe411259-443c-c0d1-9315-589d5006af34",
-                        "n": 4681.027737996922,
+                        "n": 4681.027737996921,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 99.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -2610,77 +2268,59 @@
             },
             "guid": "{c5174a84-b21d-46ff-8479-395b41432e93}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642803988620,
+            "last_modified": 1649279606308,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2703,7 +2343,7 @@
                         "n": 7578.81,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 100.00004203960202,
@@ -2746,77 +2386,59 @@
             },
             "guid": "{c7cfcd4c-6ce2-4875-b92b-bd392d25446b}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642804015259,
+            "last_modified": 1649279631493,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2836,19 +2458,19 @@
                         "f_n": 0.1,
                         "f_z": 0,
                         "guid": "8e7e462d-4f56-464e-6290-f99abffa9695",
-                        "n": 5305.164769729845,
+                        "n": 5305.164769729846,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 100.00000000000001,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 530.5164769729845,
+                        "v_f_plunge": 530.5164769729846,
                         "v_f_ramp": 0,
-                        "v_f_retract": 530.5164769729845
+                        "v_f_retract": 530.5164769729846
                     }
                 ]
             },
@@ -2882,77 +2504,59 @@
             },
             "guid": "{f333d55c-c3fb-4c2b-9d8e-d97e53b0cad9}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642804030984,
+            "last_modified": 1649279644450,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2969,20 +2573,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.10000000000000002,
                         "f_z": 0,
                         "guid": "88948749-4deb-ed9e-6fc0-fb8d3275598d",
                         "n": 4547.284088339867,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 99.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 454.7284088339867,
+                        "v_f_plunge": 454.72840883398675,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -3018,77 +2622,59 @@
             },
             "guid": "{f78f87d9-376f-403f-aec9-fd9fb20d3b7e}",
             "holder": {
-                "description": "SK20",
-                "guid": "{2db690d2-7b36-41fe-ab9c-1372516bc32a}",
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
                 "product-id": "",
                 "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
                 "segments": [
                     {
-                        "height": 19,
-                        "lower-diameter": 34,
-                        "upper-diameter": 34
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 2.33,
-                        "lower-diameter": 25,
-                        "upper-diameter": 25
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
-                        "height": 1.73,
-                        "lower-diameter": 25,
-                        "upper-diameter": 23
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 2.97,
-                        "lower-diameter": 23,
-                        "upper-diameter": 23
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
                     },
                     {
-                        "height": 19.5,
-                        "lower-diameter": 27,
-                        "upper-diameter": 27
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
                     },
                     {
                         "height": 1,
-                        "lower-diameter": 31,
-                        "upper-diameter": 33
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
                     },
                     {
-                        "height": 3,
-                        "lower-diameter": 33,
-                        "upper-diameter": 33
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 33,
-                        "upper-diameter": 22.28
-                    },
-                    {
-                        "height": 35,
-                        "lower-diameter": 22.28,
-                        "upper-diameter": 12.59
-                    },
-                    {
-                        "height": 4,
-                        "lower-diameter": 11.51,
-                        "upper-diameter": 11.51
-                    },
-                    {
-                        "height": 13.632,
-                        "lower-diameter": 6,
-                        "upper-diameter": 6
-                    },
-                    {
-                        "height": 3.63,
-                        "lower-diameter": 8.51,
-                        "upper-diameter": 8.51
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
                     }
                 ],
                 "type": "holder",
                 "unit": "millimeters",
-                "vendor": "Isel"
+                "vendor": ""
             },
-            "last_modified": 1642803964216,
+            "last_modified": 1649279566755,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -3105,16 +2691,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.10000000000000002,
                         "f_z": 0,
                         "guid": "cf9b4053-47cb-dcd2-9451-49bdcacce7b7",
-                        "n": 10610.32953945969,
+                        "n": 10610.329539459688,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "disabled",
+                        "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 99.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
