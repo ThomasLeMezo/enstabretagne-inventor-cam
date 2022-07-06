@@ -120,6 +120,124 @@
             "vendor": "Garant"
         },
         {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M5 Drill [Inox]",
+            "geometry": {
+                "CSP": false,
+                "DC": 4.2,
+                "HAND": true,
+                "LB": 48,
+                "LCF": 45,
+                "NOF": 1,
+                "NT": 0,
+                "OAL": 50.08,
+                "RE": 0,
+                "SFDM": 4.2,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 45,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "26f71bd2-b7c4-45c5-abe5-1353143e1ed3",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1657037317252,
+            "post-process": {
+                "break-control": false,
+                "comment": "M5",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.02999999999999999,
+                        "f_z": 0,
+                        "guid": "93cf33a6-4d0d-22fe-0f9f-94b461eb71df",
+                        "n": 909.4568176679734,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 12,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 27.28370453003919,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
             "BMC": "carbide",
             "GRADE": "generic",
             "description": "M2.5 Taraud",
@@ -708,6 +826,124 @@
             "type": "drill",
             "unit": "millimeters",
             "vendor": "Holex"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "generic",
+            "description": "M5 Taraud [inox]",
+            "geometry": {
+                "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 40,
+                "LCF": 12.5,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 70,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0.8,
+                "shoulder-length": 30,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "c9338600-da60-41be-bc43-41d66faa8a9e",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1657036324188,
+            "post-process": {
+                "break-control": false,
+                "comment": "M5",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "135960 M5\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-GARANT-Master-Tap-HSS-E-PM-Type-C-AlTiX/p/135960-M5?tId=765&wayIntoCart=PDP_SPAREPARTS&referenceFor=146735-M3-12",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "93cf33a6-4d0d-22fe-0f9f-94b461eb71df",
+                        "n": 400,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 6.283185307179586,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": "Garant"
         },
         {
             "BMC": "carbide",

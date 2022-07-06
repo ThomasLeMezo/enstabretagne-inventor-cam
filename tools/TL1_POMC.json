@@ -2751,6 +2751,77 @@
             "vendor": "Garant"
         },
         {
+            "BMC": "carbide",
+            "description": "Profile inside [diam 28] [inox]",
+            "geometry": {
+                "EPSR": 0,
+                "INSD": 9.525001610160695,
+                "OAL": 30,
+                "RA": 7,
+                "RE": 0.4,
+                "S": 3.96875,
+                "SC": "C",
+                "SCTY": "N",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "G",
+                "tool_internalThread": false
+            },
+            "guid": "a485393b-6a24-4cf6-8261-0eea1ef4f2ba",
+            "holder": {
+                "CW": 14.5,
+                "H": 20,
+                "HAND": "R",
+                "LH": 50,
+                "MTP": "D",
+                "OAL": 80,
+                "THSC": "boring bar l",
+                "W": 20,
+                "tool_endCutting": true,
+                "tool_leadingAngle": 0,
+                "tool_roundShank": true,
+                "tool_sideCutting": true,
+                "tool_trailingAngle": 0
+            },
+            "last_modified": 1657017131550,
+            "post-process": {
+                "break-control": false,
+                "comment": "260150 HB7120-1",
+                "compensation-offset": 7,
+                "manual-tool-change": false,
+                "number": 7,
+                "turret": 0
+            },
+            "product-id": "260038 SET09 / 260032 25/12 / 260150 HB7120-1",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-modulaire/Tournage-plaquettes-GARANT/Barre-d%E2%80%99al%C3%A9sage%2C-acier-%C3%A0-droite/p/260032-25%402F12?comingFromCategory=26&tId=",
+            "setup": {
+                "HAND": true,
+                "angle": 90,
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.2,
+                        "f_n_leadIn": 0.05,
+                        "f_n_leadOut": 0.05,
+                        "guid": "7ef66c3b-4d71-c36a-54a0-64a3ab07e285",
+                        "n": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 210
+                    }
+                ]
+            },
+            "type": "turning boring",
+            "unit": "millimeters",
+            "vendor": "Grant"
+        },
+        {
             "BMC": "hss",
             "GRADE": "generic",
             "description": "Foret hélicoïdal long HSS",

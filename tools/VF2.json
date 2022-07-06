@@ -1589,6 +1589,124 @@
             "vendor": "Garant"
         },
         {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Fraise à chanfreiner [Inox]",
+            "geometry": {
+                "CSP": false,
+                "DC": 12.4,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 4.8,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 30,
+                "RE": 0,
+                "SFDM": 8,
+                "SIG": 90,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 6.5,
+                "thread-profile-angle": 0,
+                "tip-diameter": 2.8,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "a149df18-8bb3-4083-bb70-8f0396beaafa",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1657119603334,
+            "post-process": {
+                "break-control": false,
+                "comment": "Chanfrin 90",
+                "diameter-offset": 9,
+                "length-offset": 9,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 9,
+                "turret": 0
+            },
+            "product-id": "150130 12,4\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises/Fraise-%C3%A0-chanfreiner-de-pr%C3%A9cision-avec-pas-diff%C3%A9rentiel-90%C2%B0-TiAlN/p/150130-12%2C4?tId=514&wayIntoCart=PDP_SPAREPARTS&referenceFor=150301-5",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.14851879269845747,
+                        "f_z": 0.04999321109412558,
+                        "guid": "6e948a27-4a1d-3259-8719-a5899cb57c4b",
+                        "n": 410.72243378553634,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 16,
+                        "v_f": 61.6,
+                        "v_f_leadIn": 61.6,
+                        "v_f_leadOut": 61.6,
+                        "v_f_plunge": 61,
+                        "v_f_ramp": 61,
+                        "v_f_retract": 61
+                    }
+                ]
+            },
+            "type": "counter sink",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
             "description": "Fraise à dresser à 90°Softcut",
