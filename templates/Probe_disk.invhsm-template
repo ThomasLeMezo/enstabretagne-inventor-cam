@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<template-document xmlns="http://www.hsmworks.com/namespace/hsmworks/document/template" version="1.0">
+
+  <user-description></user-description>
+
+  <template description="Probe WCS1 XY" strategy="probe" unit="millimeters" version="53">
+    <tool guid="fdb0e9c9-b1d2-4854-9901-1bb703777a56" type="probe" unit="millimeters" version="1.4">
+      <description>Palpeur</description>
+      <manufacturer>Renishaw</manufacturer>
+      <product-id>OMP60</product-id>
+      <product-link>https://www.renishaw.fr/fr/omp60-palpeur-a-transmission-optique--6101</product-link>
+      <nc break-control="0" diameter-offset="20" length-offset="20" live-tool="1" manual-tool-change="0" number="20" turret="0"/>
+      <coolant mode="disabled"/>
+      <material name="unspecified"/>
+      <body body-length="100" coolant-support="no" corner-radius="2.5" diameter="5" flute-length="10" overall-length="100" shaft-diameter="4" shoulder-length="10" thread-pitch="0" thread-profile-angle="60"/>
+      <holder description="Maritool CAT40-ER32-2.35" product-id="CAT40-ER32-2.35" vendor="Maritool">
+        <section diameter="38.1" length="0"/>
+        <section diameter="50.038" length="3.7592"/>
+        <section diameter="50.038" length="21.2344"/>
+        <section diameter="39.878" length="0"/>
+        <section diameter="39.878" length="4.4704"/>
+        <section diameter="44.45" length="2.286"/>
+        <section diameter="44.45" length="10.795"/>
+        <section diameter="46.99" length="1.27"/>
+        <section diameter="62.0268" length="0"/>
+        <section diameter="63.5508" length="0.762"/>
+        <section diameter="63.5508" length="3.683"/>
+        <section diameter="56.261" length="2.0066"/>
+        <section diameter="56.261" length="2.9972"/>
+        <section diameter="63.5508" length="2.0066"/>
+        <section diameter="63.5508" length="3.6322"/>
+        <section diameter="62.0268" length="0.762"/>
+        <section diameter="44.45" length="0"/>
+        <section diameter="44.45" length="3.175"/>
+      </holder>
+      <motion clockwise="yes" cutting-feedrate="0" entry-feedrate="5000" exit-feedrate="0" feed-mode="per-minute" plunge-feedrate="0" ramp-feedrate="0" ramp-spindle-rpm="0" retract-feedrate="0" spindle-rpm="0"/>
+      <presets>
+        <preset description="" id="{7db7f145-41f9-fc85-e53a-ed9148387047}" name="Default Preset" tool_feedEntry="5000"/>
+      </presets>
+    </tool>
+    <parameter expression="false" name="advancedMode"/>
+    <parameter expression="false" name="betaMode"/>
+    <parameter expression="false" name="alphaMode"/>
+    <parameter expression="false" name="isXpress"/>
+    <parameter expression="true" name="licenseMultiaxis"/>
+    <parameter expression="true" name="license3D"/>
+    <parameter expression="true" name="metric"/>
+    <parameter expression="false" name="isAssemblyDocument"/>
+    <parameter expression="'operation'" name="context"/>
+    <parameter expression="'probe'" name="strategy"/>
+    <parameter expression="''" name="operation_description"/>
+    <parameter expression="false" name="tab_tool"/>
+    <parameter expression="true" name="group_tool"/>
+    <parameter expression="false" name="sandvik_tool_params"/>
+    <parameter expression="false" name="sandvik_select_assembly"/>
+    <parameter expression="false" name="sandvik_get_tool_recommendation"/>
+    <parameter expression="false" name="tool_select"/>
+    <parameter expression="'probe'" name="tool_type"/>
+    <parameter expression="true" name="undercut"/>
+    <parameter expression="tool_type == 'turning boring' || tool_type == 'turning general' || tool_type == 'turning threading' || tool_type == 'turning grooving' || tool_type == 'turning custom'" name="tool_isTurning"/>
+    <parameter expression="tool_type == 'thread mill' || tool_type == 'form mill' || tool_type == 'tapered mill' || tool_type == 'radius mill' || tool_type == 'dovetail mill' || tool_type == 'face mill' || tool_type == 'bull nose end mill' || tool_type == 'slot mill' || tool_type == 'flat end mill' || tool_type == 'ball end mill' || tool_type == 'lollipop mill' || tool_type == 'chamfer mill'" name="tool_isMill"/>
+    <parameter expression="tool_type == 'counter bore' || tool_type == 'boring bar' || tool_type == 'spot drill' || tool_type == 'counter sink' || tool_type == 'center drill' || tool_type == 'tap right hand' || tool_type == 'tap left hand' || tool_type == 'drill' || tool_type == 'reamer' || tool_type == 'block drill'" name="tool_isDrill"/>
+    <parameter expression="tool_type == 'laser cutter' || tool_type == 'waterjet' || tool_type == 'plasma cutter'" name="tool_isJet"/>
+    <parameter expression="tool_type == 'laser powder' || tool_type == 'laser wire' || tool_type == 'electric arc wire'" name="tool_isDepositing"/>
+    <parameter expression="'tapered_bull_nose'" name="tool_taperedType"/>
+    <parameter expression="'millimeters'" name="tool_unit"/>
+    <parameter expression="20" name="tool_number"/>
+    <parameter expression="tool_number" name="tool_diameterOffset"/>
+    <parameter expression="tool_number" name="tool_lengthOffset"/>
+    <parameter expression="tool_number" name="tool_compensationOffset"/>
+    <parameter expression="0" name="tool_turret"/>
+    <parameter expression="false" name="tool_manualToolChange"/>
+    <parameter expression="false" name="tool_breakControl"/>
+    <parameter expression="true" name="tool_live"/>
+    <parameter expression="'unspecified'" name="tool_material"/>
+    <parameter expression="'Palpeur'" name="tool_description"/>
+    <parameter expression="''" name="tool_comment"/>
+    <parameter expression="'Renishaw'" name="tool_vendor"/>
+    <parameter expression="'OMP60'" name="tool_productId"/>
+    <parameter expression="5." name="tool_diameter"/>
+    <parameter expression="0.0" name="tool_tipDiameter"/>
+    <parameter expression="0.0" name="tool_tipOffset"/>
+    <parameter expression="2.5" name="tool_cornerRadius"/>
+    <parameter expression="tool_taperAngle * 2" name="tool_inclusiveAngle"/>
+    <parameter expression="0.0" name="tool_taperAngle"/>
+    <parameter expression="(tool_type == 'counter sink') ? 90.0deg : 118.0deg" name="tool_tipAngle"/>
+    <parameter expression="60." name="tool_threadProfileAngle"/>
+    <parameter expression="0.0" name="tool_tipLength"/>
+    <parameter expression="10." name="tool_fluteLength"/>
+    <parameter expression="tool_fluteLength" name="tool_shoulderLength"/>
+    <parameter expression="100." name="tool_bodyLength"/>
+    <parameter expression="100." name="tool_overallLength"/>
+    <parameter expression="4." name="tool_shaftDiameter"/>
+    <parameter expression="tool_shaftDiameter/2" name="tool_segmentHeight"/>
+    <parameter expression="tool_shaftDiameter*2" name="tool_segmentDiameterLower"/>
+    <parameter expression="tool_shaftDiameter*2" name="tool_segmentDiameterUpper"/>
+    <parameter expression="Math.max((tool_bodyLength - tool_shoulderLength)/2; 1.0)" name="tool_shaftSegmentHeight"/>
+    <parameter expression="tool_diameter" name="tool_shaftSegmentDiameterLower"/>
+    <parameter expression="tool_shaftDiameter" name="tool_shaftSegmentDiameterUpper"/>
+    <parameter expression="0.0" name="tool_threadPitch"/>
+    <parameter expression="1" name="tool_numberOfTeeth"/>
+    <parameter expression="0" name="tool_numberOfFlutes"/>
+    <parameter expression="false" name="holder_attached"/>
+    <parameter expression="'Maritool CAT40-ER32-2.35'" name="holder_description"/>
+    <parameter expression="''" name="holder_comment"/>
+    <parameter expression="'Maritool'" name="holder_vendor"/>
+    <parameter expression="'CAT40-ER32-2.35'" name="holder_productId"/>
+    <parameter expression="''" name="holder_productLink"/>
+    <parameter expression="''" name="holder_libraryName"/>
+    <parameter expression="'https://www.renishaw.fr/fr/omp60-palpeur-a-transmission-optique--6101'" name="tool_productLink"/>
+    <parameter expression="true" name="group_feedspeed"/>
+    <parameter expression="false" name="sandvik_get_cutting_data"/>
+    <parameter expression="false" name="preset_select"/>
+    <parameter expression="0" name="tool_spindleSpeed"/>
+    <parameter expression="tool_isTurning ? (tool_unit == 'millimeters' ? 25mm : 1.0in) : tool_diameter" name="tool_stockDiameter"/>
+    <parameter expression="1000mmpm" name="tool_feedCutting"/>
+    <parameter expression="3000mmpm" name="tool_feedProbeLink"/>
+    <parameter expression="5000." name="tool_feedEntry"/>
+    <parameter expression="300mmpm" name="tool_feedProbeMeasure"/>
+    <parameter expression="(tool_type=='drill' || tool_type=='reamer' || tool_isDepositing)?(1000mmpm):(tool_feedCutting/3)" name="tool_feedPlunge"/>
+    <parameter expression="tool_feedPlunge" name="tool_feedRetract"/>
+    <parameter expression="true" name="tool_clockwise"/>
+    <parameter expression="'none'" name="featureOperationId"/>
+    <parameter expression="111.58410161513771" name="surfaceZHigh"/>
+    <parameter expression="0.0" name="surfaceZLow"/>
+    <parameter expression="-59.5" name="surfaceXLow"/>
+    <parameter expression="59.5" name="surfaceXHigh"/>
+    <parameter expression="-61.49000000000002" name="surfaceYLow"/>
+    <parameter expression="61.49000000000002" name="surfaceYHigh"/>
+    <parameter expression="112." name="stockZHigh"/>
+    <parameter expression="0.0" name="stockZLow"/>
+    <parameter expression="-57.9915" name="stockXLow"/>
+    <parameter expression="57.9915" name="stockXHigh"/>
+    <parameter expression="-57.9915" name="stockYLow"/>
+    <parameter expression="57.9915" name="stockYHigh"/>
+    <parameter expression="false" name="tab_geometry"/>
+    <parameter expression="true" name="group_geometry"/>
+    <parameter expression="'selection-model'" name="probe_mode"/>
+    <parameter expression="true" name="probe_selection"/>
+    <parameter expression="false" name="probe_stock_selection"/>
+    <parameter expression="false" name="probe_use_selection_point"/>
+    <parameter expression="false" name="probe_dragged_origin_point"/>
+    <parameter expression="0.3" name="probing_surface_deviation_threshold"/>
+    <parameter expression="0.1" name="probing_surface_deviation_warning_threshold"/>
+    <parameter expression="false" name="allow_probing_x"/>
+    <parameter expression="false" name="allow_probing_y"/>
+    <parameter expression="false" name="allow_probing_z"/>
+    <parameter expression="false" name="allow_probing_x_channel"/>
+    <parameter expression="false" name="allow_probing_x_channel_not_symmetric"/>
+    <parameter expression="false" name="allow_probing_x_channel_with_island"/>
+    <parameter expression="false" name="allow_probing_x_wall"/>
+    <parameter expression="false" name="allow_probing_x_wall_not_symmetric"/>
+    <parameter expression="false" name="allow_probing_y_channel"/>
+    <parameter expression="false" name="allow_probing_y_channel_not_symmetric"/>
+    <parameter expression="false" name="allow_probing_y_channel_with_island"/>
+    <parameter expression="false" name="allow_probing_y_wall"/>
+    <parameter expression="false" name="allow_probing_y_wall_not_symmetric"/>
+    <parameter expression="false" name="allow_probing_xy_inner_corner"/>
+    <parameter expression="false" name="allow_probing_xy_outer_corner"/>
+    <parameter expression="false" name="allow_probing_xy_circular_hole"/>
+    <parameter expression="false" name="allow_probing_xy_circular_partial_hole"/>
+    <parameter expression="false" name="allow_probing_xy_circular_hole_with_island"/>
+    <parameter expression="false" name="allow_probing_xy_circular_partial_hole_with_island"/>
+    <parameter expression="true" name="allow_probing_xy_circular_boss"/>
+    <parameter expression="true" name="allow_probing_xy_circular_partial_boss"/>
+    <parameter expression="false" name="allow_probing_xy_circular_hole_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_circular_hole_island_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_circular_boss_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_hole"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_hole_with_island"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_boss"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_hole_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_hole_island_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_boss_with_z"/>
+    <parameter expression="false" name="allow_probing_xyz_corner"/>
+    <parameter expression="false" name="allow_probing_x_plane_angle"/>
+    <parameter expression="false" name="allow_probing_y_plane_angle"/>
+    <parameter expression="false" name="allow_probing_xy_pcd_hole"/>
+    <parameter expression="false" name="allow_probing_xy_pcd_hole_with_island"/>
+    <parameter expression="false" name="allow_probing_xy_pcd_boss"/>
+    <parameter expression="'probing-xy-circular-boss'" name="probingType"/>
+    <parameter expression="40 mm" name="probeClearance"/>
+    <parameter expression="false" name="doTwoPointCornerProbing"/>
+    <parameter expression="tool_diameter*4.0" name="probingSpacing"/>
+    <parameter expression="1/6" name="probingPartialCirclePositionA"/>
+    <parameter expression="0.5" name="probingPartialCirclePositionB"/>
+    <parameter expression="5/6" name="probingPartialCirclePositionC"/>
+    <parameter expression="10mm" name="probingDistance"/>
+    <parameter expression="true" name="probingTolerance_group"/>
+    <parameter expression="''" name="probingTolerance_info"/>
+    <parameter expression="probingType == 'probing-x-channel' || probingType == 'probing-x-channel-with-island' || probingType == 'probing-x-channel-not-symmetric' || probingType == 'probing-y-channel' || probingType == 'probing-y-channel-with-island' || probingType == 'probing-y-channel-not-symmetric' || probingType == 'probing-x-wall' || probingType == 'probing-x-wall-not-symmetric' || probingType == 'probing-y-wall' || probingType == 'probing-y-wall-not-symmetric' || probingType == 'probing-xy-circular-hole' || probingType == 'probing-xy-circular-hole-with-island' || probingType == 'probing-xy-circular-partial-hole' || probingType == 'probing-xy-circular-partial-hole-with-island' || probingType == 'probing-xy-circular-hole-with-z' || probingType == 'probing-xy-circular-hole-island-with-z' || probingType == 'probing-xy-circular-boss' || probingType == 'probing-xy-circular-boss-with-z' || probingType == 'probing-xy-rectangular-hole' || probingType == 'probing-xy-rectangular-hole-with-island' || probingType == 'probing-xy-rectangular-hole-with-z' || probingType == 'probing-xy-rectangular-hole-island-with-z' || probingType == 'probing-xy-rectangular-boss' || probingType == 'probing-xy-rectangular-boss-with-z' || probingType == 'probing-xy-circular-partial-boss' ||probingType == 'probing-xy-inner-corner' || probingType == 'probing-xy-outer-corner' || probingType == 'probing-xyz-corner' || probingType == 'probing-xy-pcd-hole' || probingType == 'probing-xy-pcd-boss' ||probingType == 'probing-xy-pcd-hole-with-island'||probingType == 'probing-x' || probingType == 'probing-y' || probingType == 'probing-z'" name="isProbingPositionType"/>
+    <parameter expression="30mm" name="probingTolerancePosition"/>
+    <parameter expression="probingType == 'probing-x-channel' || probingType == 'probing-x-channel-with-island' || probingType == 'probing-x-channel-not-symmetric' || probingType == 'probing-y-channel' || probingType == 'probing-y-channel-with-island' || probingType == 'probing-y-channel-not-symmetric' || probingType == 'probing-x-wall' || probingType == 'probing-x-wall-not-symmetric' || probingType == 'probing-y-wall' || probingType == 'probing-y-wall-not-symmetric' || probingType == 'probing-xy-circular-hole' || probingType == 'probing-xy-circular-hole-with-island' || probingType == 'probing-xy-circular-partial-hole' || probingType == 'probing-xy-circular-partial-hole-with-island' || probingType == 'probing-xy-circular-hole-with-z' || probingType == 'probing-xy-circular-hole-island-with-z' || probingType == 'probing-xy-circular-boss' || probingType == 'probing-xy-circular-boss-with-z' || probingType == 'probing-xy-circular-partial-boss' ||probingType == 'probing-xy-rectangular-hole' || probingType == 'probing-xy-rectangular-hole-with-island' || probingType == 'probing-xy-rectangular-hole-with-z' || probingType == 'probing-xy-rectangular-hole-island-with-z' || probingType == 'probing-xy-rectangular-boss' || probingType == 'probing-xy-rectangular-boss-with-z' ||probingType == 'probing-xy-pcd-hole' || probingType == 'probing-xy-pcd-boss' || probingType == 'probing-xy-pcd-hole-with-island'" name="isProbingSizeType"/>
+    <parameter expression="1mm" name="defaultProbingToleranceSize"/>
+    <parameter expression="defaultProbingToleranceSize" name="probingToleranceSize"/>
+    <parameter expression="probingType == 'probing-x-plane-angle' || probingType == 'probing-y-plane-angle' || probingType == 'probing-xy-inner-corner' || probingType == 'probing-xy-outer-corner' || probingType == 'probing-xyz-corner'" name="isProbingAngleType"/>
+    <parameter expression="1deg" name="probingToleranceAngle"/>
+    <parameter expression="false" name="overrideToolView"/>
+    <parameter expression="'useWCS'" name="view_orientation_mode"/>
+    <parameter expression="false" name="view_orientation_axisZ"/>
+    <parameter expression="false" name="view_orientation_flipZ"/>
+    <parameter expression="false" name="view_orientation_cSys"/>
+    <parameter expression="false" name="toolOrientationAccessibilityShadingEnabled"/>
+    <parameter expression="false" name="view_orientation_axisX"/>
+    <parameter expression="false" name="view_orientation_flipX"/>
+    <parameter expression="false" name="view_orientation_axisY"/>
+    <parameter expression="false" name="view_orientation_flipY"/>
+    <parameter expression="(view_orientation_mode == 'surfaceNormalX' || view_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'" name="view_origin_mode"/>
+    <parameter expression="false" name="view_origin_point"/>
+    <parameter expression="true" name="view_model_point"/>
+    <parameter expression="'top center'" name="view_origin_boxPoint"/>
+    <parameter expression="true" name="view_stock_point"/>
+    <parameter expression="false" name="machineOrientationInfo"/>
+    <parameter expression="false" name="tab_heights"/>
+    <parameter expression="true" name="clearanceHeight_group"/>
+    <parameter expression="'from retract height'" name="clearanceHeight_mode"/>
+    <parameter expression="false" name="clearanceHeight_ref"/>
+    <parameter expression="150mm" name="clearanceHeight_offset"/>
+    <parameter expression="267." name="clearanceHeight_value"/>
+    <parameter expression="true" name="clearanceHeight_absolute"/>
+    <parameter expression="true" name="retractHeight_group"/>
+    <parameter expression="'from stock top'" name="retractHeight_mode"/>
+    <parameter expression="false" name="retractHeight_ref"/>
+    <parameter expression="5mm" name="retractHeight_offset"/>
+    <parameter expression="117." name="retractHeight_value"/>
+    <parameter expression="true" name="retractHeight_absolute"/>
+    <parameter expression="true" name="bottomHeight_group"/>
+    <parameter expression="'from probing surface top'" name="bottomHeight_mode"/>
+    <parameter expression="false" name="bottomHeight_ref"/>
+    <parameter expression="((bottomHeight_mode == 'from probing surface top' || bottomHeight_mode == 'from stock top') &amp;&amp; probingType != 'probing-z') ? (-tool_diameter/2) : (0mm)" name="bottomHeight_offset"/>
+    <parameter expression="108.08410161513768" name="bottomHeight_value"/>
+    <parameter expression="true" name="bottomHeight_absolute"/>
+    <parameter expression="false" name="tab_probe_actions"/>
+    <parameter expression="true" name="probe_update_wcs"/>
+    <parameter expression="false" name="probe_overrideWorkOffset"/>
+    <parameter expression="0" name="probeWorkOffset"/>
+    <parameter expression="true" name="probe_displayUpdateWCS"/>
+    <parameter expression="false" name="do_probe_out_of_position_action"/>
+    <parameter expression="'stop-message'" name="probe_out_of_position_action"/>
+    <parameter expression="false" name="do_probe_wrong_size_action"/>
+    <parameter expression="'stop-message'" name="probe_wrong_size_action"/>
+    <parameter expression="false" name="do_probe_askew_action"/>
+    <parameter expression="'stop-message'" name="probe_askew_action"/>
+    <parameter expression="false" name="print_results"/>
+    <parameter expression="false" name="increment_component"/>
+    <parameter expression="0.01mm" name="tolerance"/>
+    <parameter expression="false" name="use_tool_stepdown"/>
+    <parameter expression="1.0mm" name="tool_stepdown"/>
+    <parameter expression="0.2mm" name="tool_finishingStepdown"/>
+    <parameter expression="false" name="use_tool_stepover"/>
+    <parameter expression="tool_diameter * 0.5" name="tool_stepover"/>
+    <parameter expression="tool_diameter * 0.1" name="tool_finishingStepover"/>
+    <parameter expression="'helix'" name="tool_rampType"/>
+    <parameter expression="2.0deg" name="tool_rampAngle"/>
+    <parameter expression="false" name="associatedView"/>
+  </template>
+
+  <template description="Probe WCS1 Z" strategy="probe" unit="millimeters" version="53">
+    <tool guid="fdb0e9c9-b1d2-4854-9901-1bb703777a56" type="probe" unit="millimeters" version="1.4">
+      <description>Palpeur</description>
+      <manufacturer>Renishaw</manufacturer>
+      <product-id>OMP60</product-id>
+      <product-link>https://www.renishaw.fr/fr/omp60-palpeur-a-transmission-optique--6101</product-link>
+      <nc break-control="0" diameter-offset="20" length-offset="20" live-tool="1" manual-tool-change="0" number="20" turret="0"/>
+      <coolant mode="disabled"/>
+      <material name="unspecified"/>
+      <body body-length="100" coolant-support="no" corner-radius="2.5" diameter="5" flute-length="10" overall-length="100" shaft-diameter="4" shoulder-length="10" thread-pitch="0" thread-profile-angle="60"/>
+      <holder description="Maritool CAT40-ER32-2.35" product-id="CAT40-ER32-2.35" vendor="Maritool">
+        <section diameter="38.1" length="0"/>
+        <section diameter="50.038" length="3.7592"/>
+        <section diameter="50.038" length="21.2344"/>
+        <section diameter="39.878" length="0"/>
+        <section diameter="39.878" length="4.4704"/>
+        <section diameter="44.45" length="2.286"/>
+        <section diameter="44.45" length="10.795"/>
+        <section diameter="46.99" length="1.27"/>
+        <section diameter="62.0268" length="0"/>
+        <section diameter="63.5508" length="0.762"/>
+        <section diameter="63.5508" length="3.683"/>
+        <section diameter="56.261" length="2.0066"/>
+        <section diameter="56.261" length="2.9972"/>
+        <section diameter="63.5508" length="2.0066"/>
+        <section diameter="63.5508" length="3.6322"/>
+        <section diameter="62.0268" length="0.762"/>
+        <section diameter="44.45" length="0"/>
+        <section diameter="44.45" length="3.175"/>
+      </holder>
+      <motion clockwise="yes" cutting-feedrate="0" entry-feedrate="5000" exit-feedrate="0" feed-mode="per-minute" plunge-feedrate="0" ramp-feedrate="0" ramp-spindle-rpm="0" retract-feedrate="0" spindle-rpm="0"/>
+      <presets>
+        <preset description="" id="{7db7f145-41f9-fc85-e53a-ed9148387047}" name="Default Preset" tool_feedEntry="5000"/>
+      </presets>
+    </tool>
+    <parameter expression="false" name="advancedMode"/>
+    <parameter expression="false" name="betaMode"/>
+    <parameter expression="false" name="alphaMode"/>
+    <parameter expression="false" name="isXpress"/>
+    <parameter expression="true" name="licenseMultiaxis"/>
+    <parameter expression="true" name="license3D"/>
+    <parameter expression="true" name="metric"/>
+    <parameter expression="false" name="isAssemblyDocument"/>
+    <parameter expression="'operation'" name="context"/>
+    <parameter expression="'probe'" name="strategy"/>
+    <parameter expression="''" name="operation_description"/>
+    <parameter expression="false" name="tab_tool"/>
+    <parameter expression="true" name="group_tool"/>
+    <parameter expression="false" name="sandvik_tool_params"/>
+    <parameter expression="false" name="sandvik_select_assembly"/>
+    <parameter expression="false" name="sandvik_get_tool_recommendation"/>
+    <parameter expression="false" name="tool_select"/>
+    <parameter expression="'probe'" name="tool_type"/>
+    <parameter expression="true" name="undercut"/>
+    <parameter expression="tool_type == 'turning boring' || tool_type == 'turning general' || tool_type == 'turning threading' || tool_type == 'turning grooving' || tool_type == 'turning custom'" name="tool_isTurning"/>
+    <parameter expression="tool_type == 'thread mill' || tool_type == 'form mill' || tool_type == 'tapered mill' || tool_type == 'radius mill' || tool_type == 'dovetail mill' || tool_type == 'face mill' || tool_type == 'bull nose end mill' || tool_type == 'slot mill' || tool_type == 'flat end mill' || tool_type == 'ball end mill' || tool_type == 'lollipop mill' || tool_type == 'chamfer mill'" name="tool_isMill"/>
+    <parameter expression="tool_type == 'counter bore' || tool_type == 'boring bar' || tool_type == 'spot drill' || tool_type == 'counter sink' || tool_type == 'center drill' || tool_type == 'tap right hand' || tool_type == 'tap left hand' || tool_type == 'drill' || tool_type == 'reamer' || tool_type == 'block drill'" name="tool_isDrill"/>
+    <parameter expression="tool_type == 'laser cutter' || tool_type == 'waterjet' || tool_type == 'plasma cutter'" name="tool_isJet"/>
+    <parameter expression="tool_type == 'laser powder' || tool_type == 'laser wire' || tool_type == 'electric arc wire'" name="tool_isDepositing"/>
+    <parameter expression="'tapered_bull_nose'" name="tool_taperedType"/>
+    <parameter expression="'millimeters'" name="tool_unit"/>
+    <parameter expression="20" name="tool_number"/>
+    <parameter expression="tool_number" name="tool_diameterOffset"/>
+    <parameter expression="tool_number" name="tool_lengthOffset"/>
+    <parameter expression="tool_number" name="tool_compensationOffset"/>
+    <parameter expression="0" name="tool_turret"/>
+    <parameter expression="false" name="tool_manualToolChange"/>
+    <parameter expression="false" name="tool_breakControl"/>
+    <parameter expression="true" name="tool_live"/>
+    <parameter expression="'unspecified'" name="tool_material"/>
+    <parameter expression="'Palpeur'" name="tool_description"/>
+    <parameter expression="''" name="tool_comment"/>
+    <parameter expression="'Renishaw'" name="tool_vendor"/>
+    <parameter expression="'OMP60'" name="tool_productId"/>
+    <parameter expression="5." name="tool_diameter"/>
+    <parameter expression="0.0" name="tool_tipDiameter"/>
+    <parameter expression="0.0" name="tool_tipOffset"/>
+    <parameter expression="2.5" name="tool_cornerRadius"/>
+    <parameter expression="tool_taperAngle * 2" name="tool_inclusiveAngle"/>
+    <parameter expression="0.0" name="tool_taperAngle"/>
+    <parameter expression="(tool_type == 'counter sink') ? 90.0deg : 118.0deg" name="tool_tipAngle"/>
+    <parameter expression="60." name="tool_threadProfileAngle"/>
+    <parameter expression="0.0" name="tool_tipLength"/>
+    <parameter expression="10." name="tool_fluteLength"/>
+    <parameter expression="tool_fluteLength" name="tool_shoulderLength"/>
+    <parameter expression="100." name="tool_bodyLength"/>
+    <parameter expression="100." name="tool_overallLength"/>
+    <parameter expression="4." name="tool_shaftDiameter"/>
+    <parameter expression="tool_shaftDiameter/2" name="tool_segmentHeight"/>
+    <parameter expression="tool_shaftDiameter*2" name="tool_segmentDiameterLower"/>
+    <parameter expression="tool_shaftDiameter*2" name="tool_segmentDiameterUpper"/>
+    <parameter expression="Math.max((tool_bodyLength - tool_shoulderLength)/2; 1.0)" name="tool_shaftSegmentHeight"/>
+    <parameter expression="tool_diameter" name="tool_shaftSegmentDiameterLower"/>
+    <parameter expression="tool_shaftDiameter" name="tool_shaftSegmentDiameterUpper"/>
+    <parameter expression="0.0" name="tool_threadPitch"/>
+    <parameter expression="1" name="tool_numberOfTeeth"/>
+    <parameter expression="0" name="tool_numberOfFlutes"/>
+    <parameter expression="false" name="holder_attached"/>
+    <parameter expression="'Maritool CAT40-ER32-2.35'" name="holder_description"/>
+    <parameter expression="''" name="holder_comment"/>
+    <parameter expression="'Maritool'" name="holder_vendor"/>
+    <parameter expression="'CAT40-ER32-2.35'" name="holder_productId"/>
+    <parameter expression="''" name="holder_productLink"/>
+    <parameter expression="''" name="holder_libraryName"/>
+    <parameter expression="'https://www.renishaw.fr/fr/omp60-palpeur-a-transmission-optique--6101'" name="tool_productLink"/>
+    <parameter expression="true" name="group_feedspeed"/>
+    <parameter expression="false" name="sandvik_get_cutting_data"/>
+    <parameter expression="false" name="preset_select"/>
+    <parameter expression="0" name="tool_spindleSpeed"/>
+    <parameter expression="tool_isTurning ? (tool_unit == 'millimeters' ? 25mm : 1.0in) : tool_diameter" name="tool_stockDiameter"/>
+    <parameter expression="1000mmpm" name="tool_feedCutting"/>
+    <parameter expression="3000mmpm" name="tool_feedProbeLink"/>
+    <parameter expression="5000." name="tool_feedEntry"/>
+    <parameter expression="300mmpm" name="tool_feedProbeMeasure"/>
+    <parameter expression="(tool_type=='drill' || tool_type=='reamer' || tool_isDepositing)?(1000mmpm):(tool_feedCutting/3)" name="tool_feedPlunge"/>
+    <parameter expression="tool_feedPlunge" name="tool_feedRetract"/>
+    <parameter expression="true" name="tool_clockwise"/>
+    <parameter expression="'none'" name="featureOperationId"/>
+    <parameter expression="111.58410161513771" name="surfaceZHigh"/>
+    <parameter expression="0.0" name="surfaceZLow"/>
+    <parameter expression="-59.5" name="surfaceXLow"/>
+    <parameter expression="59.5" name="surfaceXHigh"/>
+    <parameter expression="-61.49000000000002" name="surfaceYLow"/>
+    <parameter expression="61.49000000000002" name="surfaceYHigh"/>
+    <parameter expression="112." name="stockZHigh"/>
+    <parameter expression="0.0" name="stockZLow"/>
+    <parameter expression="-57.9915" name="stockXLow"/>
+    <parameter expression="57.9915" name="stockXHigh"/>
+    <parameter expression="-57.9915" name="stockYLow"/>
+    <parameter expression="57.9915" name="stockYHigh"/>
+    <parameter expression="false" name="tab_geometry"/>
+    <parameter expression="true" name="group_geometry"/>
+    <parameter expression="'selection-model'" name="probe_mode"/>
+    <parameter expression="true" name="probe_selection"/>
+    <parameter expression="false" name="probe_stock_selection"/>
+    <parameter expression="false" name="probe_use_selection_point"/>
+    <parameter expression="false" name="probe_dragged_origin_point"/>
+    <parameter expression="0.3" name="probing_surface_deviation_threshold"/>
+    <parameter expression="0.1" name="probing_surface_deviation_warning_threshold"/>
+    <parameter expression="false" name="allow_probing_x"/>
+    <parameter expression="false" name="allow_probing_y"/>
+    <parameter expression="true" name="allow_probing_z"/>
+    <parameter expression="false" name="allow_probing_x_channel"/>
+    <parameter expression="false" name="allow_probing_x_channel_not_symmetric"/>
+    <parameter expression="false" name="allow_probing_x_channel_with_island"/>
+    <parameter expression="false" name="allow_probing_x_wall"/>
+    <parameter expression="false" name="allow_probing_x_wall_not_symmetric"/>
+    <parameter expression="false" name="allow_probing_y_channel"/>
+    <parameter expression="false" name="allow_probing_y_channel_not_symmetric"/>
+    <parameter expression="false" name="allow_probing_y_channel_with_island"/>
+    <parameter expression="false" name="allow_probing_y_wall"/>
+    <parameter expression="false" name="allow_probing_y_wall_not_symmetric"/>
+    <parameter expression="false" name="allow_probing_xy_inner_corner"/>
+    <parameter expression="false" name="allow_probing_xy_outer_corner"/>
+    <parameter expression="false" name="allow_probing_xy_circular_hole"/>
+    <parameter expression="false" name="allow_probing_xy_circular_partial_hole"/>
+    <parameter expression="false" name="allow_probing_xy_circular_hole_with_island"/>
+    <parameter expression="false" name="allow_probing_xy_circular_partial_hole_with_island"/>
+    <parameter expression="false" name="allow_probing_xy_circular_boss"/>
+    <parameter expression="false" name="allow_probing_xy_circular_partial_boss"/>
+    <parameter expression="false" name="allow_probing_xy_circular_hole_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_circular_hole_island_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_circular_boss_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_hole"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_hole_with_island"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_boss"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_hole_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_hole_island_with_z"/>
+    <parameter expression="false" name="allow_probing_xy_rectangular_boss_with_z"/>
+    <parameter expression="false" name="allow_probing_xyz_corner"/>
+    <parameter expression="false" name="allow_probing_x_plane_angle"/>
+    <parameter expression="false" name="allow_probing_y_plane_angle"/>
+    <parameter expression="false" name="allow_probing_xy_pcd_hole"/>
+    <parameter expression="false" name="allow_probing_xy_pcd_hole_with_island"/>
+    <parameter expression="false" name="allow_probing_xy_pcd_boss"/>
+    <parameter expression="'probing-z'" name="probingType"/>
+    <parameter expression="40 mm" name="probeClearance"/>
+    <parameter expression="false" name="doTwoPointCornerProbing"/>
+    <parameter expression="tool_diameter*4.0" name="probingSpacing"/>
+    <parameter expression="1/6" name="probingPartialCirclePositionA"/>
+    <parameter expression="0.5" name="probingPartialCirclePositionB"/>
+    <parameter expression="5/6" name="probingPartialCirclePositionC"/>
+    <parameter expression="10mm" name="probingDistance"/>
+    <parameter expression="true" name="probingTolerance_group"/>
+    <parameter expression="''" name="probingTolerance_info"/>
+    <parameter expression="probingType == 'probing-x-channel' || probingType == 'probing-x-channel-with-island' || probingType == 'probing-x-channel-not-symmetric' || probingType == 'probing-y-channel' || probingType == 'probing-y-channel-with-island' || probingType == 'probing-y-channel-not-symmetric' || probingType == 'probing-x-wall' || probingType == 'probing-x-wall-not-symmetric' || probingType == 'probing-y-wall' || probingType == 'probing-y-wall-not-symmetric' || probingType == 'probing-xy-circular-hole' || probingType == 'probing-xy-circular-hole-with-island' || probingType == 'probing-xy-circular-partial-hole' || probingType == 'probing-xy-circular-partial-hole-with-island' || probingType == 'probing-xy-circular-hole-with-z' || probingType == 'probing-xy-circular-hole-island-with-z' || probingType == 'probing-xy-circular-boss' || probingType == 'probing-xy-circular-boss-with-z' || probingType == 'probing-xy-rectangular-hole' || probingType == 'probing-xy-rectangular-hole-with-island' || probingType == 'probing-xy-rectangular-hole-with-z' || probingType == 'probing-xy-rectangular-hole-island-with-z' || probingType == 'probing-xy-rectangular-boss' || probingType == 'probing-xy-rectangular-boss-with-z' || probingType == 'probing-xy-circular-partial-boss' ||probingType == 'probing-xy-inner-corner' || probingType == 'probing-xy-outer-corner' || probingType == 'probing-xyz-corner' || probingType == 'probing-xy-pcd-hole' || probingType == 'probing-xy-pcd-boss' ||probingType == 'probing-xy-pcd-hole-with-island'||probingType == 'probing-x' || probingType == 'probing-y' || probingType == 'probing-z'" name="isProbingPositionType"/>
+    <parameter expression="5mm" name="probingTolerancePosition"/>
+    <parameter expression="probingType == 'probing-x-channel' || probingType == 'probing-x-channel-with-island' || probingType == 'probing-x-channel-not-symmetric' || probingType == 'probing-y-channel' || probingType == 'probing-y-channel-with-island' || probingType == 'probing-y-channel-not-symmetric' || probingType == 'probing-x-wall' || probingType == 'probing-x-wall-not-symmetric' || probingType == 'probing-y-wall' || probingType == 'probing-y-wall-not-symmetric' || probingType == 'probing-xy-circular-hole' || probingType == 'probing-xy-circular-hole-with-island' || probingType == 'probing-xy-circular-partial-hole' || probingType == 'probing-xy-circular-partial-hole-with-island' || probingType == 'probing-xy-circular-hole-with-z' || probingType == 'probing-xy-circular-hole-island-with-z' || probingType == 'probing-xy-circular-boss' || probingType == 'probing-xy-circular-boss-with-z' || probingType == 'probing-xy-circular-partial-boss' ||probingType == 'probing-xy-rectangular-hole' || probingType == 'probing-xy-rectangular-hole-with-island' || probingType == 'probing-xy-rectangular-hole-with-z' || probingType == 'probing-xy-rectangular-hole-island-with-z' || probingType == 'probing-xy-rectangular-boss' || probingType == 'probing-xy-rectangular-boss-with-z' ||probingType == 'probing-xy-pcd-hole' || probingType == 'probing-xy-pcd-boss' || probingType == 'probing-xy-pcd-hole-with-island'" name="isProbingSizeType"/>
+    <parameter expression="1mm" name="defaultProbingToleranceSize"/>
+    <parameter expression="defaultProbingToleranceSize" name="probingToleranceSize"/>
+    <parameter expression="probingType == 'probing-x-plane-angle' || probingType == 'probing-y-plane-angle' || probingType == 'probing-xy-inner-corner' || probingType == 'probing-xy-outer-corner' || probingType == 'probing-xyz-corner'" name="isProbingAngleType"/>
+    <parameter expression="1deg" name="probingToleranceAngle"/>
+    <parameter expression="false" name="overrideToolView"/>
+    <parameter expression="'useWCS'" name="view_orientation_mode"/>
+    <parameter expression="false" name="view_orientation_axisZ"/>
+    <parameter expression="false" name="view_orientation_flipZ"/>
+    <parameter expression="false" name="view_orientation_cSys"/>
+    <parameter expression="false" name="toolOrientationAccessibilityShadingEnabled"/>
+    <parameter expression="false" name="view_orientation_axisX"/>
+    <parameter expression="false" name="view_orientation_flipX"/>
+    <parameter expression="false" name="view_orientation_axisY"/>
+    <parameter expression="false" name="view_orientation_flipY"/>
+    <parameter expression="(view_orientation_mode == 'surfaceNormalX' || view_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'" name="view_origin_mode"/>
+    <parameter expression="false" name="view_origin_point"/>
+    <parameter expression="true" name="view_model_point"/>
+    <parameter expression="'top center'" name="view_origin_boxPoint"/>
+    <parameter expression="true" name="view_stock_point"/>
+    <parameter expression="false" name="machineOrientationInfo"/>
+    <parameter expression="false" name="tab_heights"/>
+    <parameter expression="true" name="clearanceHeight_group"/>
+    <parameter expression="'from retract height'" name="clearanceHeight_mode"/>
+    <parameter expression="false" name="clearanceHeight_ref"/>
+    <parameter expression="150mm" name="clearanceHeight_offset"/>
+    <parameter expression="267." name="clearanceHeight_value"/>
+    <parameter expression="true" name="clearanceHeight_absolute"/>
+    <parameter expression="true" name="retractHeight_group"/>
+    <parameter expression="'from stock top'" name="retractHeight_mode"/>
+    <parameter expression="false" name="retractHeight_ref"/>
+    <parameter expression="5mm" name="retractHeight_offset"/>
+    <parameter expression="117." name="retractHeight_value"/>
+    <parameter expression="true" name="retractHeight_absolute"/>
+    <parameter expression="true" name="bottomHeight_group"/>
+    <parameter expression="'from probing surface top'" name="bottomHeight_mode"/>
+    <parameter expression="false" name="bottomHeight_ref"/>
+    <parameter expression="((bottomHeight_mode == 'from probing surface top' || bottomHeight_mode == 'from stock top') &amp;&amp; probingType != 'probing-z') ? (-tool_diameter/2) : (0mm)" name="bottomHeight_offset"/>
+    <parameter expression="111.58410161513771" name="bottomHeight_value"/>
+    <parameter expression="true" name="bottomHeight_absolute"/>
+    <parameter expression="false" name="tab_probe_actions"/>
+    <parameter expression="true" name="probe_update_wcs"/>
+    <parameter expression="false" name="probe_overrideWorkOffset"/>
+    <parameter expression="0" name="probeWorkOffset"/>
+    <parameter expression="true" name="probe_displayUpdateWCS"/>
+    <parameter expression="false" name="do_probe_out_of_position_action"/>
+    <parameter expression="'stop-message'" name="probe_out_of_position_action"/>
+    <parameter expression="false" name="do_probe_wrong_size_action"/>
+    <parameter expression="'stop-message'" name="probe_wrong_size_action"/>
+    <parameter expression="false" name="do_probe_askew_action"/>
+    <parameter expression="'stop-message'" name="probe_askew_action"/>
+    <parameter expression="false" name="print_results"/>
+    <parameter expression="false" name="increment_component"/>
+    <parameter expression="0.01mm" name="tolerance"/>
+    <parameter expression="false" name="use_tool_stepdown"/>
+    <parameter expression="1.0mm" name="tool_stepdown"/>
+    <parameter expression="0.2mm" name="tool_finishingStepdown"/>
+    <parameter expression="false" name="use_tool_stepover"/>
+    <parameter expression="tool_diameter * 0.5" name="tool_stepover"/>
+    <parameter expression="tool_diameter * 0.1" name="tool_finishingStepover"/>
+    <parameter expression="'helix'" name="tool_rampType"/>
+    <parameter expression="2.0deg" name="tool_rampAngle"/>
+    <parameter expression="false" name="associatedView"/>
+  </template>
+
+</template-document>
