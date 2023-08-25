@@ -2,29 +2,29 @@
     "data": [
         {
             "BMC": "carbide",
-            "GRADE": "generic",
-            "description": "M6 Taraud",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 6 mm 2017",
             "geometry": {
                 "CSP": false,
                 "DC": 6,
                 "HAND": true,
-                "LB": 65,
+                "LB": 47,
                 "LCF": 13,
-                "NOF": 2,
+                "NOF": 3,
                 "NT": 0,
-                "OAL": 80,
+                "OAL": 57,
                 "RE": 0,
                 "SFDM": 6,
                 "SIG": 0,
                 "TA": 0,
-                "TP": 1,
-                "shoulder-length": 53.3,
+                "TP": 0,
+                "shoulder-length": 22.5,
                 "thread-profile-angle": 0,
-                "tip-diameter": 0,
+                "tip-diameter": 6,
                 "tip-length": 0,
                 "tip-offset": 0
             },
-            "guid": "22ecba46-4351-4872-9c30-b4235acdc651",
+            "guid": "06d22573-d55a-4235-a042-6a59a9328171",
             "holder": {
                 "description": "CT40 - Blank1",
                 "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
@@ -78,190 +78,136 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1647209602367,
+            "last_modified": 1679480237492,
             "post-process": {
                 "break-control": false,
-                "comment": "M6",
-                "diameter-offset": 0,
-                "length-offset": 0,
+                "comment": "Fraise 6mm",
+                "diameter-offset": 4,
+                "length-offset": 4,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 0,
+                "number": 4,
                 "turret": 0
             },
-            "product-id": "134250 M6\n",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-HSS-E-vaporis%C3%A9/p/134250-M6?wayIntoCart=PDP&tId=478",
-            "reference_guid": "30cf620e-c0d6-4661-b189-dcae970e682c",
+            "product-id": "203014 6",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-6?tId=969",
             "start-values": {
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0,
-                        "f_z": 0,
-                        "guid": "be759da2-4997-db43-5769-c2a18dd62241",
-                        "n": 690,
-                        "n_ramp": 0,
+                        "f_n": 0.0297029702970297,
+                        "f_z": 0.025,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 10100,
+                        "n_ramp": 10100,
                         "name": "Default Preset",
-                        "tool-coolant": "air",
+                        "tool-coolant": "flood",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 13.006193585861743,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 0,
-                        "v_f_ramp": 0,
+                        "v_c": 190.3805148075415,
+                        "v_f": 757.5,
+                        "v_f_leadIn": 757.5,
+                        "v_f_leadOut": 757.5,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 300,
                         "v_f_retract": 0
                     }
                 ]
             },
-            "type": "tap right hand",
+            "type": "flat end mill",
             "unit": "millimeters",
             "vendor": "Garant"
         },
         {
-            "BMC": "hss",
+            "BMC": "ti coated",
             "GRADE": "generic",
-            "description": "M5 Drill [Inox]",
+            "description": "Center Drill 1.6 2017",
             "geometry": {
                 "CSP": false,
-                "DC": 4.2,
+                "DC": 4,
                 "HAND": true,
-                "LB": 48,
-                "LCF": 45,
-                "NOF": 1,
+                "LB": 17,
+                "LCF": 4.56,
+                "NOF": 2,
                 "NT": 0,
-                "OAL": 50.08,
+                "OAL": 35,
                 "RE": 0,
-                "SFDM": 4.2,
+                "SFDM": 4,
                 "SIG": 118,
-                "TA": 0,
+                "TA": 60,
                 "TP": 0,
-                "shoulder-length": 45,
+                "shoulder-length": 6,
                 "thread-profile-angle": 0,
-                "tip-diameter": 0,
-                "tip-length": 0,
+                "tip-diameter": 1.6,
+                "tip-length": 2.5,
                 "tip-offset": 0
             },
-            "guid": "26f71bd2-b7c4-45c5-abe5-1353143e1ed3",
-            "holder": {
-                "description": "CT40 - Blank1",
-                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
-                "last_modified": 1649280318909,
-                "product-id": "",
-                "product-link": "",
-                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
-                "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 61.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.43,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.825,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.4,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 61.55
-                    },
-                    {
-                        "height": 3.18,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    }
-                ],
-                "type": "holder",
-                "unit": "millimeters",
-                "vendor": ""
-            },
-            "last_modified": 1657037317252,
+            "guid": "07a09c42-b17e-49a5-b674-47fee4ef7b56",
+            "last_modified": 1680014008567,
             "post-process": {
                 "break-control": false,
-                "comment": "M5",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": true,
+                "comment": "",
+                "diameter-offset": 18,
+                "length-offset": 18,
+                "live": false,
                 "manual-tool-change": false,
-                "number": 0,
+                "number": 18,
                 "turret": 0
             },
-            "product-id": "",
-            "product-link": "",
+            "product-id": "111105 1,6\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Forets-HSS/Foret-%C3%A0-centrer-HSS-E-PM-A-TiAlN/p/111105-1%2C6?wayIntoCart=SRP_SPAREPARTS&referenceFor=111155-7",
             "start-values": {
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.02999999999999999,
-                        "f_z": 0,
-                        "guid": "93cf33a6-4d0d-22fe-0f9f-94b461eb71df",
-                        "n": 909.4568176679734,
+                        "f_n": 0.0015613065326633166,
+                        "f_z": 0.008366834170854272,
+                        "guid": "390fbc1d-4372-2158-738d-d0aecfb6c288",
+                        "n": 19900,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "flood",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 12,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 27.28370453003919,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 300
+                        "v_c": 250.07077522574752,
+                        "v_f": 333,
+                        "v_f_leadIn": 333,
+                        "v_f_leadOut": 333,
+                        "v_f_plunge": 31.07,
+                        "v_f_ramp": 333.333,
+                        "v_f_retract": 333.333
                     }
                 ]
             },
-            "type": "drill",
+            "type": "center drill",
             "unit": "millimeters",
-            "vendor": ""
+            "vendor": "Garant"
         },
         {
             "BMC": "carbide",
-            "GRADE": "generic",
-            "description": "M2.5 Taraud",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc HPC 8 mm 2017",
             "geometry": {
                 "CSP": false,
-                "DC": 2.5,
+                "DC": 8,
                 "HAND": true,
-                "LB": 65,
+                "LB": 37,
                 "LCF": 13,
-                "NOF": 2,
+                "NOF": 3,
                 "NT": 0,
-                "OAL": 80,
+                "OAL": 57,
                 "RE": 0,
-                "SFDM": 6,
+                "SFDM": 8,
                 "SIG": 0,
                 "TA": 0,
-                "TP": 0.45,
-                "shoulder-length": 53.3,
+                "TP": 0,
+                "shoulder-length": 22.5,
                 "thread-profile-angle": 0,
-                "tip-diameter": 0,
+                "tip-diameter": 8,
                 "tip-length": 0,
                 "tip-offset": 0
             },
-            "guid": "30cf620e-c0d6-4661-b189-dcae970e682c",
+            "guid": "315ed2df-779f-45a7-b69f-e44f974c24cd",
             "holder": {
                 "description": "CT40 - Blank1",
                 "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
@@ -315,53 +261,53 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1647209689893,
+            "last_modified": 1680015790244,
             "post-process": {
                 "break-control": false,
-                "comment": "M2.5",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": false,
+                "comment": "Fraise 8mm",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
                 "manual-tool-change": false,
-                "number": 0,
+                "number": 4,
                 "turret": 0
             },
-            "product-id": "",
-            "product-link": "",
+            "product-id": "203014 6",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-HPC-TiSi/p/203014-6?tId=340",
             "start-values": {
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0,
-                        "f_z": 0,
-                        "guid": "be759da2-4997-db43-5769-c2a18dd62241",
-                        "n": 636.6197723675814,
-                        "n_ramp": 0,
+                        "f_n": 0.04,
+                        "f_z": 0.04,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 9500,
+                        "n_ramp": 9500,
                         "name": "Default Preset",
-                        "tool-coolant": "air",
+                        "tool-coolant": "flood",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 5,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 0,
-                        "v_f_ramp": 0,
+                        "v_c": 238.76104167282426,
+                        "v_f": 1140,
+                        "v_f_leadIn": 1140,
+                        "v_f_leadOut": 1140,
+                        "v_f_plunge": 380,
+                        "v_f_ramp": 380,
                         "v_f_retract": 0
                     }
                 ]
             },
-            "type": "tap right hand",
+            "type": "flat end mill",
             "unit": "millimeters",
-            "vendor": ""
+            "vendor": "Holex"
         },
         {
-            "BMC": "hss",
+            "BMC": "unspecified",
             "GRADE": "generic",
-            "description": "M2.5 Drill",
+            "description": "2017",
             "geometry": {
                 "CSP": false,
-                "DC": 2.05,
+                "DC": 2,
                 "HAND": true,
                 "LB": 47.54,
                 "LCF": 45,
@@ -369,7 +315,7 @@
                 "NT": 0,
                 "OAL": 50.08,
                 "RE": 0,
-                "SFDM": 2.05,
+                "SFDM": 2,
                 "SIG": 118,
                 "TA": 0,
                 "TP": 0,
@@ -379,7 +325,7 @@
                 "tip-length": 0,
                 "tip-offset": 0
             },
-            "guid": "5ad5ed15-e807-49a9-a8b7-d1816bdf5c26",
+            "guid": "54b7deb8-2f1d-47cb-aaa0-fc69fca10106",
             "holder": {
                 "description": "CT40 - Blank1",
                 "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
@@ -433,13 +379,249 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279965307,
+            "last_modified": 1680014272722,
             "post-process": {
                 "break-control": false,
-                "comment": "M2.5",
+                "comment": "",
+                "diameter-offset": 19,
+                "length-offset": 19,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 19,
+                "turret": 0
+            },
+            "product-id": "114360 2",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Per%C3%A7age/Outils-de-per%C3%A7age/Forets-h%C3%A9lico%C3%AFdaux/Forets-h%C3%A9lico%C3%AFdaux/Foret-h%C3%A9lico%C3%AFdal-HSS-N-TiN/p/114360-2?wayIntoCart=SRP_SPAREPARTS&referenceFor=115245-1-13",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.03,
+                        "f_z": 0,
+                        "guid": "b0d7c5dc-48d8-cf70-fdeb-05a813a304ea",
+                        "n": 1000,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 6.283185307179586,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 30,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 30
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": "HOLEX"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise longue carbure monobloc MTC 8 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 70,
+                "LCF": 13,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 100,
+                "RE": 0,
+                "SFDM": 8,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 62,
+                "thread-profile-angle": 0,
+                "tip-diameter": 8,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "5d9a6f05-52e9-481e-96cd-8d11abf8defe",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1680102504168,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 8Lmm",
+                "diameter-offset": 7,
+                "length-offset": 7,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 7,
+                "turret": 0
+            },
+            "product-id": "202247 8",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Fraisage/Fraises-%C3%A0-dresser/Fraises-%C3%A0-dresser-monoblocs/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202247-8?tId=954",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.058027079303675046,
+                        "f_z": 0.025789813023855575,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 5170,
+                        "n_ramp": 5170,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 129.93627215247383,
+                        "v_f": 400,
+                        "v_f_leadIn": 400,
+                        "v_f_leadOut": 400,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 300,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "2017",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 92.54,
+                "LCF": 90,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 95.08,
+                "RE": 0,
+                "SFDM": 8,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 90,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "630bf506-ecc6-4365-900d-b3076f03b856",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1679575785500,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
                 "diameter-offset": 0,
                 "length-offset": 0,
-                "live": false,
+                "live": true,
                 "manual-tool-change": false,
                 "number": 0,
                 "turret": 0
@@ -450,22 +632,22 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.5,
                         "f_z": 0,
-                        "guid": "be759da2-4997-db43-5769-c2a18dd62241",
-                        "n": 15527.311521160524,
+                        "guid": "b7f0d52b-4d2a-0886-7a3a-5eaa9c6ecf99",
+                        "n": 1000,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 25.132741228718345,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 1552.7311521160525,
+                        "v_f_plunge": 500,
                         "v_f_ramp": 0,
-                        "v_f_retract": 300
+                        "v_f_retract": 1000
                     }
                 ]
             },
@@ -474,9 +656,9 @@
             "vendor": ""
         },
         {
-            "BMC": "hss",
+            "BMC": "unspecified",
             "GRADE": "generic",
-            "description": "M6 Drill",
+            "description": "2017",
             "geometry": {
                 "CSP": false,
                 "DC": 5,
@@ -497,7 +679,7 @@
                 "tip-length": 0,
                 "tip-offset": 0
             },
-            "guid": "5cf8af0b-4cbe-4bd8-ac38-7aef66bf6ca9",
+            "guid": "8975a676-8d84-4702-8853-0f5923a4dc68",
             "holder": {
                 "description": "CT40 - Blank1",
                 "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
@@ -551,7 +733,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279950858,
+            "last_modified": 1679575983218,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -568,252 +750,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999999,
+                        "f_n": 0.5,
                         "f_z": 0,
-                        "guid": "be759da2-4997-db43-5769-c2a18dd62241",
-                        "n": 6366.200000000001,
+                        "guid": "10e00fe5-4ccc-22ef-3e7b-7fbdf6e26f7c",
+                        "n": 1000,
                         "n_ramp": 0,
                         "name": "Default Preset",
-                        "tool-coolant": "air",
+                        "tool-coolant": "flood",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00003575641672,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 636.62,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 300
-                    }
-                ]
-            },
-            "type": "drill",
-            "unit": "millimeters",
-            "vendor": ""
-        },
-        {
-            "BMC": "hss",
-            "GRADE": "generic",
-            "description": "M8 Drill",
-            "geometry": {
-                "CSP": false,
-                "DC": 6.8,
-                "HAND": true,
-                "LB": 47.54,
-                "LCF": 45,
-                "NOF": 1,
-                "NT": 0,
-                "OAL": 50.08,
-                "RE": 0,
-                "SFDM": 6.8,
-                "SIG": 118,
-                "TA": 0,
-                "TP": 0,
-                "shoulder-length": 45,
-                "thread-profile-angle": 0,
-                "tip-diameter": 0,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "659834b7-cbcf-4ed6-80ee-a733593c39b4",
-            "holder": {
-                "description": "CT40 - Blank1",
-                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
-                "last_modified": 1649280318909,
-                "product-id": "",
-                "product-link": "",
-                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
-                "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 61.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.43,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.825,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.4,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 61.55
-                    },
-                    {
-                        "height": 3.18,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    }
-                ],
-                "type": "holder",
-                "unit": "millimeters",
-                "vendor": ""
-            },
-            "last_modified": 1644241862178,
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 0,
-                "turret": 0
-            },
-            "product-id": "",
-            "product-link": "",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.09999999999999999,
-                        "f_z": 0,
-                        "guid": "688d5405-4ec7-6913-3657-8082a0150c5e",
-                        "n": 4681.030000000001,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "air",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 100.00004832278734,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 468.103,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 300
-                    }
-                ]
-            },
-            "type": "drill",
-            "unit": "millimeters",
-            "vendor": ""
-        },
-        {
-            "BMC": "hss",
-            "GRADE": "generic",
-            "description": "1/8 Drill",
-            "geometry": {
-                "CSP": false,
-                "DC": 8.8,
-                "HAND": true,
-                "LB": 114.4,
-                "LCF": 67.8,
-                "NOF": 3,
-                "NT": 0,
-                "OAL": 125,
-                "RE": 0,
-                "SFDM": 8.8,
-                "SIG": 118,
-                "TA": 0,
-                "TP": 0,
-                "shoulder-length": 81,
-                "thread-profile-angle": 0,
-                "tip-diameter": 0,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "7d320dc9-096f-452c-8e1e-50231c6ad736",
-            "holder": {
-                "description": "CT40 - Blank1",
-                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
-                "last_modified": 1649280318909,
-                "product-id": "",
-                "product-link": "",
-                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
-                "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 61.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.43,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.825,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.4,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 61.55
-                    },
-                    {
-                        "height": 3.18,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    }
-                ],
-                "type": "holder",
-                "unit": "millimeters",
-                "vendor": ""
-            },
-            "last_modified": 1649280157890,
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 0,
-                "turret": 0
-            },
-            "product-id": "114360 8,8\n",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Forets-HSS/Foret-h%C3%A9lico%C3%AFdal-HSS-N-TiN/p/114360-8%2C8?wayIntoCart=SRP_SPAREPARTS&referenceFor=115245-6-10",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.13823007675795088,
-                        "f_z": 0,
-                        "guid": "1c8db020-4adf-fe7a-8a18-f4921b041f7d",
-                        "n": 3617.157797543077,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "air",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 100.00000000000004,
+                        "v_c": 15.707963267948966,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -825,15 +771,487 @@
             },
             "type": "drill",
             "unit": "millimeters",
-            "vendor": "Holex"
+            "vendor": ""
         },
         {
-            "BMC": "hss",
-            "GRADE": "generic",
-            "description": "M12x1 Drill",
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 3 mm 2017",
             "geometry": {
                 "CSP": false,
-                "DC": 11,
+                "DC": 3,
+                "HAND": true,
+                "LB": 37,
+                "LCF": 8,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 57,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 13,
+                "thread-profile-angle": 0,
+                "tip-diameter": 3,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "8b64c2ae-52b3-4f76-a488-cbf17562ad3e",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1680013134752,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 3mm",
+                "diameter-offset": 3,
+                "length-offset": 3,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 3,
+                "turret": 0
+            },
+            "product-id": "202244 3",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-3?tId=969",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.006000000000000003,
+                        "f_z": 0.006000000000000002,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 10610.329539459688,
+                        "n_ramp": 10610.329539459688,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 99.99999999999999,
+                        "v_f": 190.98593171027446,
+                        "v_f_leadIn": 190.98593171027446,
+                        "v_f_leadOut": 190.98593171027446,
+                        "v_f_plunge": 63.661977236758155,
+                        "v_f_ramp": 63.661977236758155,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 8 mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 31,
+                "LCF": 21,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 63,
+                "RE": 0,
+                "SFDM": 8,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 25,
+                "thread-profile-angle": 0,
+                "tip-diameter": 8,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "c466e369-46a8-4200-a11b-ee14a33643d7",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1682419155061,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 8mm",
+                "diameter-offset": 17,
+                "length-offset": 17,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 17,
+                "turret": 0
+            },
+            "product-id": "202244 8",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Fraisage/Fraises-%C3%A0-dresser/Fraises-%C3%A0-dresser-monoblocs/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-8?tId=287",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.03968253968253968,
+                        "f_z": 0.03,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 7560,
+                        "n_ramp": 7560,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 190.00352368911066,
+                        "v_f": 680.4,
+                        "v_f_leadIn": 680.4,
+                        "v_f_leadOut": 680.4,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 300,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise à dresser 2017",
+            "geometry": {
+                "CSP": false,
+                "DC": 50,
+                "HAND": true,
+                "LB": 40,
+                "LCF": 4,
+                "NOF": 5,
+                "NT": 0,
+                "OAL": 50,
+                "RE": 0,
+                "SFDM": 45,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 20,
+                "thread-profile-angle": 0,
+                "tip-diameter": 50,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "e91967eb-b282-4a61-9f58-5e0c24166607",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1680014878633,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise dressage 50",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "215102 50/5 (215104 ALU)",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-modulaire/Fraises-%C3%A0-plaquettes-GARANT/Fraise-%C3%A0-dresser-%C3%A0-90%C2%B0-avec-al%C3%A9sage/p/215102-50%402F5?tId=",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.2033333333333333,
+                        "f_z": 0.122,
+                        "guid": "5cf8311c-4bcb-8464-5a0c-eb9712502168",
+                        "n": 7000,
+                        "n_ramp": 7000,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1099.5574287564275,
+                        "v_f": 4270,
+                        "v_f_leadIn": 4270,
+                        "v_f_leadOut": 4270,
+                        "v_f_plunge": 1423.3333333333333,
+                        "v_f_ramp": 1423.3333333333333,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "millimeters",
+            "vendor": "HOLEX"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 16 mm 2017",
+            "geometry": {
+                "CSP": false,
+                "DC": 16,
+                "HAND": true,
+                "LB": 43,
+                "LCF": 36,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 92,
+                "RE": 0,
+                "SFDM": 16,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 42,
+                "thread-profile-angle": 0,
+                "tip-diameter": 16,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "ed6945af-8cb2-4482-b313-25b4ab91b7ae",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1679480263889,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 16mm",
+                "diameter-offset": 6,
+                "length-offset": 6,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 6,
+                "turret": 0
+            },
+            "product-id": "203014 16",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Fraises-carbure-monobloc/Fraise-carbure-monobloc-MTC-non-rev%C3%AAtu/p/202244-16?tId=969",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.07936507936507936,
+                        "f_z": 0.065,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 3780,
+                        "n_ramp": 3780,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 190.00352368911066,
+                        "v_f": 737.1,
+                        "v_f_leadIn": 737.1,
+                        "v_f_leadOut": 737.1,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 300,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "2017",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
                 "HAND": true,
                 "LB": 47.54,
                 "LCF": 45,
@@ -841,7 +1259,7 @@
                 "NT": 0,
                 "OAL": 50.08,
                 "RE": 0,
-                "SFDM": 6.8,
+                "SFDM": 4,
                 "SIG": 118,
                 "TA": 0,
                 "TP": 0,
@@ -851,7 +1269,7 @@
                 "tip-length": 0,
                 "tip-offset": 0
             },
-            "guid": "9e87ae29-4c88-4808-85a3-2aa2a1640cf3",
+            "guid": "fbad429f-fe40-4038-9db7-967eb58b811f",
             "holder": {
                 "description": "CT40 - Blank1",
                 "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
@@ -905,635 +1323,45 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1683133015708,
+            "last_modified": 1679480272192,
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": false,
+                "diameter-offset": 17,
+                "length-offset": 17,
+                "live": true,
                 "manual-tool-change": false,
-                "number": 0,
+                "number": 17,
                 "turret": 0
             },
             "product-id": "",
-            "product-link": "",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Per%C3%A7age/Outils-de-per%C3%A7age/Forets-h%C3%A9lico%C3%AFdaux/Forets-h%C3%A9lico%C3%AFdaux/Foret-h%C3%A9lico%C3%AFdal-HSS-N-TiN/p/114360-4?wayIntoCart=SRP_SPAREPARTS&referenceFor=115245-1-13",
             "start-values": {
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.030000000000000002,
+                        "f_n": 0.5,
                         "f_z": 0,
-                        "guid": "688d5405-4ec7-6913-3657-8082a0150c5e",
-                        "n": 347.24714856413533,
+                        "guid": "37d5341e-4dd4-9bad-b6c4-08ba03805f15",
+                        "n": 1000,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "flood",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 12.000000000000002,
+                        "v_c": 12.566370614359172,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 10.41741445692406,
+                        "v_f_plunge": 500,
                         "v_f_ramp": 0,
-                        "v_f_retract": 300
+                        "v_f_retract": 500
                     }
                 ]
             },
             "type": "drill",
             "unit": "millimeters",
             "vendor": ""
-        },
-        {
-            "BMC": "carbide",
-            "GRADE": "generic",
-            "description": "M5 Taraud [inox]",
-            "geometry": {
-                "CSP": false,
-                "DC": 5,
-                "HAND": true,
-                "LB": 40,
-                "LCF": 12.5,
-                "NOF": 3,
-                "NT": 0,
-                "OAL": 70,
-                "RE": 0,
-                "SFDM": 6,
-                "SIG": 0,
-                "TA": 0,
-                "TP": 0.8,
-                "shoulder-length": 30,
-                "thread-profile-angle": 0,
-                "tip-diameter": 0,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "c9338600-da60-41be-bc43-41d66faa8a9e",
-            "holder": {
-                "description": "CT40 - Blank1",
-                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
-                "last_modified": 1649280318909,
-                "product-id": "",
-                "product-link": "",
-                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
-                "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 61.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.43,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.825,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.4,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 61.55
-                    },
-                    {
-                        "height": 3.18,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    }
-                ],
-                "type": "holder",
-                "unit": "millimeters",
-                "vendor": ""
-            },
-            "last_modified": 1657036324188,
-            "post-process": {
-                "break-control": false,
-                "comment": "M5",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 0,
-                "turret": 0
-            },
-            "product-id": "135960 M5\n",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-GARANT-Master-Tap-HSS-E-PM-Type-C-AlTiX/p/135960-M5?tId=765&wayIntoCart=PDP_SPAREPARTS&referenceFor=146735-M3-12",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0,
-                        "f_z": 0,
-                        "guid": "93cf33a6-4d0d-22fe-0f9f-94b461eb71df",
-                        "n": 400,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "flood",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 6.283185307179586,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 0,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 0
-                    }
-                ]
-            },
-            "type": "tap right hand",
-            "unit": "millimeters",
-            "vendor": "Garant"
-        },
-        {
-            "BMC": "carbide",
-            "GRADE": "generic",
-            "description": "M3 Taraud (long)",
-            "geometry": {
-                "CSP": false,
-                "DC": 3,
-                "HAND": true,
-                "LB": 70,
-                "LCF": 9,
-                "NOF": 3,
-                "NT": 0,
-                "OAL": 100,
-                "RE": 0,
-                "SFDM": 3.5,
-                "SIG": 0,
-                "TA": 0,
-                "TP": 0.5,
-                "shoulder-length": 70,
-                "thread-profile-angle": 0,
-                "tip-diameter": 0,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "dbdbf759-20e6-4082-afc3-b4c295d689d5",
-            "holder": {
-                "description": "CT40 - Blank1",
-                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
-                "last_modified": 1649280318909,
-                "product-id": "",
-                "product-link": "",
-                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
-                "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 61.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.43,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.825,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.4,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 61.55
-                    },
-                    {
-                        "height": 3.18,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    }
-                ],
-                "type": "holder",
-                "unit": "millimeters",
-                "vendor": ""
-            },
-            "last_modified": 1648830405992,
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 0,
-                "turret": 0
-            },
-            "product-id": "131770 M3",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-GARANT-Master-Tap-HSS-E-PM-extra-long-Type-B-6HX-AlTiX/p/131770-M3",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0,
-                        "f_z": 0,
-                        "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
-                        "n": 1380,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "air",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 13.006193585861743,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 0,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 0
-                    }
-                ]
-            },
-            "type": "tap right hand",
-            "unit": "millimeters",
-            "vendor": "Garant"
-        },
-        {
-            "BMC": "hss",
-            "GRADE": "generic",
-            "description": "1/8 Taraud",
-            "geometry": {
-                "CSP": false,
-                "DC": 9.729999999999999,
-                "HAND": true,
-                "LB": 55.46,
-                "LCF": 19.459999999999997,
-                "NOF": 3,
-                "NT": 0,
-                "OAL": 90,
-                "RE": 0,
-                "SFDM": 7,
-                "SIG": 0,
-                "TA": 0,
-                "TP": 0.907,
-                "shoulder-length": 36,
-                "thread-profile-angle": 0,
-                "tip-diameter": 0,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "dc3f3aff-ab8e-4e16-924a-166bf27d0024",
-            "holder": {
-                "description": "CT40 - Blank1",
-                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
-                "last_modified": 1649280318909,
-                "product-id": "",
-                "product-link": "",
-                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
-                "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 61.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.43,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.825,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.4,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 61.55
-                    },
-                    {
-                        "height": 3.18,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    }
-                ],
-                "type": "holder",
-                "unit": "millimeters",
-                "vendor": ""
-            },
-            "last_modified": 1649280164011,
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 0,
-                "turret": 0
-            },
-            "product-id": "137340",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-HSS-E-PM-Chrome-dur/p/137340-G1%402F8?tId=932",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0,
-                        "f_z": 0,
-                        "guid": "15041cee-49c5-aa4b-b9a8-bf9a3b1254e4",
-                        "n": 916,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "air",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 28.00001001179667,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 0,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 0
-                    }
-                ]
-            },
-            "type": "tap right hand",
-            "unit": "millimeters",
-            "vendor": "Garant"
-        },
-        {
-            "BMC": "hss",
-            "GRADE": "generic",
-            "description": "M3 Drill (long)",
-            "geometry": {
-                "CSP": false,
-                "DC": 2.5,
-                "HAND": true,
-                "LB": 75,
-                "LCF": 58.3,
-                "NOF": 2,
-                "NT": 0,
-                "OAL": 95,
-                "RE": 0,
-                "SFDM": 2.5,
-                "SIG": 118,
-                "TA": 0,
-                "TP": 0,
-                "shoulder-length": 62,
-                "thread-profile-angle": 0,
-                "tip-diameter": 0,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "f60057cb-00cc-42fe-8ddf-8ae5fc4a854f",
-            "holder": {
-                "description": "CT40 - Blank1",
-                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
-                "last_modified": 1649280318909,
-                "product-id": "",
-                "product-link": "",
-                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
-                "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 61.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.43,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.825,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.4,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 61.55
-                    },
-                    {
-                        "height": 3.18,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    }
-                ],
-                "type": "holder",
-                "unit": "millimeters",
-                "vendor": ""
-            },
-            "last_modified": 1648830233602,
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 0,
-                "turret": 0
-            },
-            "product-id": "116040 2,5",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Forets-HSS/Foret-h%C3%A9lico%C3%AFdal-long-HSS-W-non-rev%C3%AAtu/p/116040-2%2C5\t\t\t\t\t",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.015707957651346176,
-                        "f_z": 0,
-                        "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
-                        "n": 12732.399999999996,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "air",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 100.00003575641668,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 200,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 300
-                    }
-                ]
-            },
-            "type": "drill",
-            "unit": "millimeters",
-            "vendor": "GARANT"
-        },
-        {
-            "BMC": "carbide",
-            "GRADE": "generic",
-            "description": "M8 Taraud",
-            "geometry": {
-                "CSP": false,
-                "DC": 8,
-                "HAND": true,
-                "LB": 75,
-                "LCF": 14,
-                "NOF": 3,
-                "NT": 0,
-                "OAL": 90,
-                "RE": 0,
-                "SFDM": 8,
-                "SIG": 0,
-                "TA": 0,
-                "TP": 1.25,
-                "shoulder-length": 60,
-                "thread-profile-angle": 0,
-                "tip-diameter": 0,
-                "tip-length": 0,
-                "tip-offset": 0
-            },
-            "guid": "fed13d3c-5c16-4043-8fe5-5e0fd00f8035",
-            "holder": {
-                "description": "CT40 - Blank1",
-                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
-                "last_modified": 1649280318909,
-                "product-id": "",
-                "product-link": "",
-                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
-                "segments": [
-                    {
-                        "height": 1,
-                        "lower-diameter": 61.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.43,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.825,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 56.25
-                    },
-                    {
-                        "height": 2.107,
-                        "lower-diameter": 56.25,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 3.4,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 63.55
-                    },
-                    {
-                        "height": 1,
-                        "lower-diameter": 63.55,
-                        "upper-diameter": 61.55
-                    },
-                    {
-                        "height": 3.18,
-                        "lower-diameter": 44.45,
-                        "upper-diameter": 44.45
-                    }
-                ],
-                "type": "holder",
-                "unit": "millimeters",
-                "vendor": ""
-            },
-            "last_modified": 1644241867504,
-            "post-process": {
-                "break-control": false,
-                "comment": "M8",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 0,
-                "turret": 0
-            },
-            "product-id": "134250 M8\n",
-            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage-monobloc/Tarauds/Taraud-machine-HSS-E-vaporis%C3%A9/p/134250-M8?wayIntoCart=PDP&tId=478",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0,
-                        "f_z": 0,
-                        "guid": "688d5405-4ec7-6913-3657-8082a0150c5e",
-                        "n": 517,
-                        "n_ramp": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "air",
-                        "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 12.993627215247384,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0,
-                        "v_f_plunge": 0,
-                        "v_f_ramp": 0,
-                        "v_f_retract": 0
-                    }
-                ]
-            },
-            "type": "tap right hand",
-            "unit": "millimeters",
-            "vendor": "Garant"
         }
     ]
 }

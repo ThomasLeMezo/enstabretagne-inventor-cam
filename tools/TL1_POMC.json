@@ -547,148 +547,6 @@
             "vendor": ""
         },
         {
-            "BMC": "carbide",
-            "description": "W14 EXT PARTIAL",
-            "geometry": {
-                "EPSR": 0,
-                "INSD": 0.393701,
-                "LH": 0,
-                "OAL": 0.649606,
-                "RA": 0,
-                "RE": 0,
-                "S": 0.15625,
-                "SC": "thread iso triple",
-                "SCTY": "T",
-                "TC": "M",
-                "tool_grooveWidth": 0,
-                "tool_insertWidth": 0.141732,
-                "tool_internalThread": false
-            },
-            "guid": "{2ccdeeca-5688-4005-80dc-a059be0fc30b}",
-            "holder": {
-                "CW": 0.787402,
-                "H": 0.787402,
-                "HAND": "R",
-                "LH": 1.1811,
-                "MTP": "D",
-                "OAL": 3.50394,
-                "THSC": "thread straight",
-                "TP": 0.0714286,
-                "W": 0.787402,
-                "tool_endCutting": false,
-                "tool_leadingAngle": 0,
-                "tool_roundShank": false,
-                "tool_sideCutting": false,
-                "tool_trailingAngle": 0
-            },
-            "post-process": {
-                "break-control": false,
-                "comment": "HB7010",
-                "compensation-offset": 69,
-                "manual-tool-change": true,
-                "number": 69,
-                "turret": 0
-            },
-            "product-id": "270700",
-            "product-link": "",
-            "setup": {
-                "HAND": true,
-                "angle": 0,
-                "compensation": "tip tangent"
-            },
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "guid": "ee42eb55-44d0-c791-415a-8b99a87b694a",
-                        "n": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "disabled",
-                        "use-constant-surface-speed": true,
-                        "use-feed-per-revolution": false,
-                        "v_c": 656.1679790026246,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0
-                    }
-                ]
-            },
-            "type": "turning threading",
-            "unit": "inches",
-            "vendor": "Garant 271991"
-        },
-        {
-            "BMC": "carbide",
-            "description": "W11 EXT PARTIAL",
-            "geometry": {
-                "EPSR": 0,
-                "INSD": 0.393701,
-                "LH": 0,
-                "OAL": 0.649606,
-                "RA": 0,
-                "RE": 0,
-                "S": 0.15625,
-                "SC": "thread iso triple",
-                "SCTY": "T",
-                "TC": "M",
-                "tool_grooveWidth": 0,
-                "tool_insertWidth": 0.141732,
-                "tool_internalThread": false
-            },
-            "guid": "{2dc7299d-f3ba-490d-bce9-5425a0da2b27}",
-            "holder": {
-                "CW": 0.787402,
-                "H": 0.787402,
-                "HAND": "R",
-                "LH": 1.1811,
-                "MTP": "D",
-                "OAL": 3.50394,
-                "THSC": "thread straight",
-                "TP": 0.0909091,
-                "W": 0.787402,
-                "tool_endCutting": false,
-                "tool_leadingAngle": 0,
-                "tool_roundShank": false,
-                "tool_sideCutting": false,
-                "tool_trailingAngle": 0
-            },
-            "post-process": {
-                "break-control": false,
-                "comment": "HB7010",
-                "compensation-offset": 70,
-                "manual-tool-change": true,
-                "number": 70,
-                "turret": 0
-            },
-            "product-id": "270700",
-            "product-link": "",
-            "setup": {
-                "HAND": true,
-                "angle": 0,
-                "compensation": "tip tangent"
-            },
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "guid": "6db9be2e-441b-b5de-276e-a3ae5e7f2797",
-                        "n": 0,
-                        "name": "Default Preset",
-                        "tool-coolant": "disabled",
-                        "use-constant-surface-speed": true,
-                        "use-feed-per-revolution": false,
-                        "v_c": 656.1679790026246,
-                        "v_f": 0,
-                        "v_f_leadIn": 0,
-                        "v_f_leadOut": 0
-                    }
-                ]
-            },
-            "type": "turning threading",
-            "unit": "inches",
-            "vendor": "Garant 271991"
-        },
-        {
             "BMC": "hss",
             "GRADE": "generic",
             "description": "",
@@ -1970,15 +1828,14 @@
             "geometry": {
                 "EPSR": 0,
                 "INSD": 10,
-                "LH": 0,
                 "OAL": 16.5,
                 "RA": 0,
                 "RE": 0,
                 "S": 3.96875,
                 "SC": "thread iso triple",
                 "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
                 "TC": "M",
-                "tool_grooveWidth": 0,
                 "tool_insertWidth": 3.44,
                 "tool_internalThread": false
             },
@@ -1993,12 +1850,13 @@
                 "THSC": "thread straight",
                 "TP": 1.75,
                 "W": 20,
-                "tool_endCutting": false,
+                "tool_endCutting": true,
                 "tool_leadingAngle": 0,
                 "tool_roundShank": false,
-                "tool_sideCutting": false,
+                "tool_sideCutting": true,
                 "tool_trailingAngle": 0
             },
+            "last_modified": 1677013816514,
             "post-process": {
                 "break-control": false,
                 "comment": "HB7010",
@@ -2012,7 +1870,8 @@
             "setup": {
                 "HAND": true,
                 "angle": 0,
-                "compensation": "tip tangent"
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
             },
             "start-values": {
                 "presets": [
@@ -2022,9 +1881,10 @@
                         "n": 0,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
-                        "use-constant-surface-speed": true,
+                        "use-constant-surface-speed": false,
+                        "use-depth-of-cut": false,
                         "use-feed-per-revolution": false,
-                        "v_c": 200,
+                        "v_c": 0,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0
@@ -3751,6 +3611,79 @@
             "type": "turning grooving",
             "unit": "millimeters",
             "vendor": "Grant"
+        },
+        {
+            "BMC": "carbide",
+            "description": "0.5-1.5mm INT PARTIAL",
+            "geometry": {
+                "EPSR": 0,
+                "INSD": 9.63513,
+                "OAL": 16,
+                "RA": 0,
+                "RE": 0,
+                "S": 3.6,
+                "SC": "thread iso double",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "CE",
+                "TC": "M",
+                "tool_insertWidth": 3.6,
+                "tool_internalThread": true
+            },
+            "guid": "ef739492-3b73-4041-b437-d5c0e3af4b23",
+            "holder": {
+                "CW": 27.6,
+                "H": 25,
+                "HAND": "R",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 40,
+                "THSC": "thread face",
+                "TP": 0.5,
+                "W": 25,
+                "tool_endCutting": true,
+                "tool_leadingAngle": 0,
+                "tool_roundShank": true,
+                "tool_sideCutting": true,
+                "tool_trailingAngle": 0
+            },
+            "last_modified": 1677073565856,
+            "post-process": {
+                "break-control": false,
+                "comment": "HB7010",
+                "compensation-offset": 70,
+                "manual-tool-change": false,
+                "number": 70,
+                "turret": 0
+            },
+            "product-id": "271900 IR | 270792 0,5-1,5 | 272171 45/16",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Filetage/Filetage/Plaquettes-de-filetage/Plaquette-%C3%A0-profil-partiel-60%C2%B0-int%C3%A9rieur%2C-droite-HB7010/p/270792-0%2C5-1%2C5?tId=768&wayIntoCart=PDP_SPAREPARTS&referenceFor=271900-IR",
+            "setup": {
+                "HAND": true,
+                "angle": 90,
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "guid": "6db9be2e-441b-b5de-276e-a3ae5e7f2797",
+                        "n": 400,
+                        "name": "Default Preset",
+                        "tool-coolant": "disabled",
+                        "use-constant-surface-speed": false,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": false,
+                        "v_c": 0,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0
+                    }
+                ]
+            },
+            "type": "turning threading",
+            "unit": "millimeters",
+            "vendor": "Garant 272171 45/16"
         },
         {
             "BMC": "carbide",

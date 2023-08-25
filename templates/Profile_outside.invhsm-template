@@ -3,8 +3,8 @@
 
   <user-description></user-description>
 
-  <template description="Face" strategy="turningFace" unit="millimeters" version="53">
-    <tool guid="{492d6b23-08fb-440e-8d82-13a37c84e401}" type="turning general" unit="millimeters" version="1.4">
+  <template description="Face" strategy="turningFace" unit="millimeters" version="54">
+    <tool guid="{492d6b23-08fb-440e-8d82-13a37c84e401}" type="turning general" unit="millimeters" version="1.5">
       <description>Dressage</description>
       <comment>Plaquette 260158 HU7310</comment>
       <manufacturer>Garant</manufacturer>
@@ -17,7 +17,15 @@
       <turning-setup compensation="tip tangent" right-spindle="no" tool-angle="0"/>
       <motion clockwise="yes" cutting-feedrate="0.2" entry-feedrate="0.1" exit-feedrate="0.1" feed-mode="per-revolution" plunge-feedrate="0" ramp-feedrate="0" ramp-spindle-rpm="0" retract-feedrate="0" surface-speed="300000"/>
       <presets>
-        <preset description="" id="{95cbb3d3-440c-ec4b-7bea-16a8c8c7c520}" name="Default Preset" tool_coolant="disabled" tool_feedCuttingRel="0.20000000000000001" tool_feedEntryRel="0.10000000000000002" tool_feedExitRel="0.10000000000000002" tool_surfaceSpeed="300000" tool_useConstantSurfaceSpeed="true" tool_useFeedPerRevolution="true"/>
+        <preset description="" id="{95cbb3d3-440c-ec4b-7bea-16a8c8c7c520}" name="Default Preset">
+          <parameter key="tool_coolant" value="disabled"/>
+          <parameter key="tool_useConstantSurfaceSpeed" value="true"/>
+          <parameter key="tool_surfaceSpeed" value="300000"/>
+          <parameter key="tool_useFeedPerRevolution" value="true"/>
+          <parameter key="tool_feedCuttingRel" value="0.20000000000000001"/>
+          <parameter key="tool_feedEntryRel" value="0.10000000000000002"/>
+          <parameter key="tool_feedExitRel" value="0.10000000000000002"/>
+        </preset>
       </presets>
     </tool>
     <parameter expression="false" name="advancedMode"/>
@@ -144,44 +152,44 @@
     <parameter expression="0.1" name="tool_feedExitRel"/>
     <parameter expression="true" name="tool_clockwise"/>
     <parameter expression="'none'" name="featureOperationId"/>
-    <parameter expression="0.0" name="surfaceZHigh"/>
-    <parameter expression="-110." name="surfaceZLow"/>
-    <parameter expression="-62.48605416720311" name="surfaceXLow"/>
-    <parameter expression="62.48605416720311" name="surfaceXHigh"/>
-    <parameter expression="-62.48605416720311" name="surfaceYLow"/>
-    <parameter expression="62.48605416720311" name="surfaceYHigh"/>
-    <parameter expression="5." name="stockZHigh"/>
-    <parameter expression="-125." name="stockZLow"/>
-    <parameter expression="-70." name="stockXLow"/>
-    <parameter expression="70." name="stockXHigh"/>
-    <parameter expression="-70." name="stockYLow"/>
-    <parameter expression="70." name="stockYHigh"/>
+    <parameter expression="30." name="surfaceZHigh"/>
+    <parameter expression="15." name="surfaceZLow"/>
+    <parameter expression="-12.448" name="surfaceXLow"/>
+    <parameter expression="12.448" name="surfaceXHigh"/>
+    <parameter expression="-12.448" name="surfaceYLow"/>
+    <parameter expression="12.448" name="surfaceYHigh"/>
+    <parameter expression="32." name="stockZHigh"/>
+    <parameter expression="2." name="stockZLow"/>
+    <parameter expression="-16." name="stockXLow"/>
+    <parameter expression="16." name="stockXHigh"/>
+    <parameter expression="-16." name="stockYLow"/>
+    <parameter expression="16." name="stockYHigh"/>
     <parameter expression="false" name="tab_geometry"/>
     <parameter expression="true" name="group_geometry"/>
     <parameter expression="true" name="frontHeight_group"/>
     <parameter expression="'model front'" name="frontHeight_mode"/>
     <parameter expression="false" name="frontHeight_ref"/>
     <parameter expression="0mm" name="frontHeight_offset"/>
-    <parameter expression="0.0" name="frontHeight_value"/>
+    <parameter expression="30." name="frontHeight_value"/>
     <parameter expression="true" name="frontHeight_absolute"/>
     <parameter expression="false" name="tab_radii"/>
     <parameter expression="true" name="outerClearance_group"/>
     <parameter expression="'from retract radius'" name="outerClearance_mode"/>
     <parameter expression="false" name="outerClearance_ref"/>
     <parameter expression="10mm" name="outerClearance_offset"/>
-    <parameter expression="85." name="outerClearance_value"/>
+    <parameter expression="31." name="outerClearance_value"/>
     <parameter expression="true" name="outerClearance_absolute"/>
     <parameter expression="true" name="outerRetract_group"/>
     <parameter expression="'from stock od'" name="outerRetract_mode"/>
     <parameter expression="false" name="outerRetract_ref"/>
     <parameter expression="5mm" name="outerRetract_offset"/>
-    <parameter expression="75." name="outerRetract_value"/>
+    <parameter expression="21." name="outerRetract_value"/>
     <parameter expression="true" name="outerRetract_absolute"/>
     <parameter expression="true" name="outerRadius_group"/>
     <parameter expression="'from stock od'" name="outerRadius_mode"/>
     <parameter expression="false" name="outerRadius_ref"/>
     <parameter expression="0mm" name="outerRadius_offset"/>
-    <parameter expression="70." name="outerRadius_value"/>
+    <parameter expression="16." name="outerRadius_value"/>
     <parameter expression="true" name="outerRadius_absolute"/>
     <parameter expression="true" name="innerRadius_group"/>
     <parameter expression="'from stock id'" name="innerRadius_mode"/>
@@ -229,7 +237,7 @@
     <parameter expression="Math.max(tool_feedCuttingRel; Math.max(tool_feedEntryRel; tool_feedExitRel))" name="highFeedratePerRev"/>
     <parameter expression="true" name="approachRetract_group"/>
     <parameter expression="'safe Z'" name="approachZ"/>
-    <parameter expression="'safe Z'" name="retractZ"/>
+    <parameter expression="'last point'" name="retractZ"/>
     <parameter expression="false" name="overrideSafeZ"/>
     <parameter expression="'from wcs'" name="safeZ_mode"/>
     <parameter expression="0mm" name="safeZ_offset"/>
@@ -256,8 +264,8 @@
     <parameter expression="false" name="associatedView"/>
   </template>
 
-  <template description="Profile Roughing" strategy="turningProfileRoughing" unit="millimeters" version="53">
-    <tool guid="{492d6b23-08fb-440e-8d82-13a37c84e401}" type="turning general" unit="millimeters" version="1.4">
+  <template description="Profile Roughing" strategy="turningProfileRoughing" unit="millimeters" version="54">
+    <tool guid="{492d6b23-08fb-440e-8d82-13a37c84e401}" type="turning general" unit="millimeters" version="1.5">
       <description>Dressage</description>
       <comment>Plaquette 260158 HU7310</comment>
       <manufacturer>Garant</manufacturer>
@@ -270,7 +278,15 @@
       <turning-setup compensation="tip tangent" right-spindle="no" tool-angle="0"/>
       <motion clockwise="yes" cutting-feedrate="0.2" entry-feedrate="0.1" exit-feedrate="0.1" feed-mode="per-revolution" plunge-feedrate="0" ramp-feedrate="0" ramp-spindle-rpm="0" retract-feedrate="0" surface-speed="300000"/>
       <presets>
-        <preset description="" id="{95cbb3d3-440c-ec4b-7bea-16a8c8c7c520}" name="Default Preset" tool_coolant="disabled" tool_feedCuttingRel="0.20000000000000001" tool_feedEntryRel="0.10000000000000002" tool_feedExitRel="0.10000000000000002" tool_surfaceSpeed="300000" tool_useConstantSurfaceSpeed="true" tool_useFeedPerRevolution="true"/>
+        <preset description="" id="{95cbb3d3-440c-ec4b-7bea-16a8c8c7c520}" name="Default Preset">
+          <parameter key="tool_coolant" value="disabled"/>
+          <parameter key="tool_useConstantSurfaceSpeed" value="true"/>
+          <parameter key="tool_surfaceSpeed" value="300000"/>
+          <parameter key="tool_useFeedPerRevolution" value="true"/>
+          <parameter key="tool_feedCuttingRel" value="0.20000000000000001"/>
+          <parameter key="tool_feedEntryRel" value="0.10000000000000002"/>
+          <parameter key="tool_feedExitRel" value="0.10000000000000002"/>
+        </preset>
       </presets>
     </tool>
     <parameter expression="false" name="advancedMode"/>
@@ -409,18 +425,18 @@
     <parameter expression="0.1" name="tool_feedExitRel"/>
     <parameter expression="true" name="tool_clockwise"/>
     <parameter expression="'none'" name="featureOperationId"/>
-    <parameter expression="0.0" name="surfaceZHigh"/>
-    <parameter expression="-110." name="surfaceZLow"/>
-    <parameter expression="-62.48605416720311" name="surfaceXLow"/>
-    <parameter expression="62.48605416720311" name="surfaceXHigh"/>
-    <parameter expression="-62.48605416720311" name="surfaceYLow"/>
-    <parameter expression="62.48605416720311" name="surfaceYHigh"/>
-    <parameter expression="5." name="stockZHigh"/>
-    <parameter expression="-125." name="stockZLow"/>
-    <parameter expression="-70." name="stockXLow"/>
-    <parameter expression="70." name="stockXHigh"/>
-    <parameter expression="-70." name="stockYLow"/>
-    <parameter expression="70." name="stockYHigh"/>
+    <parameter expression="30." name="surfaceZHigh"/>
+    <parameter expression="15." name="surfaceZLow"/>
+    <parameter expression="-12.448" name="surfaceXLow"/>
+    <parameter expression="12.448" name="surfaceXHigh"/>
+    <parameter expression="-12.448" name="surfaceYLow"/>
+    <parameter expression="12.448" name="surfaceYHigh"/>
+    <parameter expression="32." name="stockZHigh"/>
+    <parameter expression="2." name="stockZLow"/>
+    <parameter expression="-16." name="stockXLow"/>
+    <parameter expression="16." name="stockXHigh"/>
+    <parameter expression="-16." name="stockYLow"/>
+    <parameter expression="16." name="stockYHigh"/>
     <parameter expression="false" name="useShaftAndHolder"/>
     <parameter expression="'discard'" name="shaftAndHolderMode"/>
     <parameter expression="false" name="tab_geometry"/>
@@ -431,15 +447,15 @@
     <parameter expression="'model front'" name="frontHeight_mode"/>
     <parameter expression="false" name="frontHeight_ref"/>
     <parameter expression="0mm" name="frontHeight_offset"/>
-    <parameter expression="0.0" name="frontHeight_value"/>
+    <parameter expression="30." name="frontHeight_value"/>
     <parameter expression="true" name="frontHeight_absolute"/>
     <parameter expression="'contact point'" name="limitMode_FrontGroup"/>
     <parameter expression="0mm" name="tangentialExtensionInDistance"/>
     <parameter expression="true" name="backHeight_group"/>
     <parameter expression="'model back'" name="backHeight_mode"/>
     <parameter expression="false" name="backHeight_ref"/>
-    <parameter expression="0mm" name="backHeight_offset"/>
-    <parameter expression="-110." name="backHeight_value"/>
+    <parameter expression="-4 mm" name="backHeight_offset"/>
+    <parameter expression="11." name="backHeight_value"/>
     <parameter expression="true" name="backHeight_absolute"/>
     <parameter expression="'contact point'" name="backLimitMode"/>
     <parameter expression="0mm" name="tangentialExtensionOutDistance"/>
@@ -452,13 +468,13 @@
     <parameter expression="'from stock od'" name="outerClearance_mode"/>
     <parameter expression="false" name="outerClearance_ref"/>
     <parameter expression="10mm" name="outerClearance_offset"/>
-    <parameter expression="80." name="outerClearance_value"/>
+    <parameter expression="26." name="outerClearance_value"/>
     <parameter expression="true" name="outerClearance_absolute"/>
     <parameter expression="true" name="outerRadius_group"/>
     <parameter expression="'from stock od'" name="outerRadius_mode"/>
     <parameter expression="false" name="outerRadius_ref"/>
     <parameter expression="0mm" name="outerRadius_offset"/>
-    <parameter expression="70." name="outerRadius_value"/>
+    <parameter expression="16." name="outerRadius_value"/>
     <parameter expression="true" name="outerRadius_absolute"/>
     <parameter expression="'contact point'" name="limitMode_OuterGroup"/>
     <parameter expression="true" name="innerRadius_group"/>
@@ -532,8 +548,8 @@
     <parameter expression="Math.max(tool_feedCutting; Math.max(tool_feedEntry; tool_feedExit))" name="highFeedrate"/>
     <parameter expression="Math.max(tool_feedCuttingRel; Math.max(tool_feedEntryRel; tool_feedExitRel))" name="highFeedratePerRev"/>
     <parameter expression="true" name="approachRetract_group"/>
-    <parameter expression="'safe Z'" name="approachZ"/>
-    <parameter expression="'safe Z'" name="retractZ"/>
+    <parameter expression="'first point'" name="approachZ"/>
+    <parameter expression="'last point'" name="retractZ"/>
     <parameter expression="false" name="overrideSafeZ"/>
     <parameter expression="'from wcs'" name="safeZ_mode"/>
     <parameter expression="0mm" name="safeZ_offset"/>
@@ -563,8 +579,8 @@
     <parameter expression="false" name="associatedView"/>
   </template>
 
-  <template description="Profile Finishing" strategy="turningProfileFinishing" unit="millimeters" version="53">
-    <tool guid="{492d6b23-08fb-440e-8d82-13a37c84e401}" type="turning general" unit="millimeters" version="1.4">
+  <template description="Profile Finishing" strategy="turningProfileFinishing" unit="millimeters" version="54">
+    <tool guid="{492d6b23-08fb-440e-8d82-13a37c84e401}" type="turning general" unit="millimeters" version="1.5">
       <description>Dressage</description>
       <comment>Plaquette 260158 HU7310</comment>
       <manufacturer>Garant</manufacturer>
@@ -577,7 +593,15 @@
       <turning-setup compensation="tip tangent" right-spindle="no" tool-angle="0"/>
       <motion clockwise="yes" cutting-feedrate="0.1" entry-feedrate="0.1" exit-feedrate="0.1" feed-mode="per-revolution" plunge-feedrate="0" ramp-feedrate="0" ramp-spindle-rpm="0" retract-feedrate="0" surface-speed="300000"/>
       <presets>
-        <preset description="" id="{95cbb3d3-440c-ec4b-7bea-16a8c8c7c520}" name="Default Preset" tool_coolant="disabled" tool_feedCuttingRel="0.20000000000000001" tool_feedEntryRel="0.10000000000000002" tool_feedExitRel="0.10000000000000002" tool_surfaceSpeed="300000" tool_useConstantSurfaceSpeed="true" tool_useFeedPerRevolution="true"/>
+        <preset description="" id="{95cbb3d3-440c-ec4b-7bea-16a8c8c7c520}" name="Default Preset">
+          <parameter key="tool_coolant" value="disabled"/>
+          <parameter key="tool_useConstantSurfaceSpeed" value="true"/>
+          <parameter key="tool_surfaceSpeed" value="300000"/>
+          <parameter key="tool_useFeedPerRevolution" value="true"/>
+          <parameter key="tool_feedCuttingRel" value="0.20000000000000001"/>
+          <parameter key="tool_feedEntryRel" value="0.10000000000000002"/>
+          <parameter key="tool_feedExitRel" value="0.10000000000000002"/>
+        </preset>
       </presets>
     </tool>
     <parameter expression="false" name="advancedMode"/>
@@ -716,18 +740,18 @@
     <parameter expression="0.1" name="tool_feedExitRel"/>
     <parameter expression="true" name="tool_clockwise"/>
     <parameter expression="'none'" name="featureOperationId"/>
-    <parameter expression="0.0" name="surfaceZHigh"/>
-    <parameter expression="-110." name="surfaceZLow"/>
-    <parameter expression="-62.48605416720311" name="surfaceXLow"/>
-    <parameter expression="62.48605416720311" name="surfaceXHigh"/>
-    <parameter expression="-62.48605416720311" name="surfaceYLow"/>
-    <parameter expression="62.48605416720311" name="surfaceYHigh"/>
-    <parameter expression="5." name="stockZHigh"/>
-    <parameter expression="-125." name="stockZLow"/>
-    <parameter expression="-70." name="stockXLow"/>
-    <parameter expression="70." name="stockXHigh"/>
-    <parameter expression="-70." name="stockYLow"/>
-    <parameter expression="70." name="stockYHigh"/>
+    <parameter expression="30." name="surfaceZHigh"/>
+    <parameter expression="15." name="surfaceZLow"/>
+    <parameter expression="-12.448" name="surfaceXLow"/>
+    <parameter expression="12.448" name="surfaceXHigh"/>
+    <parameter expression="-12.448" name="surfaceYLow"/>
+    <parameter expression="12.448" name="surfaceYHigh"/>
+    <parameter expression="32." name="stockZHigh"/>
+    <parameter expression="2." name="stockZLow"/>
+    <parameter expression="-16." name="stockXLow"/>
+    <parameter expression="16." name="stockXHigh"/>
+    <parameter expression="-16." name="stockYLow"/>
+    <parameter expression="16." name="stockYHigh"/>
     <parameter expression="false" name="useShaftAndHolder"/>
     <parameter expression="'discard'" name="shaftAndHolderMode"/>
     <parameter expression="false" name="tab_geometry"/>
@@ -738,15 +762,15 @@
     <parameter expression="'model front'" name="frontHeight_mode"/>
     <parameter expression="false" name="frontHeight_ref"/>
     <parameter expression="0mm" name="frontHeight_offset"/>
-    <parameter expression="0.0" name="frontHeight_value"/>
+    <parameter expression="30." name="frontHeight_value"/>
     <parameter expression="true" name="frontHeight_absolute"/>
     <parameter expression="'contact point'" name="limitMode_FrontGroup"/>
     <parameter expression="0mm" name="tangentialExtensionInDistance"/>
     <parameter expression="true" name="backHeight_group"/>
     <parameter expression="'model back'" name="backHeight_mode"/>
     <parameter expression="false" name="backHeight_ref"/>
-    <parameter expression="0mm" name="backHeight_offset"/>
-    <parameter expression="-110." name="backHeight_value"/>
+    <parameter expression="-4 mm" name="backHeight_offset"/>
+    <parameter expression="11." name="backHeight_value"/>
     <parameter expression="true" name="backHeight_absolute"/>
     <parameter expression="'contact point'" name="backLimitMode"/>
     <parameter expression="0mm" name="tangentialExtensionOutDistance"/>
@@ -759,13 +783,13 @@
     <parameter expression="'from stock od'" name="outerClearance_mode"/>
     <parameter expression="false" name="outerClearance_ref"/>
     <parameter expression="10mm" name="outerClearance_offset"/>
-    <parameter expression="80." name="outerClearance_value"/>
+    <parameter expression="26." name="outerClearance_value"/>
     <parameter expression="true" name="outerClearance_absolute"/>
     <parameter expression="true" name="outerRadius_group"/>
     <parameter expression="'from stock od'" name="outerRadius_mode"/>
     <parameter expression="false" name="outerRadius_ref"/>
     <parameter expression="0mm" name="outerRadius_offset"/>
-    <parameter expression="70." name="outerRadius_value"/>
+    <parameter expression="16." name="outerRadius_value"/>
     <parameter expression="true" name="outerRadius_absolute"/>
     <parameter expression="'contact point'" name="limitMode_OuterGroup"/>
     <parameter expression="true" name="innerRadius_group"/>
@@ -816,7 +840,7 @@
     <parameter expression="Math.max(tool_feedCuttingRel; Math.max(tool_feedEntryRel; tool_feedExitRel))" name="highFeedratePerRev"/>
     <parameter expression="2mm" name="safeDistance"/>
     <parameter expression="true" name="approachRetract_group"/>
-    <parameter expression="'safe Z'" name="approachZ"/>
+    <parameter expression="'first point'" name="approachZ"/>
     <parameter expression="'safe Z'" name="retractZ"/>
     <parameter expression="false" name="overrideSafeZ"/>
     <parameter expression="'from wcs'" name="safeZ_mode"/>

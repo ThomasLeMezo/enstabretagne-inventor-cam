@@ -1,0 +1,712 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 3 mm ACIER",
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 37,
+                "LCF": 8,
+                "NOF": 4,
+                "NT": 0,
+                "OAL": 57,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 13,
+                "thread-profile-angle": 0,
+                "tip-diameter": 3,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "068b018f-f32b-486b-bd83-7392b3e51477",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1678273655122,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 3mm ACIER",
+                "diameter-offset": 3,
+                "length-offset": 3,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 3,
+                "turret": 0
+            },
+            "product-id": "203014 3 HPC",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Fraisage/Fraises-%C3%A0-dresser/Fraises-%C3%A0-dresser-monoblocs/Fraise-carbure-monobloc-HPC-TiSi/p/203014-3?tId=260",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.018266666666666667,
+                        "f_z": 0.0137,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 15000,
+                        "n_ramp": 15000,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 141.3716694115407,
+                        "v_f": 822,
+                        "v_f_leadIn": 822,
+                        "v_f_leadOut": 822,
+                        "v_f_plunge": 274,
+                        "v_f_ramp": 274,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "HOLEX"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M8 Drill ACIER",
+            "geometry": {
+                "CSP": false,
+                "DC": 6.8,
+                "HAND": true,
+                "LB": 47.54,
+                "LCF": 45,
+                "NOF": 1,
+                "NT": 0,
+                "OAL": 50.08,
+                "RE": 0,
+                "SFDM": 6.8,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 45,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "1ac17edb-9b00-4cea-b6a7-b21b85d2b34e",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1682414478805,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 19,
+                "length-offset": 19,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 19,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Per%C3%A7age/Outils-de-per%C3%A7age/Forets-h%C3%A9lico%C3%AFdaux-et-%C3%A0-plaquettes/Forets-h%C3%A9lico%C3%AFdaux/Foret-h%C3%A9lico%C3%AFdal-HSS-E-non-rev%C3%AAtu/p/114400-6%2C8?wayIntoCart=SRP_SPAREPARTS&referenceFor=146650-M3-12",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.07,
+                        "f_z": 0,
+                        "guid": "688d5405-4ec7-6913-3657-8082a0150c5e",
+                        "n": 1400,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 29.90796206217483,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 98.00000000000001,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 300
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": "GARANT"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "M8 Taraud ACIER",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 75,
+                "LCF": 24,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 90,
+                "RE": 0,
+                "SFDM": 8,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 1.25,
+                "shoulder-length": 60,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "34b5c0c9-100a-4fa0-a1f7-181f5cbf2bd6",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1682414308525,
+            "post-process": {
+                "break-control": false,
+                "comment": "M8",
+                "diameter-offset": 17,
+                "length-offset": 17,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 17,
+                "turret": 0
+            },
+            "product-id": "132150 M8\n",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Filetage/Tarauds/Tarauds/Taraud-machine-Forme-B-vaporis%C3%A9/p/132150-M8?tId=82&wayIntoCart=PDP_SPAREPARTS&referenceFor=146650-M3-12#downloadsAndDocuments",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "688d5405-4ec7-6913-3657-8082a0150c5e",
+                        "n": 597,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 15.004246513544851,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 8 mm ACIER",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 37,
+                "LCF": 21,
+                "NOF": 4,
+                "NT": 0,
+                "OAL": 63,
+                "RE": 0,
+                "SFDM": 8,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 25,
+                "thread-profile-angle": 0,
+                "tip-diameter": 8,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "50d2b997-374a-47ee-a32a-b06c0b8d10c3",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1678273241436,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 8mm ACIER",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 4,
+                "turret": 0
+            },
+            "product-id": "203014 8 HPC",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Fraisage/Fraises-%C3%A0-dresser/Fraises-%C3%A0-dresser-monoblocs/Fraise-carbure-monobloc-HPC-TiSi/p/203014-8?tId=260",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.03428571428571429,
+                        "f_z": 0.05330000000000001,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 8750,
+                        "n_ramp": 8750,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 219.9114857512855,
+                        "v_f": 1865.5000000000002,
+                        "v_f_leadIn": 1865.5000000000002,
+                        "v_f_leadOut": 1865.5000000000002,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 300,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise à dresser à 90°Softcut ACIER ",
+            "geometry": {
+                "CSP": false,
+                "DC": 20,
+                "HAND": true,
+                "LB": 40,
+                "LCF": 11.3,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 90,
+                "RE": 0,
+                "SFDM": 20,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 38.65,
+                "thread-profile-angle": 0,
+                "tip-diameter": 20,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "a11a10c5-f7d3-4841-ad58-773001285fbb",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1683129894700,
+            "post-process": {
+                "break-control": false,
+                "comment": "ACIER",
+                "diameter-offset": 2,
+                "length-offset": 2,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 2,
+                "turret": 0
+            },
+            "product-id": "215560 20/3\n",
+            "product-link": "https://www.hoffmann-group.com/BE/fr/goeddesprl/Usinage-modulaire/Fraises-%C3%A0-plaquettes-GARANT/Fraise-%C3%A0-dresser-%C3%A0-90%C2%B0Softcut%C2%AE-MTC-Queue-Weldon/p/215560-20%402F3?tId=",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.06666666666666667,
+                        "f_z": 0.05,
+                        "guid": "285bdfe1-433f-6b10-1672-75b8ad724d47",
+                        "n": 4500,
+                        "n_ramp": 4500,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 282.7433388230814,
+                        "v_f": 675,
+                        "v_f_leadIn": 675,
+                        "v_f_leadOut": 675,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 300,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Garant"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Fraise carbure monobloc MTC 16 mm ACIER",
+            "geometry": {
+                "CSP": false,
+                "DC": 16,
+                "HAND": true,
+                "LB": 72,
+                "LCF": 36,
+                "NOF": 4,
+                "NT": 0,
+                "OAL": 92,
+                "RE": 0,
+                "SFDM": 16,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 42,
+                "thread-profile-angle": 0,
+                "tip-diameter": 16,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "a6eb3de5-689b-4524-a73d-ac7a5b158048",
+            "holder": {
+                "description": "CT40 - Blank1",
+                "guid": "6c04bc4f-9221-47f0-bfa1-70acaf1a4f6b",
+                "last_modified": 1649280318909,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "8c1cba9d-351a-45b4-8122-2cc7245c282a",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 61.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.43,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.825,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 56.25
+                    },
+                    {
+                        "height": 2.107,
+                        "lower-diameter": 56.25,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 63.55
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63.55,
+                        "upper-diameter": 61.55
+                    },
+                    {
+                        "height": 3.18,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1678348164473,
+            "post-process": {
+                "break-control": false,
+                "comment": "Fraise 16mm ACIER",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 4,
+                "turret": 0
+            },
+            "product-id": "203014 8 HPC",
+            "product-link": "https://www.hoffmann-group.com/FR/fr/hof/Usinage/Fraisage/Fraises-%C3%A0-dresser/Fraises-%C3%A0-dresser-monoblocs/Fraise-carbure-monobloc-HPC-TiSi/p/203014-16?tId=166",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.08571428571428572,
+                        "f_z": 0.05714285714285714,
+                        "guid": "a314eb77-4302-b4ef-df56-d79875ca1500",
+                        "n": 3500,
+                        "n_ramp": 3500,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 175.92918860102841,
+                        "v_f": 800,
+                        "v_f_leadIn": 800,
+                        "v_f_leadOut": 800,
+                        "v_f_plunge": 300,
+                        "v_f_ramp": 300,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "HOLEX"
+        }
+    ]
+}

@@ -54,7 +54,7 @@
   </simulation>
 
   <post>
-    <postProcessor>user://haas_tl1_ENSTA.cps</postProcessor>
+    <postProcessor>file://C:/Users/Thomas/Documents/My Libraries/enstabretagne-inventor-cam/postpro/haas_tl1_ENSTA.cps</postProcessor>
     <postProperties>
       <Parameters/>
     </postProperties>

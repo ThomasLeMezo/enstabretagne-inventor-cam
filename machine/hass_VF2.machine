@@ -41,7 +41,7 @@
 
   <coolant options="FLOOD AIR"/>
 
-  <multiAxis adjust="yes" angle="10deg" bpwRatio="1" cone="3deg" feedrateMethod="fpm" feedrateType="combination" linearizationTolerance="0.038100000000000002mm" maximumFeedrate="9999.9899999999998" method="off" outputTolerance="0.5" reconfigure="no" safePlungeFeedrate="10mm/min" safeRetractDistance="1mm" safeRetractFeedrate="20mm/min" stockExpansion="0.10000000000000001mm 0.10000000000000001mm 0.10000000000000001mm" tolerance="0.040000000000000001mm" virtualToolTip="no"/>
+  <multiAxis adjust="yes" angle="10deg" bpwRatio="1" cone="3deg" feedrateMethod="fpm" feedrateType="combination" linearizationTolerance="0.040000000000000001mm" maximumFeedrate="9999.9899999999998" method="off" outputTolerance="0.5" reconfigure="no" safePlungeFeedrate="250mm/min" safeRetractDistance="25mm" safeRetractFeedrate="500mm/min" stockExpansion="2.5mm 2.5mm 2.5mm" tolerance="0.040000000000000001mm" virtualToolTip="no"/>
 
   <tooling maximumToolDiameter="89mm" maximumToolLength="0mm" maximumToolWeight="5.4000000000000004kg" numberOfTools="20" toolChanger="yes" toolPreload="yes"/>
 
@@ -54,7 +54,7 @@
   </simulation>
 
   <post>
-    <postProcessor>user://haas_vf2_ENSTA.cps</postProcessor>
+    <postProcessor>file://C:/Users/Thomas/Documents/My Libraries/enstabretagne-inventor-cam/postpro/haas_vf2_ENSTA.cps</postProcessor>
     <postProperties>
       <Parameters/>
     </postProperties>
