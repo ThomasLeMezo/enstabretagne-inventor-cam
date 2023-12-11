@@ -60,7 +60,7 @@
     </postProperties>
     <setupSheet></setupSheet>
     <setupSheetProperties/>
-    <outputFolder>C:/Users/Thomas/AppData/Local/Inventor CAM/nc</outputFolder>
+    <outputFolder>Z:/THOMAS</outputFolder>
   </post>
 
   <axis actuator="linear" coordinate="X" homePosition="0mm" id="X" link="table" maximumFeed="11400mm/min" name="" offset="0mm 0mm 0mm" range="0mm 203mm" rapidFeed="11400mm/min" resolution="0.001mm"/>

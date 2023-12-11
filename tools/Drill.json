@@ -78,7 +78,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279636941,
+            "last_modified": 1696368321457,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -95,20 +95,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999998,
+                        "f_n": 0.19999999999999996,
                         "f_z": 0,
                         "guid": "ee97a329-4fdc-b5b0-5b46-57961d8cefe9",
-                        "n": 4897.0751720583185,
+                        "n": 2448.537586029159,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 49.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 489.7075172058317,
+                        "v_f_plunge": 489.70751720583166,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -196,7 +196,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279496325,
+            "last_modified": 1696368175748,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -213,16 +213,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999999,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "1a98af46-43ce-ed8d-8da7-d38b50a787d3",
-                        "n": 12732.39544735163,
+                        "n": 6366.197723675814,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00000000000001,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -314,7 +314,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279612187,
+            "last_modified": 1696368224392,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -331,16 +331,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "37853564-484c-50fc-93f7-2cad7b52ef49",
-                        "n": 7073.553026306459,
+                        "n": 3536.7765131532296,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 49.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -432,7 +432,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1642804107938,
+            "last_modified": 1696368391985,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -449,19 +449,19 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
-                        "f_z": 0.1,
+                        "f_n": 0.2,
+                        "f_z": 0.20000000000000007,
                         "guid": "f038d886-417e-c138-0871-9ba24c3602eb",
-                        "n": 1591.5494309189535,
+                        "n": 795.7747154594767,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
-                        "v_f": 318.3098861837907,
-                        "v_f_leadIn": 318.3098861837907,
-                        "v_f_leadOut": 318.3098861837907,
+                        "v_c": 50,
+                        "v_f": 318.3098861837908,
+                        "v_f_leadIn": 318.3098861837908,
+                        "v_f_leadOut": 318.3098861837908,
                         "v_f_plunge": 159.15494309189535,
                         "v_f_ramp": 333.333,
                         "v_f_retract": 159.15494309189535
@@ -550,7 +550,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279554437,
+            "last_modified": 1696368204738,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -567,16 +567,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.10000000000000002,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "5fc46f70-4051-e54c-db8d-93bb55b0d24c",
-                        "n": 9094.568176679732,
+                        "n": 4547.284088339867,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999997,
+                        "v_c": 49.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -668,7 +668,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279650332,
+            "last_modified": 1696368335324,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -685,20 +685,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999999,
+                        "f_n": 0.19999999999999996,
                         "f_z": 0,
                         "guid": "be02a2a1-4b3c-319d-f67d-ce9c112009ab",
-                        "n": 4244.131815783876,
+                        "n": 2122.065907891938,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 424.41318157838754,
+                        "v_f_plunge": 424.4131815783875,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -786,7 +786,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279654644,
+            "last_modified": 1696368340438,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -803,16 +803,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999998,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "b7f0d52b-4d2a-0886-7a3a-5eaa9c6ecf99",
-                        "n": 3978.8735772973846,
+                        "n": 1989.4367886486918,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00000000000003,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -904,7 +904,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279622473,
+            "last_modified": 1696368300422,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -921,22 +921,22 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.2000000000000001,
                         "f_z": 0,
                         "guid": "1d293942-46d2-5d7b-9806-e2b2ad0ba612",
-                        "n": 5787.452476068923,
+                        "n": 2893.726238034461,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00000000000003,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 578.7452476068923,
+                        "v_f_plunge": 578.7452476068925,
                         "v_f_ramp": 0,
-                        "v_f_retract": 578.7452476068923
+                        "v_f_retract": 578.7452476068925
                     }
                 ]
             },
@@ -1022,7 +1022,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1642804063784,
+            "last_modified": 1696368378472,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1039,20 +1039,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.20000000000000007,
                         "f_z": 0,
                         "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
-                        "n": 3031.522725559911,
+                        "n": 1515.7613627799556,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 49.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 303.15227255599115,
+                        "v_f_plunge": 303.1522725559912,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -1258,7 +1258,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279616533,
+            "last_modified": 1696368232902,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1275,22 +1275,22 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.10000000000000003,
+                        "f_n": 0.20000000000000018,
                         "f_z": 0,
                         "guid": "10e00fe5-4ccc-22ef-3e7b-7fbdf6e26f7c",
-                        "n": 6366.197723675815,
+                        "n": 3183.098861837907,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00000000000001,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 636.6197723675817,
+                        "v_f_plunge": 636.619772367582,
                         "v_f_ramp": 0,
-                        "v_f_retract": 636.6197723675817
+                        "v_f_retract": 636.619772367582
                     }
                 ]
             },
@@ -1376,7 +1376,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1642804067283,
+            "last_modified": 1696368387130,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1393,20 +1393,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999999,
+                        "f_n": 0.19999999999999987,
                         "f_z": 0,
                         "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
-                        "n": 2652.582384864922,
+                        "n": 1326.2911924324612,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 265.2582384864922,
+                        "v_f_plunge": 265.2582384864921,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -1494,7 +1494,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279575356,
+            "last_modified": 1696368215251,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1511,22 +1511,22 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.10000000000000002,
+                        "f_n": 0.20000000000000007,
                         "f_z": 0,
                         "guid": "37d5341e-4dd4-9bad-b6c4-08ba03805f15",
-                        "n": 7957.747154594767,
+                        "n": 3978.8735772973837,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 795.7747154594769,
+                        "v_f_plunge": 795.774715459477,
                         "v_f_ramp": 0,
-                        "v_f_retract": 795.7747154594769
+                        "v_f_retract": 795.774715459477
                     }
                 ]
             },
@@ -1612,7 +1612,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1642804050183,
+            "last_modified": 1696368369402,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1629,20 +1629,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.20000000000000004,
                         "f_z": 0,
                         "guid": "5e8c57be-4942-dfca-4a56-a79c8dfc49e9",
-                        "n": 3536.7765131532296,
+                        "n": 1768.3882565766148,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 49.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 353.677651315323,
+                        "v_f_plunge": 353.67765131532303,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -1848,7 +1848,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1642804045128,
+            "last_modified": 1696368363803,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1865,16 +1865,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "b7f0d52b-4d2a-0886-7a3a-5eaa9c6ecf99",
-                        "n": 3744.8221903975373,
+                        "n": 1872.4110951987686,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 49.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -1966,7 +1966,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1642804056786,
+            "last_modified": 1696368373985,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1983,20 +1983,20 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.20000000000000007,
                         "f_z": 0,
                         "guid": "cab0b4c8-4204-669b-0617-9985fe4a9278",
-                        "n": 3183.098861837907,
+                        "n": 1591.5494309189535,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
-                        "v_f_plunge": 318.3098861837907,
+                        "v_f_plunge": 318.3098861837908,
                         "v_f_ramp": 0,
                         "v_f_retract": 1000
                     }
@@ -2084,7 +2084,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1642804087165,
+            "last_modified": 1696368397181,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2101,16 +2101,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "6dfa666c-45d5-3756-4d42-b1b0ff4859fd",
-                        "n": 1591.5494309189535,
+                        "n": 795.7747154594767,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -2202,7 +2202,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279640517,
+            "last_modified": 1696368325640,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2219,16 +2219,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.10000000000000002,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "fe411259-443c-c0d1-9315-589d5006af34",
-                        "n": 4681.027737996921,
+                        "n": 2340.513868998461,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -2320,7 +2320,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279606308,
+            "last_modified": 1696368219544,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2337,16 +2337,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999999,
+                        "f_n": 0.20000008407920403,
                         "f_z": 0,
                         "guid": "93cf33a6-4d0d-22fe-0f9f-94b461eb71df",
-                        "n": 7578.81,
+                        "n": 3789.403406949889,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00004203960202,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -2438,7 +2438,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279631493,
+            "last_modified": 1696368317279,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2455,16 +2455,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.20000000000000004,
                         "f_z": 0,
                         "guid": "8e7e462d-4f56-464e-6290-f99abffa9695",
-                        "n": 5305.164769729846,
+                        "n": 2652.5823848649225,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00000000000001,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -2556,7 +2556,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279644450,
+            "last_modified": 1696368330989,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2573,16 +2573,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.10000000000000002,
+                        "f_n": 0.20000000000000004,
                         "f_z": 0,
                         "guid": "88948749-4deb-ed9e-6fc0-fb8d3275598d",
-                        "n": 4547.284088339867,
+                        "n": 2273.6420441699333,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 49.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -2674,7 +2674,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649279566755,
+            "last_modified": 1696368197813,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -2691,16 +2691,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.10000000000000002,
+                        "f_n": 0.2,
                         "f_z": 0,
                         "guid": "cf9b4053-47cb-dcd2-9451-49bdcacce7b7",
-                        "n": 10610.329539459688,
+                        "n": 5305.164769729845,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99999999999999,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,

@@ -1,11 +1,11 @@
 /**
-  Copyright (C) 2012-2022 by Autodesk, Inc.
+  Copyright (C) 2012-2023 by Autodesk, Inc.
   All rights reserved.
 
   HAAS Lathe post processor configuration.
 
-  $Revision: 43602 83ef305dbd685ac5903538365ed7de9a08636e84 $
-  $Date: 2022-01-21 00:04:52 $
+  $Revision: 44083 1c5ad993a086f043365c6f9038d5d6561bad0ddd $
+  $Date: 2023-08-12 05:06:32 $
 
   FORKID {22A4780E-F937-4B1E-8446-D53DB2F57573}
 */
@@ -13,11 +13,11 @@
 description = "HAAS Turning";
 vendor = "Haas Automation";
 vendorUrl = "https://www.haascnc.com";
-legal = "Copyright (C) 2012-2022 by Autodesk, Inc.";
+legal = "Copyright (C) 2012-2023 by Autodesk, Inc.";
 certificationLevel = 2;
-minimumRevision = 45702;
+minimumRevision = 45909;
 
-longDescription = "Generic HAAS turning post. Turn on the property 'manualToolChange' if your CNC does not have an automatic tool changer. Use Turret 0 for Positional Turret, Turret 101 for QCTP on X- Post, Turret 102 for QCTP on X+ Post, Turret 103 for Gang Tooling on X- Post, Turret 104 for Gang Tooling on X+ Tool Post.";
+longDescription = "Generic HAAS turning post. Turn on the property 'Use tool changer' if your CNC does not have an automatic tool changer. Use Turret 0 for Positional Turret, Turret 101 for QCTP on X- Post, Turret 102 for QCTP on X+ Post, Turret 103 for Gang Tooling on X- Post, Turret 104 for Gang Tooling on X+ Tool Post.";
 
 extension = "nc";
 programNameIsInteger = true;
@@ -34,6 +34,7 @@ maximumCircularSweep = toRad(355);
 allowHelicalMoves = false;
 allowedCircularPlanes = 1 << PLANE_ZX; // allow ZX plane only
 allowSpiralMoves = true;
+allowFeedPerRevolutionDrilling = true;
 highFeedrate = (unit == IN) ? 100 : 5000;
 
 // user-defined properties
@@ -41,7 +42,7 @@ properties = {
   writeMachine: {
     title      : "Write machine",
     description: "Output the machine settings in the header of the code.",
-    group      : 0,
+    group      : "formats",
     type       : "boolean",
     value      : false,
     scope      : "post"
@@ -49,7 +50,7 @@ properties = {
   writeTools: {
     title      : "Write tool list",
     description: "Output a tool list in the header of the code.",
-    group      : 0,
+    group      : "formats",
     type       : "boolean",
     value      : true,
     scope      : "post"
@@ -57,8 +58,8 @@ properties = {
   safePositionMethod: {
     title      : "Safe Retracts",
     description: "Select your desired retract option.",
+    group      : "homePositions",
     type       : "enum",
-    group      : 0,
     values     : [
       {title:"G28", id:"G28"},
       {title:"G53", id:"G53"}
@@ -69,8 +70,8 @@ properties = {
   safePositionStyle: {
     title      : "Safe retract style",
     description: "Select your desired order for the axes to retract.",
+    group      : "homePositions",
     type       : "enum",
-    group      : 0,
     values     : [
       {title:"Only X", id:"X"},
       {title:"Only Z", id:"Z"},
@@ -83,16 +84,21 @@ properties = {
   },
   showSequenceNumbers: {
     title      : "Use sequence numbers",
-    description: "Use sequence numbers for each block of outputted code.",
-    group      : 1,
-    type       : "boolean",
-    value      : true,
-    scope      : "post"
+    description: "'Yes' outputs sequence numbers on each block, 'Only on tool change' outputs sequence numbers on tool change blocks only, and 'No' disables the output of sequence numbers.",
+    group      : "formats",
+    type       : "enum",
+    values     : [
+      {title:"Yes", id:"true"},
+      {title:"No", id:"false"},
+      {title:"Only on tool change", id:"toolChange"}
+    ],
+    value: "true",
+    scope: "post"
   },
   sequenceNumberStart: {
     title      : "Start sequence number",
     description: "The number at which to start the sequence numbers.",
-    group      : 1,
+    group      : "formats",
     type       : "integer",
     value      : 10,
     scope      : "post"
@@ -100,7 +106,7 @@ properties = {
   sequenceNumberIncrement: {
     title      : "Sequence number increment",
     description: "The amount by which the sequence number is incremented by in each block.",
-    group      : 1,
+    group      : "formats",
     type       : "integer",
     value      : 1,
     scope      : "post"
@@ -108,6 +114,7 @@ properties = {
   optionalStop: {
     title      : "Optional stop",
     description: "Specifies that optional stops M1 should be output at tool changes.",
+    group      : "preferences",
     type       : "boolean",
     value      : false,
     scope      : "post"
@@ -115,6 +122,7 @@ properties = {
   separateWordsWithSpace: {
     title      : "Separate words with space",
     description: "Adds spaces between words if 'yes' is selected.",
+    group      : "formats",
     type       : "boolean",
     value      : true,
     scope      : "post"
@@ -122,6 +130,7 @@ properties = {
   useRadius: {
     title      : "Radius arcs",
     description: "If yes is selected, arcs are output using radius values rather than IJK.",
+    group      : "preferences",
     type       : "boolean",
     value      : false,
     scope      : "post"
@@ -129,6 +138,7 @@ properties = {
   maximumSpindleSpeed: {
     title      : "Maximum spindle speed",
     description: "The maximum spindle speed in RPM.",
+    group      : "configuration",
     type       : "integer",
     value      : 3000,
     scope      : "post"
@@ -136,6 +146,7 @@ properties = {
   useParametricFeed: {
     title      : "Parametric feed",
     description: "Parametric feed values based on movement type are output.",
+    group      : "preferences",
     type       : "boolean",
     value      : false,
     scope      : "post"
@@ -143,6 +154,7 @@ properties = {
   showNotes: {
     title      : "Show notes",
     description: "Enable to output notes for operations.",
+    group      : "formats",
     type       : "boolean",
     value      : false,
     scope      : "post"
@@ -150,27 +162,31 @@ properties = {
   useCycles: {
     title      : "Use canned cycles",
     description: "Enable to output canned cycles.",
+    group      : "preferences",
     type       : "boolean",
     value      : true,
     scope      : "post"
   },
-  manualToolChange: {
-    title      : "Manual tool changer",
-    description: "Enable to do manual tool changes when the CNC doesn't have an automatic tool changer.",
+  useToolCall: {
+    title      : "Use tool changer",
+    description: "Specifies that a tool changer is available.",
+    group      : "preferences",
     type       : "boolean",
     value      : false,
     scope      : "post"
   },
-  g53HomePositionX: {
+  homePositionX: {
     title      : "G53 home Position X",
     description: "G53 X-axis home position.",
+    group      : "homePositions",
     type       : "number",
     value      : 0,
     scope      : "post"
   },
-  g53HomePositionZ: {
+  homePositionZ: {
     title      : "G53 home Position Z",
     description: "G53 Z-axis home position.",
+    group      : "homePositions",
     type       : "number",
     value      : 0,
     scope      : "post"
@@ -178,6 +194,7 @@ properties = {
   useTailStock: {
     title      : "Use tail stock",
     description: "Enable to use the tail stock.",
+    group      : "configuration",
     type       : "boolean",
     value      : false,
     scope      : "post"
@@ -185,6 +202,7 @@ properties = {
   gotChipConveyor: {
     title       : "Got chip conveyor",
     description : "Specifies whether to use a chip conveyor.",
+    group       : "configuration",
     type        : "boolean",
     presentation: "yesno",
     value       : false,
@@ -193,6 +211,7 @@ properties = {
   useSimpleThread: {
     title      : "Use simple threading cycle",
     description: "Enable to output G92 simple threading cycle, disable to output G76 standard threading cycle.",
+    group      : "preferences",
     type       : "boolean",
     value      : true,
     scope      : "post"
@@ -415,7 +434,7 @@ function writeBlock() {
   if (!text) {
     return;
   }
-  if (getProperty("showSequenceNumbers")) {
+  if (getProperty("showSequenceNumbers") == "true") {
     if (optionalSection) {
       if (text) {
         writeWords("/", "N" + sequenceNumber, text);
@@ -437,7 +456,7 @@ function writeBlock() {
   Writes the specified optional block.
 */
 function writeOptionalBlock() {
-  if (getProperty("showSequenceNumbers")) {
+  if (getProperty("showSequenceNumbers") == "true") {
     var words = formatWords(arguments);
     if (words) {
       writeWords("/", "N" + sequenceNumber, words);
@@ -450,6 +469,16 @@ function writeOptionalBlock() {
 
 function formatComment(text) {
   return "(" + String(text).replace(/[()]/g, "") + ")";
+}
+
+/**
+  Writes the specified block - used for tool changes only.
+*/
+function writeToolBlock() {
+  var show = getProperty("showSequenceNumbers");
+  setProperty("showSequenceNumbers", (show == "true" || show == "toolChange") ? "true" : "false");
+  writeBlock(arguments);
+  setProperty("showSequenceNumbers", show);
 }
 
 /**
@@ -627,6 +656,27 @@ function forceAny() {
   forceFeed();
 }
 
+function forceModals() {
+  if (arguments.length == 0) { // reset all modal variables listed below
+    if (typeof gMotionModal != "undefined") {
+      gMotionModal.reset();
+    }
+    if (typeof gPlaneModal != "undefined") {
+      gPlaneModal.reset();
+    }
+    if (typeof gAbsIncModal != "undefined") {
+      gAbsIncModal.reset();
+    }
+    if (typeof gFeedModeModal != "undefined") {
+      gFeedModeModal.reset();
+    }
+  } else {
+    for (var i in arguments) {
+      arguments[i].reset(); // only reset the modal variable passed to this function
+    }
+  }
+}
+
 function FeedContext(id, description, feed) {
   this.id = id;
   this.description = description;
@@ -663,7 +713,9 @@ function initializeActiveFeeds() {
       var feedContext = new FeedContext(id, localize("Cutting"), feedPerRev ? getParameter("operation:tool_feedCuttingRel") : getParameter("operation:tool_feedCutting"));
       activeFeeds.push(feedContext);
       activeMovements[MOVEMENT_CUTTING] = feedContext;
-      activeMovements[MOVEMENT_LINK_TRANSITION] = feedContext;
+      if (!hasParameter("operation:tool_feedTransition")) {
+        activeMovements[MOVEMENT_LINK_TRANSITION] = feedContext;
+      }
       activeMovements[MOVEMENT_EXTENDED] = feedContext;
     }
     ++id;
@@ -784,6 +836,14 @@ function initializeActiveFeeds() {
     }
     ++id;
   }
+  if (hasParameter("operation:tool_feedTransition")) {
+    if (movements & (1 << MOVEMENT_LINK_TRANSITION)) {
+      var feedContext = new FeedContext(id, localize("Transition"), getParameter("operation:tool_feedTransition"));
+      activeFeeds.push(feedContext);
+      activeMovements[MOVEMENT_LINK_TRANSITION] = feedContext;
+    }
+    ++id;
+  }
 
   for (var i = 0; i < activeFeeds.length; ++i) {
     var feedContext = activeFeeds[i];
@@ -873,10 +933,10 @@ function onSection() {
     }
   }
 
-  var forceToolAndRetract = optionalSection && !currentSection.isOptional();
+  var forceSectionRestart = optionalSection && !currentSection.isOptional();
   optionalSection = currentSection.isOptional();
 
-  var insertToolCall = forceToolAndRetract || isFirstSection() ||
+  var insertToolCall = forceSectionRestart || isFirstSection() ||
     currentSection.getForceToolChange && currentSection.getForceToolChange() ||
     (tool.number != getPreviousSection().getTool().number) ||
     (tool.compensationOffset != getPreviousSection().getTool().compensationOffset) ||
@@ -885,9 +945,9 @@ function onSection() {
 
   var newSpindle = isFirstSection() ||
     (getPreviousSection().spindle != currentSection.spindle);
-  var newWorkOffset = isFirstSection() ||
+  var newWorkOffset = isFirstSection() || forceSectionRestart ||
     (getPreviousSection().workOffset != currentSection.workOffset); // work offset changes
-  var newWorkPlane = isFirstSection() ||
+  var newWorkPlane = isFirstSection() || forceSectionRestart ||
     !isSameDirection(getPreviousSection().getGlobalFinalToolAxis(), currentSection.getGlobalInitialToolAxis());
 
   // determine which tooling holder is used
@@ -948,7 +1008,7 @@ function onSection() {
   }
 
   if (insertToolCall) {
-    gFeedModeModal.reset();
+    forceModals();
 
     if (!isFirstSection() && getProperty("optionalStop")) {
       onCommand(COMMAND_OPTIONAL_STOP);
@@ -969,11 +1029,11 @@ function onSection() {
       error(localize("Compensation offset is out of range."));
       return;
     }
-    writeBlock("T" + toolFormat.format(tool.number * 100 + compensationOffset));
+    writeToolBlock("T" + toolFormat.format(tool.number * 100 + compensationOffset));
     if (tool.comment) {
       writeComment(tool.comment);
     }
-    if (tool.manualToolChange || getProperty("manualToolChange")) {
+    if (tool.manualToolChange || !getProperty("useToolCall")) {
       onCommand(COMMAND_STOP);
       writeComment("MANUAL TOOL CHANGE TO T" + toolFormat.format(tool.number * 100 + compensationOffset));
     }
@@ -981,13 +1041,6 @@ function onSection() {
 
   if (newSpindle) {
     // select spindle if required
-  }
-
-  // see page 138 in 96-8700an for stock transfer / G199/G198
-  if (currentSection.feedMode == FEED_PER_REVOLUTION) {
-    writeBlock(getCode("FEED_MODE_UNIT_REV"));
-  } else {
-    writeBlock(getCode("FEED_MODE_UNIT_MIN"));
   }
 
   var initialPosition = getFramePosition(currentSection.getInitialPosition());
@@ -1023,6 +1076,10 @@ function onSection() {
     }
     startSpindle(false, true, initialPosition);
   }
+
+  // see page 138 in 96-8700an for stock transfer / G199/G198
+  // Output modal commands here
+  writeBlock(getCode(currentSection.feedMode == FEED_PER_REVOLUTION ? "FEED_MODE_UNIT_REV" : "FEED_MODE_UNIT_MIN"), gPlaneModal.format(18));
 
   // wcs
   if (insertToolCall) { // force work offset when changing tool
@@ -1074,10 +1131,6 @@ function onSection() {
     }
   } else {
     activeMovements = undefined;
-  }
-
-  if (insertToolCall || (retracted[X] || retracted[Z])) {
-    gPlaneModal.reset();
   }
 }
 
@@ -1272,7 +1325,7 @@ function onCircular(clockwise, cx, cy, cz, x, y, z, feed) {
 function onCycle() {
 }
 
-var saveShowSequenceNumbers = true;
+var saveShowSequenceNumbers;
 var pathBlockNumber = {start:0, end:0};
 var isCannedCycle = false;
 
@@ -1281,7 +1334,7 @@ function onCyclePath() {
   isCannedCycle = true;
   // buffer all paths and stop feeds being output
   feedOutput.disable();
-  setProperty("showSequenceNumbers", false);
+  setProperty("showSequenceNumbers", "false");
   redirectToBuffer();
   gMotionModal.reset();
   if ((hasParameter("operation:grooving") && getParameter("operation:grooving").toUpperCase() != "OFF")) {
@@ -1327,7 +1380,7 @@ function onCyclePathEnd() {
 
   for (var i = 0; i < cyclePath.length; ++i) {
     if (i == 0 || i == (cyclePath.length - 1)) { // write sequence number on first and last line of the cycle path
-      setProperty("showSequenceNumbers", true);
+      setProperty("showSequenceNumbers", "true");
       if ((i == 0 && pathBlockNumber.start != sequenceNumber) || (i == (cyclePath.length - 1) && pathBlockNumber.end != sequenceNumber)) {
         error(localize("Mismatch of start/end block number in turning canned cycle."));
         return;
@@ -1341,10 +1394,10 @@ function onCyclePathEnd() {
 
 function getStartEndSequenceNumber(cyclePath, start) {
   if (start) {
-    pathBlockNumber.start = sequenceNumber + conditional(saveShowSequenceNumbers, getProperty("sequenceNumberIncrement"));
+    pathBlockNumber.start = sequenceNumber + conditional(saveShowSequenceNumbers == "true", getProperty("sequenceNumberIncrement"));
     return pathBlockNumber.start;
   } else {
-    pathBlockNumber.end = sequenceNumber + getProperty("sequenceNumberIncrement") + conditional(saveShowSequenceNumbers, (cyclePath.length - 1) * getProperty("sequenceNumberIncrement"));
+    pathBlockNumber.end = sequenceNumber + getProperty("sequenceNumberIncrement") + conditional(saveShowSequenceNumbers == "true", (cyclePath.length - 1) * getProperty("sequenceNumberIncrement"));
     return pathBlockNumber.end;
   }
 }
@@ -1413,10 +1466,7 @@ function onCyclePoint(x, y, z) {
         // thread height and depth of cut
         var threadHeight = getParameter("operation:threadDepth");
         var firstDepthOfCut = threadHeight - Math.abs(getCyclePoint(0).x - x);
-        var cuttingAngle = 59; // Angle is not stored with tool. toDeg(tool.getTaperAngle());
-        if (hasParameter("operation:infeedAngle")) {
-          cuttingAngle = getParameter("operation:infeedAngle") * 2;
-        }
+        var cuttingAngle = getParameter("operation:infeedAngle", 29.5) * 2; // Angle is not stored with tool. toDeg(tool.getTaperAngle());
         var i = -cycle.incrementalX; // positive if taper goes down - delta radius
         gCycleModal.reset();
 
@@ -1467,7 +1517,7 @@ function onCyclePoint(x, y, z) {
 
   if (isSameDirection(currentSection.workPlane.forward, new Vector(0, 0, 1)) ||
       isSameDirection(currentSection.workPlane.forward, new Vector(0, 0, -1))) {
-    gPlaneModal.format(17); // 2-axis lathes typically don't use G17
+    // gPlaneModal.format(17); // 2-axis lathes typically don't use G17
   } else {
     expandCyclePoint(x, y, z);
     return;
@@ -1476,7 +1526,6 @@ function onCyclePoint(x, y, z) {
   if (isFirstCyclePoint()) {
     repositionToCycleClearance(cycle, x, y, z);
 
-    var F = cycle.feedrate;
     var P = !cycle.dwell ? 0 : clamp(1, cycle.dwell * 1000, 99999999); // in milliseconds
 
     switch (cycleType) {
@@ -1484,7 +1533,7 @@ function onCyclePoint(x, y, z) {
       writeBlock(
         gCycleModal.format(81),
         getCommonCycle(x, y, z, cycle.retract),
-        feedOutput.format(F)
+        getFeed(cycle.feedrate)
       );
       break;
     case "counter-boring":
@@ -1493,13 +1542,13 @@ function onCyclePoint(x, y, z) {
           gCycleModal.format(82),
           getCommonCycle(x, y, z, cycle.retract),
           "P" + milliFormat.format(P),
-          feedOutput.format(F)
+          getFeed(cycle.feedrate)
         );
       } else {
         writeBlock(
           gCycleModal.format(81),
           getCommonCycle(x, y, z, cycle.retract),
-          feedOutput.format(F)
+          getFeed(cycle.feedrate)
         );
       }
       break;
@@ -1513,7 +1562,7 @@ function onCyclePoint(x, y, z) {
         // conditional(cycle.incrementalDepthReduction > 0, "J" + spatialFormat.format(cycle.incrementalDepthReduction)),
         // conditional(cycle.minimumIncrementalDepth > 0, "K" + spatialFormat.format(cycle.minimumIncrementalDepth)),
         conditional(P > 0, "P" + milliFormat.format(P)),
-        feedOutput.format(F)
+        getFeed(cycle.feedrate)
       );
       break;
     case "tapping":
@@ -1565,22 +1614,26 @@ function onCyclePoint(x, y, z) {
         getCommonCycle(x, y, z, cycle.retract),
         "P" + milliFormat.format(P), // not optional
         "Q" + spatialFormat.format(cycle.shift),
-        feedOutput.format(F)
+        getFeed(cycle.feedrate)
       );
       break;
     case "reaming":
+      if (feedFormat.getResultingValue(cycle.feedrate) != feedFormat.getResultingValue(cycle.retractFeedrate)) {
+        expandCyclePoint(x, y, z);
+        break;
+      }
       if (P > 0) {
         writeBlock(
           gCycleModal.format(89),
           getCommonCycle(x, y, z, cycle.retract),
           "P" + milliFormat.format(P),
-          feedOutput.format(F)
+          getFeed(cycle.feedrate)
         );
       } else {
         writeBlock(
           gCycleModal.format(85),
           getCommonCycle(x, y, z, cycle.retract),
-          feedOutput.format(F)
+          getFeed(cycle.feedrate)
         );
       }
       break;
@@ -1591,23 +1644,27 @@ function onCyclePoint(x, y, z) {
         writeBlock(
           gCycleModal.format(86),
           getCommonCycle(x, y, z, cycle.retract),
-          feedOutput.format(F)
+          getFeed(cycle.feedrate)
         );
       }
       break;
     case "boring":
+      if (feedFormat.getResultingValue(cycle.feedrate) != feedFormat.getResultingValue(cycle.retractFeedrate)) {
+        expandCyclePoint(x, y, z);
+        break;
+      }
       if (P > 0) {
         writeBlock(
           gCycleModal.format(89),
           getCommonCycle(x, y, z, cycle.retract),
           "P" + milliFormat.format(P), // not optional
-          feedOutput.format(F)
+          getFeed(cycle.feedrate)
         );
       } else {
         writeBlock(
           gCycleModal.format(85),
           getCommonCycle(x, y, z, cycle.retract),
-          feedOutput.format(F)
+          getFeed(cycle.feedrate)
         );
       }
       break;
@@ -1622,25 +1679,11 @@ function onCyclePoint(x, y, z) {
     if (cycleExpanded) {
       expandCyclePoint(x, y, z);
     } else {
+      xOutput.reset();
       var _x = xOutput.format(x);
       var _y = yOutput.format(y);
       var _z = zOutput.format(z);
-      if (!_x && !_y && !_z) {
-        switch (gPlaneModal.getCurrent()) {
-        case 17: // XY
-          xOutput.reset(); // at least one axis is required
-          _x = xOutput.format(x);
-          break;
-        case 18: // ZX
-          zOutput.reset(); // at least one axis is required
-          _z = zOutput.format(z);
-          break;
-        case 19: // YZ
-          yOutput.reset(); // at least one axis is required
-          _y = yOutput.format(y);
-          break;
-        }
-      }
+
       writeBlock(_x, _y, _z);
     }
   }
@@ -1693,7 +1736,7 @@ function getCoolantCodes(coolant) {
   if (tool.type == TOOL_PROBE) { // avoid coolant output for probing
     coolant = COOLANT_OFF;
   }
-  if (coolant == currentCoolantMode && !forceCoolant) {
+  if (coolant == currentCoolantMode && (!forceCoolant || coolant == COOLANT_OFF)) {
     return undefined; // coolant is already active
   }
   if ((coolant != COOLANT_OFF) && (currentCoolantMode != COOLANT_OFF) && (coolantOff != undefined) && !forceCoolant) {
@@ -1995,9 +2038,9 @@ function writeRetract() {
     _yHome = toPreciseUnit(0, MM);
     _zHome = toPreciseUnit(0, MM);
   } else {
-    _xHome = machineConfiguration.hasHomePositionX() ? machineConfiguration.getHomePositionX() : getProperty("g53HomePositionX");
+    _xHome = machineConfiguration.hasHomePositionX() ? machineConfiguration.getHomePositionX() : getProperty("homePositionX");
     _yHome = machineConfiguration.hasHomePositionY() ? machineConfiguration.getHomePositionY() : toPreciseUnit(0, MM);
-    _zHome = machineConfiguration.getRetractPlane() != 0 ? machineConfiguration.getRetractPlane() : getProperty("g53HomePositionZ");
+    _zHome = machineConfiguration.getRetractPlane() != 0 ? machineConfiguration.getRetractPlane() : getProperty("homePositionZ");
   }
 
   if (arguments.length > 0) {

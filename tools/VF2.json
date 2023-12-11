@@ -78,7 +78,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649280970401,
+            "last_modified": 1696449215802,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -95,16 +95,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.1,
+                        "f_n": 0.19999991443320073,
                         "f_z": 0,
                         "guid": "45e7f269-45de-23af-d9d8-2ba92ef169fe",
-                        "n": 9645.75,
+                        "n": 4822.877063390768,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 99.99995721660036,
+                        "v_c": 49.99999999999999,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -196,7 +196,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649280960440,
+            "last_modified": 1696449210194,
             "post-process": {
                 "break-control": false,
                 "comment": "POMC",
@@ -213,16 +213,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.10000000000000009,
+                        "f_n": 0.20000007151283342,
                         "f_z": 0,
                         "guid": "783ca9f7-4900-e5d1-4103-84ae79e8f187",
-                        "n": 12732.399999999989,
+                        "n": 6366.197723675814,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00003575641662,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -432,7 +432,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1649280978042,
+            "last_modified": 1696449220920,
             "post-process": {
                 "break-control": false,
                 "comment": "M5",
@@ -449,16 +449,16 @@
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.09999999999999999,
+                        "f_n": 0.20000008407920403,
                         "f_z": 0,
                         "guid": "93cf33a6-4d0d-22fe-0f9f-94b461eb71df",
-                        "n": 7578.81,
+                        "n": 3789.403406949889,
                         "n_ramp": 0,
                         "name": "Default Preset",
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 100.00004203960202,
+                        "v_c": 50,
                         "v_f": 0,
                         "v_f_leadIn": 0,
                         "v_f_leadOut": 0,
@@ -2421,7 +2421,7 @@
             "description": "Fraise à dresser",
             "geometry": {
                 "CSP": false,
-                "DC": 50,
+                "DC": 50.123000000000005,
                 "HAND": true,
                 "LB": 40,
                 "LCF": 4,
@@ -2435,7 +2435,7 @@
                 "TP": 0,
                 "shoulder-length": 20,
                 "thread-profile-angle": 0,
-                "tip-diameter": 50,
+                "tip-diameter": 50.123000000000005,
                 "tip-length": 0,
                 "tip-offset": 0
             },
@@ -2493,7 +2493,7 @@
                 "unit": "millimeters",
                 "vendor": ""
             },
-            "last_modified": 1648584684853,
+            "last_modified": 1692966858268,
             "post-process": {
                 "break-control": false,
                 "comment": "Fraise dressage 50",
@@ -2519,7 +2519,7 @@
                         "tool-coolant": "air",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 1099.9999999999995,
+                        "v_c": 1102.7059999999997,
                         "v_f": 2500,
                         "v_f_leadIn": 2500,
                         "v_f_leadOut": 2500,
